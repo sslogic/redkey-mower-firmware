@@ -1,0 +1,19 @@
+740545: => [Function #19036 "valueByMowDirection" of 37 bytes]: 2 params, frame size=3, strict=0, exc handler=0, debug info=0  @ offset 0x00379ed1
+740546: 
+740547: Bytecode listing:
+740548: 
+740549: ==> 00000000: <LoadParam>: <Reg8: 2, UInt8: 1>
+740550: ==> 00000003: <JmpTrue>: <Addr8: 9, Reg8: 2>  # Address: 0000000c
+740551: ==> 00000006: <LoadConstString>: <Reg8: 0, string_id: 4310>  # String: 'cross' (String)
+740552: ==> 0000000a: <Ret>: <Reg8: 0>
+740553: ==> 0000000c: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+740554: ==> 0000000f: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 6>
+740555: ==> 00000013: <LoadConstUInt8>: <Reg8: 0, UInt8: 1>
+740556: ==> 00000016: <Sub>: <Reg8: 0, Reg8: 2, Reg8: 0>
+740557: ==> 0000001a: <GetByVal>: <Reg8: 0, Reg8: 1, Reg8: 0>
+740558: ==> 0000001e: <GetByIdShort>: <Reg8: 0, Reg8: 0, UInt8: 1, string_id: 249>  # String: 'value' (Identifier)
+740559: ==> 00000023: <Ret>: <Reg8: 0>
+740560: 
+740561: 
+740562: ===============
+740563: 

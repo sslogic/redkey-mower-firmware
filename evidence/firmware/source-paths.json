@@ -1,0 +1,302 @@
+[
+  {
+    "file_offset": "0x53d8c",
+    "text": "./main/task_main.cpp"
+  },
+  {
+    "file_offset": "0x53ed4",
+    "text": "./main/tasks/task_mow/task_mow.c"
+  },
+  {
+    "file_offset": "0x54aac",
+    "text": "./main/tasks/task_mow/mow_status/ms_factory.c"
+  },
+  {
+    "file_offset": "0x552cc",
+    "text": "./main/tasks/task_mow/mow_status/ms_charging.cpp"
+  },
+  {
+    "file_offset": "0x55bd0",
+    "text": "./main/tasks/task_mow/mow_status/ms_idle.cpp"
+  },
+  {
+    "file_offset": "0x55d30",
+    "text": "./main/tasks/task_mow/mow_status/ms_ota/ms_ota.c"
+  },
+  {
+    "file_offset": "0x55fc8",
+    "text": "./main/tasks/task_mow/mow_status/ms_ota/mainboard_ota.c"
+  },
+  {
+    "file_offset": "0x561ec",
+    "text": "./main/tasks/task_mow/mow_status/ms_ota/baseboard_ota.c"
+  },
+  {
+    "file_offset": "0x563a0",
+    "text": "./main/tasks/task_mow/mow_status/ms_ota/posboard_ota.c"
+  },
+  {
+    "file_offset": "0x56438",
+    "text": "./main/tasks/task_mow/mow_status/ms_pause.cpp"
+  },
+  {
+    "file_offset": "0x56600",
+    "text": "./main/tasks/task_mow/mow_status/ms_sleep.c"
+  },
+  {
+    "file_offset": "0x566cc",
+    "text": "./main/tasks/task_mow/mow_status/ms_shutdown.c"
+  },
+  {
+    "file_offset": "0x5681c",
+    "text": "./main/tasks/task_location/task_location.cpp"
+  },
+  {
+    "file_offset": "0x56a3c",
+    "text": "./main/tasks/task_location/pose/pose_fusion.cpp"
+  },
+  {
+    "file_offset": "0x56d74",
+    "text": "./main/tasks/task_location/pose/pose_skid_err.cpp"
+  },
+  {
+    "file_offset": "0x56e48",
+    "text": "./main/tasks/task_mow/mow_status/ms_build_map/ms_build_map.cpp"
+  },
+  {
+    "file_offset": "0x570dc",
+    "text": "./main/tasks/task_location/pose/pose_matching.cpp"
+  },
+  {
+    "file_offset": "0x572c0",
+    "text": "./main/tasks/task_mow/mow_status/ms_build_map/follow_wire_build_map.cpp"
+  },
+  {
+    "file_offset": "0x57ea0",
+    "text": "./main/tasks/task_mow/mow_status/ms_build_map/start_to_charger.cpp"
+  },
+  {
+    "file_offset": "0x57ef8",
+    "text": "./main/tasks/task_mow/motion/motion_no_map_on_wire/motion_no_map_on_wire.h"
+  },
+  {
+    "file_offset": "0x58348",
+    "text": "./main/tasks/task_api_server/task_api_server.c"
+  },
+  {
+    "file_offset": "0x583c8",
+    "text": "./main/tasks/task_wifi_ble/task_wifi_ble.c"
+  },
+  {
+    "file_offset": "0x5855c",
+    "text": "./main/tasks/task_ui/task_ui.c"
+  },
+  {
+    "file_offset": "0x58968",
+    "text": "./main/tasks/task_ui/ui_base.c"
+  },
+  {
+    "file_offset": "0x58aa8",
+    "text": "./main/tasks/task_ui/ui_manage.c"
+  },
+  {
+    "file_offset": "0x5ba20",
+    "text": "./main/tasks/task_iot/task_iot.c"
+  },
+  {
+    "file_offset": "0x5e7d8",
+    "text": "./main/tasks/task_iot/iot_ble.c"
+  },
+  {
+    "file_offset": "0x5e86c",
+    "text": "./main/tasks/task_carrier/task_carrier.c"
+  },
+  {
+    "file_offset": "0x5f178",
+    "text": "./main/tasks/task_ota/task_ota.c"
+  },
+  {
+    "file_offset": "0x5f5dc",
+    "text": "./main/tasks/task_iot/iot_utils/repository.cpp"
+  },
+  {
+    "file_offset": "0x5f778",
+    "text": "./main/tasks/task_iot/iot_utils/save_file.cpp"
+  },
+  {
+    "file_offset": "0x5fb18",
+    "text": "./main/tasks/task_iot/iot_utils/utils.cpp"
+  },
+  {
+    "file_offset": "0x5fcac",
+    "text": "./main/tasks/task_iot/services/event_history.cpp"
+  },
+  {
+    "file_offset": "0x5fe3c",
+    "text": "./main/tasks/task_mow/motion/motion_boundary_follow/motion_boundary_follow.cpp"
+  },
+  {
+    "file_offset": "0x603b8",
+    "text": "./main/tasks/task_mow/motion/motion_p2p_navigator/p2p_navigator.cpp"
+  },
+  {
+    "file_offset": "0x60980",
+    "text": "./main/tasks/task_mow/motion/motion_around_island/around_island.cpp"
+  },
+  {
+    "file_offset": "0x60abc",
+    "text": "./main/tasks/task_mow/motion/motion_wire_follow_turn_around/motion_wire_follow_turn_around.cpp"
+  },
+  {
+    "file_offset": "0x60c90",
+    "text": "./main/tasks/task_mow/motion/motion_no_map_on_wire/motion_no_map_on_wire.cpp"
+  },
+  {
+    "file_offset": "0x60e6c",
+    "text": "./main/tasks/task_mow/mower_alg/map_manager/map.cpp"
+  },
+  {
+    "file_offset": "0x615b8",
+    "text": "./main/tasks/task_mow/mower_alg/map_manager/map_manager.cpp"
+  },
+  {
+    "file_offset": "0x61e98",
+    "text": "./main/tasks/task_mow/motion/motion_on_pile/on_pile.cpp"
+  },
+  {
+    "file_offset": "0x6208c",
+    "text": "./main/tasks/task_mow/motion/motion_find_wire_direction/find_wire_direction.cpp"
+  },
+  {
+    "file_offset": "0x621cc",
+    "text": "./main/tasks/task_mow/motion/motion_skid_to_free/skid_to_free.cpp"
+  },
+  {
+    "file_offset": "0x62370",
+    "text": "./main/tasks/task_mow/mow_status/ms_mow_global/ms_mow_global.cpp"
+  },
+  {
+    "file_offset": "0x62d34",
+    "text": "./main/tasks/task_mow/mow_status/ms_mow_global/mow_global_status.cpp"
+  },
+  {
+    "file_offset": "0x63a68",
+    "text": "./main/tasks/task_mow/mow_status/ms_mow_global/save_map.cpp"
+  },
+  {
+    "file_offset": "0x64128",
+    "text": "./main/tasks/task_mow/mow_status/ms_mow_point/ms_mow_point.cpp"
+  },
+  {
+    "file_offset": "0x6443c",
+    "text": "./main/tasks/task_mow/mow_status/ms_resume_to_mow_point/ms_resume_to_mow_point.cpp"
+  },
+  {
+    "file_offset": "0x64994",
+    "text": "./main/tasks/task_mow/mow_status/ms_mow_around_dock/ms_mow_around_dock.cpp"
+  },
+  {
+    "file_offset": "0x64c7c",
+    "text": "./main/tasks/task_mow/mow_status/ms_back_to_dock/ms_back_to_dock.cpp"
+  },
+  {
+    "file_offset": "0x64f40",
+    "text": "./main/tasks/task_mow/mow_status/ms_back_to_dock/back_to_dock.cpp"
+  },
+  {
+    "file_offset": "0x65150",
+    "text": "./main/tasks/task_mow/mow_status/ms_position/ms_position.cpp"
+  },
+  {
+    "file_offset": "0x65260",
+    "text": "./main/tasks/task_mow/mow_status/ms_position/position.cpp"
+  },
+  {
+    "file_offset": "0x652bc",
+    "text": "./main/tasks/task_mow/regular_mow.c"
+  },
+  {
+    "file_offset": "0x658dc",
+    "text": "./main/common/event_bus/event_bus.c"
+  },
+  {
+    "file_offset": "0x65944",
+    "text": "./main/common/fatfs/fatfs.c"
+  },
+  {
+    "file_offset": "0x65aa4",
+    "text": "./main/common/usb/tusb_cdc.c"
+  },
+  {
+    "file_offset": "0x65c90",
+    "text": "./main/common/usb/tusb_msc.c"
+  },
+  {
+    "file_offset": "0x6605c",
+    "text": "./main/common/usb/tusb_msc_storage_spiffs.c"
+  },
+  {
+    "file_offset": "0x66428",
+    "text": "./main/common/wifi_ble/wifi.c"
+  },
+  {
+    "file_offset": "0x6698c",
+    "text": "./main/common/wifi_ble/blufi.c"
+  },
+  {
+    "file_offset": "0x6701c",
+    "text": "./main/common/cjson/cJSON.c"
+  },
+  {
+    "file_offset": "0x670f8",
+    "text": "./main/common/uilts/uilts.c"
+  },
+  {
+    "file_offset": "0x6721c",
+    "text": "./main/common/stack/stack.c"
+  },
+  {
+    "file_offset": "0x6725c",
+    "text": "./main/common/ring_buffer/ring_buffer.c"
+  },
+  {
+    "file_offset": "0x67294",
+    "text": "./main/common/statistics/statistics.cpp"
+  },
+  {
+    "file_offset": "0x67524",
+    "text": "./main/driver/beep/dev_beep.c"
+  },
+  {
+    "file_offset": "0x675c0",
+    "text": "./main/driver/adc_rain_temp/adc_rain_temp_sensor.c"
+  },
+  {
+    "file_offset": "0x67848",
+    "text": "./main/tasks/task_monitor/task_monitor.c"
+  },
+  {
+    "file_offset": "0x6789c",
+    "text": "./main/tasks/task_monitor/business_stats/business_stats.cpp"
+  },
+  {
+    "file_offset": "0x67918",
+    "text": "./main/tasks/task_mow/motion/motion_path_follow/path_follow.cpp"
+  },
+  {
+    "file_offset": "0x67a3c",
+    "text": "./main/tasks/task_mow/motion/motion_wall_follow/wall_follow.cpp"
+  },
+  {
+    "file_offset": "0x67b14",
+    "text": "./main/tasks/task_mow/motion/motion_wall_follow/wall_follow_status/wall_follow_status.cpp"
+  },
+  {
+    "file_offset": "0x67b84",
+    "text": "./main/driver/lcd/lcd_tm1620.c"
+  },
+  {
+    "file_offset": "0x67c00",
+    "text": "./main/driver/lcd/lcd_tm1621.c"
+  }
+]

@@ -1,0 +1,21 @@
+812009:                 r0 = _closure2_slot0;
+812010:                 r0 = r1[r0];
+812011:                 return r0;
+812012:             };
+812013:             r3 = r4.bind(r1)(r3);
+812014:             r4 = _closure1_slot8;
+812015:             r4 = r4.default;
+812016:             r2 = function(a0) { // Environment: r2
+812017:                 r0 = a0;
+812018:                 r0 = r0.fw_version;
+812019:                 r0 = r0.ui_board;
+812020:                 return r0;
+812021:             };
+812022:             r2 = r4.bind(r1)(r5, r2);
+812023:             r0 = _closure1_slot13;
+812024:             r1 = r0.bind(r1)(r2, r3);
+812025:             r0 = {};
+812026:             r0['otaData'] = r3;
+812027:             r0['version'] = r2;
+812028:             r0['needUpgrade'] = r1;
+812029:             return r0;

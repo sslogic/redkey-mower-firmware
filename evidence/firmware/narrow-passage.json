@@ -1,0 +1,14 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "storage": "Heap pointerglobal3fca69b8 holds4-byte entries {u16beg,u16end}, getter42037380. Debug strings narrow_channel_buffer and narrow_channel confirm their role.",
+  "writer": "42036bb0..42036bc5 stores beg=inputstruct+10, end=(beg+inputstruct+8)%mapCount. The owning routine42036ab8 exits when mapCount==0. Earlier code checks overlap and avoids adding another entry when already found.",
+  "consumer": "4203e130, called at4203fb70, walks pairs and sets boundary-index maskglobal3fcb5bb0[index]=1. Forbeg<=end it marks inclusive interval; forbeg>end it handles wrap across map endpoint. If either bound is0 it exits this pair loop at4203e338.",
+  "target_filter": "4203d100 target-selection scan reads same mask at4203d145. Nonzero candidates are skipped before beginning an unmasked run. At4203d197 a nonzero marker ends the tentative run, advances scan offset and clears run state. Thus narrow channels concretely influence mowing-target selection.",
+  "limits": [
+    "Intervals are boundary sample indices, not proven lawn-region IDs or travel corridor graph edges.",
+    "Mask also receives other writes; marker1 is not exclusive proof of a narrow passage.",
+    "No proof here of finish-one-area-before-crossing scheduling or a transit-once budget.",
+    "The passage must remain traversable to reach other grass; target filtering alone does not establish traversal behavior.",
+    "No mower runtime values, live command, firmware modification, or lawn-specific hardcoding."
+  ]
+}

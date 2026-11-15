@@ -1,0 +1,34 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "private_key": {
+    "offset": "0xab8",
+    "type": "RSAPrivateKey",
+    "bits": 2048,
+    "password_required": false
+  },
+  "certificates": [
+    {
+      "offset": "0x120",
+      "is_ca": true,
+      "client_auth_eku": null,
+      "matches_private_key": false
+    },
+    {
+      "offset": "0x5db",
+      "is_ca": false,
+      "client_auth_eku": null,
+      "matches_private_key": true
+    }
+  ],
+  "static_reference_context": {
+    "code_range": "0x4202b7fd..0x4202b80f",
+    "observation": "Previously retained OTA routine sets three configuration pointers to the certificate/key-bearing strings at virtual addresses 0x3c130120, 0x3c1305db and 0x3c130ab8 before OTA call.",
+    "source": "Original-image aligned disassembly; virtual address ranges are documented."
+  },
+  "classification": "Complete unencrypted RSA private key and matching embedded certificate; not merely an mbedTLS parser delimiter.",
+  "limits": [
+    "No subject, issuer, serial, fingerprint or key value is emitted.",
+    "Credential material is in the byte-identical public vendor release; ownership, current validity and permissions remain unknown.",
+    "Do not publish this original image as credential-free. Removing credential bytes would change the image identity and integrity; do not silently present such a result as original firmware."
+  ]
+}

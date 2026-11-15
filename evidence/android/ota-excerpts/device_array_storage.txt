@@ -1,0 +1,49 @@
+635881:         r1 = function(a0) { // Environment: r1
+635882:             r0 = a0;
+635883:             var _closure2_slot0 = r0;
+635884:             r0 = {};
+635885:             r2 = new Array(0);
+635886:             r0['devices'] = r2;
+635887:             r2 = function(a0) { // Original name: setDevices, environment: r1
+635888:                 r2 = _closure2_slot0;
+635889:                 r1 = {};
+635890:                 r0 = a0;
+635891:                 r1['devices'] = r0;
+635892:                 r0 = undefined;
+635893:                 r0 = r2.bind(r0)(r1);
+635894:                 return r0;
+635895:             };
+635896:             r0['setDevices'] = r2;
+635897:             r2 = function(a0, a1) { // Original name: renameDevice, environment: r1
+635898:                 r0 = a0;
+635899:                 var _closure3_slot0 = r0;
+635900:                 r0 = a1;
+635901:                 var _closure3_slot1 = r0;
+635902:                 r2 = _closure2_slot0;
+635903:                 r0 = undefined;
+635904:                 r1 = function(a0) { // Environment: r1
+635905:                     r0 = a0;
+635906:                     r2 = r0.devices;
+635907:                     r1 = r2.map;
+635908:                     r0 = function(a0) { // Environment: r0
+635909:                         _fun18403: for(var _fun18403_ip = 0; ; ) switch(_fun18403_ip) {
+635910: case 0:
+635911:                             r4 = a0;
+635912:                             r2 = r4.sn;
+635913:                             r1 = _closure3_slot0;
+635914:                             if(!(r2 !== r1)) { _fun18403_ip = 21; continue _fun18403 }
+635915: case 19:
+635916:                             return r4;
+635917: case 21:
+635918:                             r1 = global;
+635919:                             r3 = r1.Object;
+635920:                             r2 = r3.assign;
+635921:                             r1 = {};
+635922:                             r0 = _closure3_slot1;
+635923:                             r1['alias'] = r0;
+635924:                             r0 = {};
+635925:                             r0 = r2.bind(r3)(r0, r4, r1);
+635926:                             return r0;
+635927:                         }
+635928:                     };
+635929:                     r1 = r1.bind(r2)(r0);

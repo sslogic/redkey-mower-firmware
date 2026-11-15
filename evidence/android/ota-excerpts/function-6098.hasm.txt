@@ -1,0 +1,30 @@
+=> [Function #6098 "genToken" of 92 bytes]: 2 params, frame size=13, strict=0, exc handler=0, debug info=0  @ offset 0x00213c34
+
+Bytecode listing:
+
+==> 00000000: <GetGlobalObject>: <Reg8: 0>
+==> 00000002: <TryGetById>: <Reg8: 2, Reg8: 0, UInt8: 1, string_id: 23>  # String: 'Math' (Identifier)
+==> 00000008: <GetByIdShort>: <Reg8: 1, Reg8: 2, UInt8: 2, string_id: 72>  # String: 'round' (Identifier)
+==> 0000000d: <TryGetById>: <Reg8: 3, Reg8: 0, UInt8: 3, string_id: 14>  # String: 'Date' (Identifier)
+==> 00000013: <GetByIdShort>: <Reg8: 0, Reg8: 3, UInt8: 4, string_id: 195>  # String: 'now' (Identifier)
+==> 00000018: <Call1>: <Reg8: 3, Reg8: 0, Reg8: 3>
+==> 0000001c: <LoadConstInt>: <Reg8: 0, Imm32: 1000>
+==> 00000022: <Div>: <Reg8: 0, Reg8: 3, Reg8: 0>
+==> 00000026: <Call2>: <Reg8: 1, Reg8: 1, Reg8: 2, Reg8: 0>
+==> 0000002b: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 0000002e: <Add>: <Reg8: 3, Reg8: 0, Reg8: 1>
+==> 00000032: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 00000035: <LoadFromEnvironment>: <Reg8: 4, Reg8: 0, UInt8: 0>
+==> 00000039: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 1>
+==> 0000003d: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 00000040: <GetByVal>: <Reg8: 0, Reg8: 2, Reg8: 0>
+==> 00000044: <LoadConstUndefined>: <Reg8: 2>
+==> 00000046: <Call2>: <Reg8: 0, Reg8: 4, Reg8: 2, Reg8: 0>
+==> 0000004b: <GetById>: <Reg8: 0, Reg8: 0, UInt8: 5, string_id: 13920>  # String: 'md5' (Identifier)
+==> 00000051: <Call2>: <Reg8: 0, Reg8: 0, Reg8: 2, Reg8: 3>
+==> 00000056: <Add>: <Reg8: 0, Reg8: 0, Reg8: 1>
+==> 0000005a: <Ret>: <Reg8: 0>
+
+
+===============
+

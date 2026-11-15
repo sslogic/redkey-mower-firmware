@@ -1,0 +1,217 @@
+
+firmware-analysis.elf: file format elf32-xtensa-le
+
+
+Disassembly of section .flash.text:
+
+4204971c <.flash.text+0x496fc>:
+4204971c:	dcb051        	l32r	a5, 0x420409dc (0x3fcb628c)
+4204971f:	001582        	l16ui	a8, a5, 0
+42049722:	236880        	sext	a6, a8, 15
+42049725:	dca851        	l32r	a5, 0x420409c8 (0x3fcb62a0)
+42049728:	0558      	l32i.n	a5, a5, 0
+4204972a:	dca871        	l32r	a7, 0x420409cc (0x3fcb629c)
+4204972d:	0759      	s32i.n	a5, a7, 0
+4204972f:	e70c      	movi.n	a7, 14
+42049731:	029477        	bne	a4, a7, 0x42049737
+42049734:	006906        	j	0x420498dc
+42049737:	dcac41        	l32r	a4, 0x420409e8 (0x3fcb6288)
+4204973a:	000472        	l8ui	a7, a4, 0
+4204973d:	08f756        	bnez	a7, 0x420497d0
+42049740:	dca941        	l32r	a4, 0x420409e4 (0x3fcb6289)
+42049743:	000442        	l8ui	a4, a4, 0
+42049746:	086456        	bnez	a4, 0x420497d0
+42049749:	604160        	abs	a4, a6
+4204974c:	f44040        	extui	a4, a4, 0, 16
+4204974f:	093426        	beqi	a4, 3, 0x4204975c
+42049752:	3e54b6        	bltui	a4, 5, 0x42049794
+42049755:	542b      	addi.n	a5, a4, 2
+42049757:	145050        	extui	a5, a5, 0, 2
+4204975a:	65fc      	bnez.n	a5, 0x42049794
+4204975c:	193466        	bnei	a4, 3, 0x42049779
+4204975f:	dca041        	l32r	a4, 0x420409e0 (0x3fcb628a)
+42049762:	000442        	l8ui	a4, a4, 0
+42049765:	234400        	sext	a4, a4, 7
+42049768:	1144e0        	slli	a4, a4, 2
+4204976b:	f44040        	extui	a4, a4, 0, 16
+4204976e:	448a      	add.n	a4, a4, a8
+42049770:	dc9b51        	l32r	a5, 0x420409dc (0x3fcb628c)
+42049773:	005542        	s16i	a4, a5, 0
+42049776:	0048c6        	j	0x4204989d
+42049779:	dc9941        	l32r	a4, 0x420409e0 (0x3fcb628a)
+4204977c:	000442        	l8ui	a4, a4, 0
+4204977f:	234400        	sext	a4, a4, 7
+42049782:	a04440        	addx4	a4, a4, a4
+42049785:	f44040        	extui	a4, a4, 0, 16
+42049788:	448a      	add.n	a4, a4, a8
+4204978a:	dc9451        	l32r	a5, 0x420409dc (0x3fcb628c)
+4204978d:	005542        	s16i	a4, a5, 0
+42049790:	004246        	j	0x4204989d
+
+
+firmware-analysis.elf: file format elf32-xtensa-le
+
+
+Disassembly of section .flash.text:
+
+42049794 <.flash.text+0x49774>:
+42049794:	2454b6        	bltui	a4, 5, 0x420497bc
+42049797:	441b      	addi.n	a4, a4, 1
+42049799:	144040        	extui	a4, a4, 0, 2
+4204979c:	c4dc      	bnez.n	a4, 0x420497bc
+4204979e:	dc9041        	l32r	a4, 0x420409e0 (0x3fcb628a)
+420497a1:	000442        	l8ui	a4, a4, 0
+420497a4:	234400        	sext	a4, a4, 7
+420497a7:	1154e0        	slli	a5, a4, 2
+420497aa:	c04450        	sub	a4, a4, a5
+420497ad:	f44040        	extui	a4, a4, 0, 16
+420497b0:	448a      	add.n	a4, a4, a8
+420497b2:	dc8a51        	l32r	a5, 0x420409dc (0x3fcb628c)
+420497b5:	005542        	s16i	a4, a5, 0
+420497b8:	003846        	j	0x4204989d
+
+
+firmware-analysis.elf: file format elf32-xtensa-le
+
+
+Disassembly of section .flash.text:
+
+420497bc <.flash.text+0x4979c>:
+420497bc:	dc8941        	l32r	a4, 0x420409e0 (0x3fcb628a)
+420497bf:	000442        	l8ui	a4, a4, 0
+420497c2:	234400        	sext	a4, a4, 7
+420497c5:	448a      	add.n	a4, a4, a8
+420497c7:	dc8551        	l32r	a5, 0x420409dc (0x3fcb628c)
+420497ca:	005542        	s16i	a4, a5, 0
+420497cd:	003306        	j	0x4204989d
+
+
+firmware-analysis.elf: file format elf32-xtensa-le
+
+
+Disassembly of section .flash.text:
+
+420497d0 <.flash.text+0x497b0>:
+420497d0:	dc8441        	l32r	a4, 0x420409e0 (0x3fcb628a)
+420497d3:	000442        	l8ui	a4, a4, 0
+420497d6:	234400        	sext	a4, a4, 7
+420497d9:	804480        	add	a4, a4, a8
+420497dc:	dc8081        	l32r	a8, 0x420409dc (0x3fcb628c)
+420497df:	005842        	s16i	a4, a8, 0
+420497e2:	dc8041        	l32r	a4, 0x420409e4 (0x3fcb6289)
+420497e5:	000442        	l8ui	a4, a4, 0
+420497e8:	059416        	beqz	a4, 0x42049845
+420497eb:	dc7a71        	l32r	a7, 0x420409d4 (0x3fcb6294)
+420497ee:	000703        	lsi	f0, a7, 0
+420497f1:	fa0010        	abs.s	f0, f0
+420497f4:	faa040        	rfr	a10, f0
+420497f7:	db4381        	l32r	a8, 0x42040504 (0x400022a4)
+420497fa:	0008e0        	callx8	a8
+420497fd:	1461a2        	s32i	a10, a1, 80
+42049800:	1561b2        	s32i	a11, a1, 84
+42049803:	fa0550        	wfr	f0, a5
+42049806:	fa0010        	abs.s	f0, f0
+42049809:	faa040        	rfr	a10, f0
+4204980c:	db3e81        	l32r	a8, 0x42040504 (0x400022a4)
+4204980f:	0008e0        	callx8	a8
+42049812:	dcc0c1        	l32r	a12, 0x42040b14 (0xeb851eb8)
+42049815:	dcc0d1        	l32r	a13, 0x42040b18 (0x3fbeb851)
+42049818:	db4781        	l32r	a8, 0x42040534 (0x40002184)
+4204981b:	0008e0        	callx8	a8
+4204981e:	20caa0        	or	a12, a10, a10
+42049821:	20dbb0        	or	a13, a11, a11
+42049824:	1421a2        	l32i	a10, a1, 80
+42049827:	1521b2        	l32i	a11, a1, 84
+4204982a:	dba081        	l32r	a8, 0x420406ac (0x400023b8)
+4204982d:	0008e0        	callx8	a8
+42049830:	691ae6        	bgei	a10, 1, 0x4204989d
+42049833:	dc6c31        	l32r	a3, 0x420409e4 (0x3fcb6289)
+42049836:	050c      	movi.n	a5, 0
+42049838:	004352        	s8i	a5, a3, 0
+4204983b:	1a0c      	movi.n	a10, 1
+4204983d:	ff75e5        	call8	0x42048f9c
+42049840:	043d      	mov.n	a3, a4
+42049842:	0015c6        	j	0x4204989d
+42049845:	054716        	beqz	a7, 0x4204989d
+42049848:	dc6441        	l32r	a4, 0x420409d8 (0x3fcb6290)
+4204984b:	000403        	lsi	f0, a4, 0
+4204984e:	fa0010        	abs.s	f0, f0
+42049851:	faa040        	rfr	a10, f0
+42049854:	db2c81        	l32r	a8, 0x42040504 (0x400022a4)
+42049857:	0008e0        	callx8	a8
+4204985a:	1461a2        	s32i	a10, a1, 80
+4204985d:	1561b2        	s32i	a11, a1, 84
+42049860:	fa1550        	wfr	f1, a5
+42049863:	fa1110        	abs.s	f1, f1
+42049866:	faa140        	rfr	a10, f1
+42049869:	db2681        	l32r	a8, 0x42040504 (0x400022a4)
+4204986c:	0008e0        	callx8	a8
+4204986f:	dca9c1        	l32r	a12, 0x42040b14 (0xeb851eb8)
+42049872:	dca9d1        	l32r	a13, 0x42040b18 (0x3fbeb851)
+42049875:	db2f81        	l32r	a8, 0x42040534 (0x40002184)
+42049878:	0008e0        	callx8	a8
+4204987b:	0acd      	mov.n	a12, a10
+4204987d:	0bdd      	mov.n	a13, a11
+4204987f:	1421a2        	l32i	a10, a1, 80
+42049882:	1521b2        	l32i	a11, a1, 84
+42049885:	db8981        	l32r	a8, 0x420406ac (0x400023b8)
+42049888:	0008e0        	callx8	a8
+4204988b:	0e1ae6        	bgei	a10, 1, 0x4204989d
+4204988e:	dc5631        	l32r	a3, 0x420409e8 (0x3fcb6288)
+42049891:	040c      	movi.n	a4, 0
+42049893:	004342        	s8i	a4, a3, 0
+42049896:	1a0c      	movi.n	a10, 1
+42049898:	ff7025        	call8	0x42048f9c
+4204989b:	073d      	mov.n	a3, a7
+
+
+firmware-analysis.elf: file format elf32-xtensa-le
+
+
+Disassembly of section .flash.text:
+
+4204989d <.flash.text+0x4987d>:
+4204989d:	dc4f41        	l32r	a4, 0x420409dc (0x3fcb628c)
+420498a0:	0094a2        	l16si	a10, a4, 0
+420498a3:	c0aa60        	sub	a10, a10, a6
+420498a6:	db2281        	l32r	a8, 0x42040530 (0x40002334)
+420498a9:	0008e0        	callx8	a8
+420498ac:	dc7fc1        	l32r	a12, 0x42040aa8 (0x33333333)
+420498af:	dc80d1        	l32r	a13, 0x42040ab0 (0x3fc33333)
+420498b2:	db7f81        	l32r	a8, 0x420406b0 (0x40002418)
+420498b5:	0008e0        	callx8	a8
+420498b8:	0a4d      	mov.n	a4, a10
+420498ba:	205bb0        	or	a5, a11, a11
+420498bd:	dc4271        	l32r	a7, 0x420409c8 (0x3fcb62a0)
+420498c0:	07a8      	l32i.n	a10, a7, 0
+420498c2:	db1081        	l32r	a8, 0x42040504 (0x400022a4)
+420498c5:	0008e0        	callx8	a8
+420498c8:	20c440        	or	a12, a4, a4
+420498cb:	20d550        	or	a13, a5, a5
+420498ce:	db1981        	l32r	a8, 0x42040534 (0x40002184)
+420498d1:	0008e0        	callx8	a8
+420498d4:	db6481        	l32r	a8, 0x42040664 (0x4000252c)
+420498d7:	0008e0        	callx8	a8
+420498da:	07a9      	s32i.n	a10, a7, 0
+420498dc:	dc4051        	l32r	a5, 0x420409dc (0x3fcb628c)
+420498df:	009572        	l16si	a7, a5, 0
+420498e2:	dc3541        	l32r	a4, 0x420409b8 (0x3fcb62d0)
+420498e5:	002442        	l32i	a4, a4, 0
+420498e8:	046142        	s32i	a4, a1, 16
+420498eb:	dc3741        	l32r	a4, 0x420409c8 (0x3fcb62a0)
+420498ee:	0024a2        	l32i	a10, a4, 0
+420498f1:	db0481        	l32r	a8, 0x42040504 (0x400022a4)
+420498f4:	0008e0        	callx8	a8
+420498f7:	21a9      	s32i.n	a10, a1, 8
+420498f9:	31b9      	s32i.n	a11, a1, 12
+420498fb:	dc3941        	l32r	a4, 0x420409e0 (0x3fcb628a)
+420498fe:	000442        	l8ui	a4, a4, 0
+42049901:	234400        	sext	a4, a4, 7
+42049904:	0149      	s32i.n	a4, a1, 0
+42049906:	07fd      	mov.n	a15, a7
+42049908:	06ed      	mov.n	a14, a6
+4204990a:	dc84d1        	l32r	a13, 0x42040b1c (0x3c1930a0)
+4204990d:	90a7c2        	movi	a12, 0x790
+42049910:	dc0bb1        	l32r	a11, 0x4204093c (0x3c192d34)
+42049913:	4a0c      	movi.n	a10, 4
+42049915:	107d25        	call8	0x4205a0e8

@@ -1,0 +1,25 @@
+740506: => [Function #19034 "mowDirectionFromValue" of 63 bytes]: 2 params, frame size=11, strict=0, exc handler=0, debug info=0  @ offset 0x00379e92
+740507: 
+740508: Bytecode listing:
+740509: 
+740510: ==> 00000000: <CreateEnvironment>: <Reg8: 0>
+740511: ==> 00000002: <LoadParam>: <Reg8: 1, UInt8: 1>
+740512: ==> 00000005: <StoreToEnvironment>: <Reg8: 0, UInt8: 0, Reg8: 1>
+740513: ==> 00000009: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+740514: ==> 0000000c: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 6>
+740515: ==> 00000010: <GetById>: <Reg8: 1, Reg8: 2, UInt8: 1, string_id: 22351>  # String: 'findIndex' (Identifier)
+740516: ==> 00000016: <CreateClosure>: <Reg8: 0, Reg8: 0, function_id: 19035>  # Function: [#19035  of 21 bytes]: 2 params @ offset 0x0025deaf
+740517: ==> 0000001b: <Call2>: <Reg8: 1, Reg8: 1, Reg8: 2, Reg8: 0>
+740518: ==> 00000020: <LoadConstInt>: <Reg8: 0, Imm32: -1>
+740519: ==> 00000026: <JStrictEqual>: <Addr8: 20, Reg8: 1, Reg8: 0>  # Address: 0000003a
+740520: ==> 0000002a: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+740521: ==> 0000002d: <JGreaterEqual>: <Addr8: 13, Reg8: 1, Reg8: 0>  # Address: 0000003a
+740522: ==> 00000031: <LoadConstUInt8>: <Reg8: 0, UInt8: 1>
+740523: ==> 00000034: <Add>: <Reg8: 0, Reg8: 1, Reg8: 0>
+740524: ==> 00000038: <Ret>: <Reg8: 0>
+740525: ==> 0000003a: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+740526: ==> 0000003d: <Ret>: <Reg8: 0>
+740527: 
+740528: 
+740529: ===============
+740530: 

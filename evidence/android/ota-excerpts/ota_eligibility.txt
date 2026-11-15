@@ -1,0 +1,37 @@
+845680:                             r0 = function* () { // Original name: ?anon_0_, environment: r0
+845681:                                 _fun24009: for(var _fun24009_ip = 0; ; ) switch(_fun24009_ip) {
+845682: case 0:
+845683:                                     StartGenerator();
+845684:                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+845685:                                     if(r1) { _fun24009_ip = 413; continue _fun24009 }
+845686: case 10:
+845687:                                     r3 = _closure2_slot4;
+845688:                                     r2 = 'shutdown';
+845689:                                     if(!(r3 !== r2)) { _fun24009_ip = 381; continue _fun24009 }
+845690: case 28:
+845691:                                     r3 = _closure2_slot6;
+845692:                                     r2 = 1;
+845693:                                     if(!(r3 === r2)) { _fun24009_ip = 349; continue _fun24009 }
+845694: case 42:
+845695:                                     r3 = _closure2_slot4;
+845696:                                     r2 = 'ota';
+845697:                                     if(!(r3 !== r2)) { _fun24009_ip = 333; continue _fun24009 }
+845698: case 57:
+845699:                                     r4 = ['charge', 'pause', 'idle', 'sleep'];
+845700:                                     r3 = r4.includes;
+845701:                                     r2 = _closure2_slot4;
+845702:                                     r2 = r3.bind(r4)(r2);
+845703:                                     if(r2) { _fun24009_ip = 114; continue _fun24009 }
+845704: case 82:
+845705:                                     r5 = _closure2_slot2;
+845706:                                     r4 = r5.info;
+845707:                                     r6 = _closure2_slot0;
+845708:                                     r2 = undefined;
+845709:                                     r3 = 'strAtWorkTips';
+845710:                                     r3 = r6.bind(r2)(r3);
+845711:                                     r3 = r4.bind(r5)(r3);
+845712:                                     return r2;
+845713: case 114:
+845714:                                     r3 = _closure2_slot5;
+845715:                                     r2 = 20;
+845716:                                     if(!(!(r3 < r2))) { _fun24009_ip = 301; continue _fun24009 }

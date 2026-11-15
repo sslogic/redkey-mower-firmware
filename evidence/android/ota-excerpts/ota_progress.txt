@@ -1,0 +1,59 @@
+845474: case 535:
+845475:                     r12 = r37.Number;
+845476:                     r2 = r17.toFixed;
+845477:                     r2 = r2.bind(r17)(r4);
+845478:                     r26 = r12.bind(r3)(r2);
+845479: case 557:
+845480:                     r17 = r37.Math;
+845481:                     r12 = r17.max;
+845482:                     r25 = r37.Math;
+845483:                     r24 = r25.min;
+845484:                     r22 = r37.Math;
+845485:                     r2 = r22.max;
+845486:                     r22 = r2.bind(r22)(r15, r26);
+845487:                     r2 = 100;
+845488:                     r2 = r24.bind(r25)(r2, r22);
+845489:                     r1 = r1.current;
+845490:                     r17 = r12.bind(r17)(r2, r1);
+845491:                     var _closure2_slot12 = r17;
+845492:                     r12 = r37.Math;
+845493:                     r2 = r12.max;
+845494:                     r24 = r37.Math;
+845495:                     r22 = r24.floor;
+845496:                     r25 = r37.Number;
+845497:                     r26 = r14 == r31;
+845498:                     r1 = undefined;
+845499:                     if(r26) { _fun23997_ip = 664; continue _fun23997 }
+845500: case 658:
+845501:                     r1 = r14.ota_time_estimate;
+845502: case 664:
+845503:                     r25 = r25.bind(r3)(r1);
+845504:                     if(r25) { _fun23997_ip = 674; continue _fun23997 }
+845505: case 672:
+845506:                     r25 = 0;
+845507: case 674:
+845508:                     r1 = 1000;
+845509:                     r1 = r25 / r1;
+845510:                     r1 = r22.bind(r24)(r1);
+845511:                     r15 = r2.bind(r12)(r15, r1);
+845512:                     r1 = _closure1_slot4;
+845513:                     r22 = r1.useEffect;
+845514:                     r12 = new Array(1);
+845515:                     r12[0] = r17;
+845516:                     r2 = function() { // Environment: r13
+845517:                         _fun24002: for(var _fun24002_ip = 0; ; ) switch(_fun24002_ip) {
+845518: case 0:
+845519:                             r2 = _closure2_slot12;
+845520:                             r1 = _closure2_slot11;
+845521:                             r1 = r1.current;
+845522:                             if(!(r2 > r1)) { _fun24002_ip = 34; continue _fun24002 }
+845523: case 20:
+845524:                             r1 = _closure2_slot11;
+845525:                             r0 = _closure2_slot12;
+845526:                             r1['current'] = r0;
+845527: case 34:
+845528:                             r0 = undefined;
+845529:                             return r0;
+845530:                         }
+845531:                     };
+845532:                     r2 = r22.bind(r3)(r2, r12);

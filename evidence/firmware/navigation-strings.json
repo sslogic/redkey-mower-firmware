@@ -1,0 +1,5127 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "coverage": {
+    "startup_mapping": [
+      355892,
+      361244
+    ],
+    "wire_turnaround": [
+      395964,
+      396432
+    ],
+    "map_manager": [
+      397328,
+      400915
+    ],
+    "global_mowing": [
+      402288,
+      408148
+    ]
+  },
+  "important_candidates": [
+    {
+      "file_offset": "0x57620",
+      "virtual_address": "0x3c187620",
+      "text": "need rebuild,map_count=%d\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bd4",
+          "virtual_address": "0x42001bd4"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x57bf8",
+      "virtual_address": "0x3c187bf8",
+      "text": "Didn't go around! Accu Yaw:%d\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1cf4",
+          "virtual_address": "0x42001cf4"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x57824",
+      "virtual_address": "0x3c187824",
+      "text": "FWBMS_START_TO_CHARGER d_yaw > 2 * M_2PI start pose x=%f,y=%f,yaw_rad=%f, end pose x=%f,y=%f,yaw_rad=%f\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c1c",
+          "virtual_address": "0x42001c1c"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x57890",
+      "virtual_address": "0x3c187890",
+      "text": "FWBMS_START_TO_CHARGER d_yaw > M_2PI start pose x=%f,y=%f,yaw_rad=%f, end pose x=%f,y=%f,yaw_rad=%f\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c20",
+          "virtual_address": "0x42001c20"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x630a0",
+      "virtual_address": "0x3c1930a0",
+      "text": "zigzag_num:old=%d,new=%d,num_dir=%d, zigzag_b=%f,gongzi_dir_=%d\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b1c",
+          "virtual_address": "0x42040b1c"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x63038",
+      "virtual_address": "0x3c193038",
+      "text": "zigzag too narrow for early transition\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0afc",
+          "virtual_address": "0x42040afc"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x63060",
+      "virtual_address": "0x3c193060",
+      "text": "zigzag deviation!!need to replan\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b00",
+          "virtual_address": "0x42040b00"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x63590",
+      "virtual_address": "0x3c193590",
+      "text": "real_dis=%.2f,theory_dis=%.2f,on_wire_dis=%.2f\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0cdc",
+          "virtual_address": "0x42040cdc"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x637c0",
+      "virtual_address": "0x3c1937c0",
+      "text": "diff_b=%f,diff_b_init=%f,diff_b_min=%f\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0db4",
+          "virtual_address": "0x42040db4"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x6140c",
+      "virtual_address": "0x3c19140c",
+      "text": "wire pose data error, set mow dir to MOW_DIR_CRISSCROSS!!!\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa37a0",
+          "virtual_address": "0x420037a0"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x62780",
+      "virtual_address": "0x3c192780",
+      "text": "need b2d before total wire follow\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0880",
+          "virtual_address": "0x42040880"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x60c0c",
+      "virtual_address": "0x3c190c0c",
+      "text": "bow turn_around-->backward\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3510",
+          "virtual_address": "0x42003510"
+        }
+      ]
+    },
+    {
+      "file_offset": "0x60c28",
+      "virtual_address": "0x3c190c28",
+      "text": "backward more than 1m\n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3514",
+          "virtual_address": "0x42003514"
+        }
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56e34",
+      "virtual_address": "0x3c186e34",
+      "text": "SetHaveMapToFirst",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa199c",
+          "virtual_address": "0x4200199c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56e48",
+      "virtual_address": "0x3c186e48",
+      "text": "./main/tasks/task_mow/mow_status/ms_build_map/ms_build_map.cpp",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19a0",
+          "virtual_address": "0x420019a0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56e88",
+      "virtual_address": "0x3c186e88",
+      "text": "ResetHaveMapToFirst",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19a4",
+          "virtual_address": "0x420019a4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56ea0",
+      "virtual_address": "0x3c186ea0",
+      "text": "stop pose:x=%3f,y=%.3f,yaw=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19bc",
+          "virtual_address": "0x420019bc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56ec4",
+      "virtual_address": "0x3c186ec4",
+      "text": "build map time plus %ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19c8",
+          "virtual_address": "0x420019c8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56ee0",
+      "virtual_address": "0x3c186ee0",
+      "text": "event send: EV_CHARGER_LOCATION",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19d0",
+          "virtual_address": "0x420019d0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56f04",
+      "virtual_address": "0x3c186f04",
+      "text": "start pose:x=%3f,y=%.3f,yaw=%.2f,charge=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19d4",
+          "virtual_address": "0x420019d4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56f30",
+      "virtual_address": "0x3c186f30",
+      "text": "build map resume from pause!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19d8",
+          "virtual_address": "0x420019d8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56f50",
+      "virtual_address": "0x3c186f50",
+      "text": "is_rebuild_map = %d,only_to_charger=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19dc",
+          "virtual_address": "0x420019dc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56f78",
+      "virtual_address": "0x3c186f78",
+      "text": "reset map",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19e0",
+          "virtual_address": "0x420019e0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56f84",
+      "virtual_address": "0x3c186f84",
+      "text": "have_last_map = %d,CoverFlag=%d,map_size=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19e4",
+          "virtual_address": "0x420019e4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56fb4",
+      "virtual_address": "0x3c186fb4",
+      "text": "WIRE DIR CHANGE!cur:%d, before:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19e8",
+          "virtual_address": "0x420019e8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56fd8",
+      "virtual_address": "0x3c186fd8",
+      "text": "event send: EV_BUILD_MAP",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa19ec",
+          "virtual_address": "0x420019ec"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x56ff4",
+      "virtual_address": "0x3c186ff4",
+      "text": "is_only_to_charger,end! to MS_MOW_AROUND_DOCK",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a08",
+          "virtual_address": "0x42001a08"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57024",
+      "virtual_address": "0x3c187024",
+      "text": "is_only_to_charger,end! to MS_MOW_GLOBAL",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a0c",
+          "virtual_address": "0x42001a0c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57050",
+      "virtual_address": "0x3c187050",
+      "text": "size:save=%d,count=%d,map:save=%.2f,Area=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a10",
+          "virtual_address": "0x42001a10"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57080",
+      "virtual_address": "0x3c187080",
+      "text": "Map is calculating!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a14",
+          "virtual_address": "0x42001a14"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57098",
+      "virtual_address": "0x3c187098",
+      "text": "confidence=%.3f,map_std=%.2f,average_std=%.2f,relocation_count=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a34",
+          "virtual_address": "0x42001a34"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x570dc",
+      "virtual_address": "0x3c1870dc",
+      "text": "./main/tasks/task_location/pose/pose_matching.cpp",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a38",
+          "virtual_address": "0x42001a38"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57110",
+      "virtual_address": "0x3c187110",
+      "text": "filter_add_odo:x=%f,y=%f,RAD=%f,DEG=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a74",
+          "virtual_address": "0x42001a74"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57138",
+      "virtual_address": "0x3c187138",
+      "text": "wire:x=%f,y=%f,RAD=%f,DEG=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a78",
+          "virtual_address": "0x42001a78"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57158",
+      "virtual_address": "0x3c187158",
+      "text": "no_filter_time_ms=%lld,k_yaw=%f,k_x=%f,k_y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a8c",
+          "virtual_address": "0x42001a8c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57188",
+      "virtual_address": "0x3c187188",
+      "text": "k_yaw=%f,k_x=%f,k_y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1a9c",
+          "virtual_address": "0x42001a9c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x571a0",
+      "virtual_address": "0x3c1871a0",
+      "text": "now_filter:x=%.2f,y=%.2f,RAD=%.3f,DEG=%.3f,k_x=%.2f,k_y=%.2f,y_yaw=%.4f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1afc",
+          "virtual_address": "0x42001afc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x571ec",
+      "virtual_address": "0x3c1871ec",
+      "text": "two wire pose distance=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b00",
+          "virtual_address": "0x42001b00"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5720c",
+      "virtual_address": "0x3c18720c",
+      "text": "STD change,need update map",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b04",
+          "virtual_address": "0x42001b04"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57228",
+      "virtual_address": "0x3c187228",
+      "text": "wire pose change,need update map",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b18",
+          "virtual_address": "0x42001b18"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5724c",
+      "virtual_address": "0x3c18724c",
+      "text": "av_f:conA=%.2f,wire_std=%.2f,confidence=%.2f,av_b:conA=%.2f,wire_std=%.2f,confidence=%.2f,map_slope=%.2f,count=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b5c",
+          "virtual_address": "0x42001b5c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x572c0",
+      "virtual_address": "0x3c1872c0",
+      "text": "./main/tasks/task_mow/mow_status/ms_build_map/follow_wire_build_map.cpp",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b60",
+          "virtual_address": "0x42001b60"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57308",
+      "virtual_address": "0x3c187308",
+      "text": "front_clear_cnt:%d, rear_clear_cnt:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b64",
+          "virtual_address": "0x42001b64"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57330",
+      "virtual_address": "0x3c187330",
+      "text": "calc_front_idx:%d, calc_front_idx_max:%d, calc_rear_idx:%d, calc_rear_idx_max:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b6c",
+          "virtual_address": "0x42001b6c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57384",
+      "virtual_address": "0x3c187384",
+      "text": "f_original_avg_[F]:%d, f_original_avg_[R]:%d,front_clear_num:%d, rear_clear_num:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b78",
+          "virtual_address": "0x42001b78"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x573d8",
+      "virtual_address": "0x3c1873d8",
+      "text": "r_original_avg_[F]:%d, r_original_avg_[R]:%d,front_clear_num:%d, rear_clear_num:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b7c",
+          "virtual_address": "0x42001b7c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5742c",
+      "virtual_address": "0x3c18742c",
+      "text": "start_pos:[%f,%f]",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b80",
+          "virtual_address": "0x42001b80"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57440",
+      "virtual_address": "0x3c187440",
+      "text": "end_pos:[%f,%f]",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b84",
+          "virtual_address": "0x42001b84"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57454",
+      "virtual_address": "0x3c187454",
+      "text": "%s==>%s",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1b98",
+          "virtual_address": "0x42001b98"
+        },
+        {
+          "file_offset": "0xa1d40",
+          "virtual_address": "0x42001d40"
+        },
+        {
+          "file_offset": "0xe04b0",
+          "virtual_address": "0x420404b0"
+        },
+        {
+          "file_offset": "0xe13ec",
+          "virtual_address": "0x420413ec"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57460",
+      "virtual_address": "0x3c187460",
+      "text": "FWBMS_DISTURB_CONFIG init %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1ba0",
+          "virtual_address": "0x42001ba0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57480",
+      "virtual_address": "0x3c187480",
+      "text": "Start to charger id:%d, front:%ld, rear:%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bb8",
+          "virtual_address": "0x42001bb8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x574b0",
+      "virtual_address": "0x3c1874b0",
+      "text": "start to charger buffer size error! buf size:%d, fc:%d, rc:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bbc",
+          "virtual_address": "0x42001bbc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x574f0",
+      "virtual_address": "0x3c1874f0",
+      "text": "IsRebuildMap=%d,last_status_=%d,ClossToCharger=%d,front_rebuild=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bc0",
+          "virtual_address": "0x42001bc0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57534",
+      "virtual_address": "0x3c187534",
+      "text": "Start to charger rebuild correction sucess! fdfd:%d, fdrd:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bc4",
+          "virtual_address": "0x42001bc4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57574",
+      "virtual_address": "0x3c187574",
+      "text": "Follow wire id:%d, front:%ld, rear:%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bc8",
+          "virtual_address": "0x42001bc8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5759c",
+      "virtual_address": "0x3c18759c",
+      "text": "follow wire buffer size error! buf size:%d, fc:%d, rc:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bcc",
+          "virtual_address": "0x42001bcc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x575d8",
+      "virtual_address": "0x3c1875d8",
+      "text": "map_dock:front[front]=%d,front[rear]=%d,rear[front]=%d,rear[rear]=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bd0",
+          "virtual_address": "0x42001bd0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57620",
+      "virtual_address": "0x3c187620",
+      "text": "need rebuild,map_count=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bd4",
+          "virtual_address": "0x42001bd4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5763c",
+      "virtual_address": "0x3c18763c",
+      "text": "last:1m=%.2f,cur:1m=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bdc",
+          "virtual_address": "0x42001bdc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57658",
+      "virtual_address": "0x3c187658",
+      "text": "need rebuild,wire pose charge",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1be0",
+          "virtual_address": "0x42001be0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57678",
+      "virtual_address": "0x3c187678",
+      "text": "no need rebuild,slope=%.2f,dcok_diff=%ld, 142.8 * %.2f * 2 = %.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1be8",
+          "virtual_address": "0x42001be8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x576bc",
+      "virtual_address": "0x3c1876bc",
+      "text": "Follow wire rebuild correction sucess! fdfd:%d, fdrd:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bec",
+          "virtual_address": "0x42001bec"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x576f8",
+      "virtual_address": "0x3c1876f8",
+      "text": "rebuild correction! fdfd:%d, fdrd:%d, rdfd:%d, rdrd:%d, fid:%d, rid:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bf8",
+          "virtual_address": "0x42001bf8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57740",
+      "virtual_address": "0x3c187740",
+      "text": "NEED_REBUILD rebuild_buffer_size_:%d,",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1bfc",
+          "virtual_address": "0x42001bfc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57768",
+      "virtual_address": "0x3c187768",
+      "text": "Build Map Start! yaw_offset:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c04",
+          "virtual_address": "0x42001c04"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57788",
+      "virtual_address": "0x3c187788",
+      "text": "BUILD MAP Error!Unable To Leave Charger And Unable To Return.",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c0c",
+          "virtual_address": "0x42001c0c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x577c8",
+      "virtual_address": "0x3c1877c8",
+      "text": "BUILD MAP ERROR! winding_status_error_cnt > 3!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c10",
+          "virtual_address": "0x42001c10"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x577f8",
+      "virtual_address": "0x3c1877f8",
+      "text": "BUILD MAP Error!Unable To Leave Charger.",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c14",
+          "virtual_address": "0x42001c14"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57824",
+      "virtual_address": "0x3c187824",
+      "text": "FWBMS_START_TO_CHARGER d_yaw > 2 * M_2PI start pose x=%f,y=%f,yaw_rad=%f, end pose x=%f,y=%f,yaw_rad=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c1c",
+          "virtual_address": "0x42001c1c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57890",
+      "virtual_address": "0x3c187890",
+      "text": "FWBMS_START_TO_CHARGER d_yaw > M_2PI start pose x=%f,y=%f,yaw_rad=%f, end pose x=%f,y=%f,yaw_rad=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c20",
+          "virtual_address": "0x42001c20"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x578f8",
+      "virtual_address": "0x3c1878f8",
+      "text": "start dead loop counting!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c24",
+          "virtual_address": "0x42001c24"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57914",
+      "virtual_address": "0x3c187914",
+      "text": "average_start_wire_pos:%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c28",
+          "virtual_address": "0x42001c28"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57930",
+      "virtual_address": "0x3c187930",
+      "text": "Start Yaw Rad:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c2c",
+          "virtual_address": "0x42001c2c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57944",
+      "virtual_address": "0x3c187944",
+      "text": "start_time:%ld Now: %ld/n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c30",
+          "virtual_address": "0x42001c30"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57960",
+      "virtual_address": "0x3c187960",
+      "text": "yanxian_disturb_count_get = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c3c",
+          "virtual_address": "0x42001c3c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57980",
+      "virtual_address": "0x3c187980",
+      "text": "too long to charger",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c44",
+          "virtual_address": "0x42001c44"
+        },
+        {
+          "file_offset": "0xe1458",
+          "virtual_address": "0x42041458"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57998",
+      "virtual_address": "0x3c187998",
+      "text": "start_time:%ld/n",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c48",
+          "virtual_address": "0x42001c48"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x579ac",
+      "virtual_address": "0x3c1879ac",
+      "text": "BUILD MAP ERROR OCCUR! UNABLE TO FIND WIRE!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c50",
+          "virtual_address": "0x42001c50"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x579dc",
+      "virtual_address": "0x3c1879dc",
+      "text": "disturb config suceed! rebuilding map",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c5c",
+          "virtual_address": "0x42001c5c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57a04",
+      "virtual_address": "0x3c187a04",
+      "text": "disturb config over time!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c64",
+          "virtual_address": "0x42001c64"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57a20",
+      "virtual_address": "0x3c187a20",
+      "text": "disturb config suceed! FWBMS_BUILD_MAP",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c68",
+          "virtual_address": "0x42001c68"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57a48",
+      "virtual_address": "0x3c187a48",
+      "text": "Collision occur when building map!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c6c",
+          "virtual_address": "0x42001c6c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57a6c",
+      "virtual_address": "0x3c187a6c",
+      "text": "collision before rebuild judge!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c70",
+          "virtual_address": "0x42001c70"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57a90",
+      "virtual_address": "0x3c187a90",
+      "text": "BUILD MAP ERROR! COLLISION TIMES > 3!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c74",
+          "virtual_address": "0x42001c74"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57ab8",
+      "virtual_address": "0x3c187ab8",
+      "text": "build_map_time :%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c78",
+          "virtual_address": "0x42001c78"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57ad0",
+      "virtual_address": "0x3c187ad0",
+      "text": "skid_cnt_change!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c94",
+          "virtual_address": "0x42001c94"
+        },
+        {
+          "file_offset": "0xa33b4",
+          "virtual_address": "0x420033b4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57ae4",
+      "virtual_address": "0x3c187ae4",
+      "text": "MAP BUILD FAILED! TRAPPED IN HOLE OR HAND OR STH ELSE!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1c98",
+          "virtual_address": "0x42001c98"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57b1c",
+      "virtual_address": "0x3c187b1c",
+      "text": "window_change,f:%f, r:%f,wirlen_avg,f:%f,r:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1ca0",
+          "virtual_address": "0x42001ca0"
+        },
+        {
+          "file_offset": "0xa33dc",
+          "virtual_address": "0x420033dc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57b4c",
+      "virtual_address": "0x3c187b4c",
+      "text": "start wirlen, front:%f rear:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1ca4",
+          "virtual_address": "0x42001ca4"
+        },
+        {
+          "file_offset": "0xa33e0",
+          "virtual_address": "0x420033e0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57b74",
+      "virtual_address": "0x3c187b74",
+      "text": "BUILD MAP ERROR! WIRE LENGTH OVERLONG!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1cc4",
+          "virtual_address": "0x42001cc4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57b9c",
+      "virtual_address": "0x3c187b9c",
+      "text": "set ramp value:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1cd4",
+          "virtual_address": "0x42001cd4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57bb0",
+      "virtual_address": "0x3c187bb0",
+      "text": "ramp_cnt:%d, ramp_value:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1ce0",
+          "virtual_address": "0x42001ce0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57bcc",
+      "virtual_address": "0x3c187bcc",
+      "text": "Error side to build the map! Accu Yaw:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1ce8",
+          "virtual_address": "0x42001ce8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57bf8",
+      "virtual_address": "0x3c187bf8",
+      "text": "Didn't go around! Accu Yaw:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1cf4",
+          "virtual_address": "0x42001cf4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57c18",
+      "virtual_address": "0x3c187c18",
+      "text": "Finish Building Map Too Soon! Map Size:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1cf8",
+          "virtual_address": "0x42001cf8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57c44",
+      "virtual_address": "0x3c187c44",
+      "text": "BUILD MAP ERROR! MAP SIZE OVER LIMIT! MAP SIZE:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d04",
+          "virtual_address": "0x42001d04"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57c78",
+      "virtual_address": "0x3c187c78",
+      "text": "com succ time = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d10",
+          "virtual_address": "0x42001d10"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57c8c",
+      "virtual_address": "0x3c187c8c",
+      "text": "com timeout time = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d14",
+          "virtual_address": "0x42001d14"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57ca4",
+      "virtual_address": "0x3c187ca4",
+      "text": "wire base time=%d,1m=%.2f,no_err=%d,SensorGnd=%d,get_cnt=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d18",
+          "virtual_address": "0x42001d18"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57ce4",
+      "virtual_address": "0x3c187ce4",
+      "text": "change to random mow! wire pose signal:%f, ramp value:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d28",
+          "virtual_address": "0x42001d28"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57d20",
+      "virtual_address": "0x3c187d20",
+      "text": "build_map_battery : %d   start_battery: %d   build_map_time : %ld   start_time : %ld ",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d2c",
+          "virtual_address": "0x42001d2c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57d78",
+      "virtual_address": "0x3c187d78",
+      "text": "FWBMS_INIT",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95388",
+          "virtual_address": "0x3fc9bd94"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57d84",
+      "virtual_address": "0x3c187d84",
+      "text": "FWBMS_START_TO_CHARGER",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9538c",
+          "virtual_address": "0x3fc9bd98"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57d9c",
+      "virtual_address": "0x3c187d9c",
+      "text": "FWBMS_RECORD_CHARGER_DATA",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95390",
+          "virtual_address": "0x3fc9bd9c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57db8",
+      "virtual_address": "0x3c187db8",
+      "text": "FWBMS_LEAVE_CHARGER",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95394",
+          "virtual_address": "0x3fc9bda0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57dcc",
+      "virtual_address": "0x3c187dcc",
+      "text": "FWBMS_LEAVE_CHARGER_TURN_AROUND",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95398",
+          "virtual_address": "0x3fc9bda4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57dec",
+      "virtual_address": "0x3c187dec",
+      "text": "FWBMS_AROUND_CHARGER",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9539c",
+          "virtual_address": "0x3fc9bda8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57e04",
+      "virtual_address": "0x3c187e04",
+      "text": "FWBMS_FOLLOW_WIRE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953a0",
+          "virtual_address": "0x3fc9bdac"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57e18",
+      "virtual_address": "0x3c187e18",
+      "text": "FWBMS_TO_CHARGER",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953a4",
+          "virtual_address": "0x3fc9bdb0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57e2c",
+      "virtual_address": "0x3c187e2c",
+      "text": "FWBMS_BUILD_MAP",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953a8",
+          "virtual_address": "0x3fc9bdb4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57e3c",
+      "virtual_address": "0x3c187e3c",
+      "text": "FWBMS_AROUND_OBS",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953ac",
+          "virtual_address": "0x3fc9bdb8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57e50",
+      "virtual_address": "0x3c187e50",
+      "text": "FWBMS_DISTURB_CONFIG",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953b0",
+          "virtual_address": "0x3fc9bdbc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57e68",
+      "virtual_address": "0x3c187e68",
+      "text": "FWBMS_TURN_AROUND_TO_CHARGER",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953b4",
+          "virtual_address": "0x3fc9bdc0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57e88",
+      "virtual_address": "0x3c187e88",
+      "text": "FWBMS_END",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953b8",
+          "virtual_address": "0x3fc9bdc4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57e94",
+      "virtual_address": "0x3c187e94",
+      "text": "FWBMS_ERROR",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953bc",
+          "virtual_address": "0x3fc9bdc8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57ea0",
+      "virtual_address": "0x3c187ea0",
+      "text": "./main/tasks/task_mow/mow_status/ms_build_map/start_to_charger.cpp",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d44",
+          "virtual_address": "0x42001d44"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57ee4",
+      "virtual_address": "0x3c187ee4",
+      "text": "%s --> %s, line:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d50",
+          "virtual_address": "0x42001d50"
+        },
+        {
+          "file_offset": "0xa353c",
+          "virtual_address": "0x4200353c"
+        },
+        {
+          "file_offset": "0xe1494",
+          "virtual_address": "0x42041494"
+        },
+        {
+          "file_offset": "0xe14e8",
+          "virtual_address": "0x420414e8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57ef8",
+      "virtual_address": "0x3c187ef8",
+      "text": "./main/tasks/task_mow/motion/motion_no_map_on_wire/motion_no_map_on_wire.h",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d54",
+          "virtual_address": "0x42001d54"
+        },
+        {
+          "file_offset": "0xa3540",
+          "virtual_address": "0x42003540"
+        },
+        {
+          "file_offset": "0xe1498",
+          "virtual_address": "0x42041498"
+        },
+        {
+          "file_offset": "0xe14ec",
+          "virtual_address": "0x420414ec"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57f44",
+      "virtual_address": "0x3c187f44",
+      "text": "start around island",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d58",
+          "virtual_address": "0x42001d58"
+        },
+        {
+          "file_offset": "0xe149c",
+          "virtual_address": "0x4204149c"
+        },
+        {
+          "file_offset": "0xe14f0",
+          "virtual_address": "0x420414f0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57f6e",
+      "virtual_address": "0x3c187f6e",
+      "text": "zDcollision more than six time in leave charger",
+      "aligned_pointer_candidates": []
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57fa0",
+      "virtual_address": "0x3c187fa0",
+      "text": "collision in leave charger",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d6c",
+          "virtual_address": "0x42001d6c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57fbc",
+      "virtual_address": "0x3c187fbc",
+      "text": "collision more than six time in around charger",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d70",
+          "virtual_address": "0x42001d70"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x57fec",
+      "virtual_address": "0x3c187fec",
+      "text": "collision in around charger",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d74",
+          "virtual_address": "0x42001d74"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5800c",
+      "virtual_address": "0x3c18800c",
+      "text": "skid when heading back dock!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d78",
+          "virtual_address": "0x42001d78"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5802c",
+      "virtual_address": "0x3c18802c",
+      "text": "cannot find wire!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d7c",
+          "virtual_address": "0x42001d7c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58040",
+      "virtual_address": "0x3c188040",
+      "text": "too much collision",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d80",
+          "virtual_address": "0x42001d80"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58054",
+      "virtual_address": "0x3c188054",
+      "text": "to charger done",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1d8c",
+          "virtual_address": "0x42001d8c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58068",
+      "virtual_address": "0x3c188068",
+      "text": "distance to landing:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1da0",
+          "virtual_address": "0x42001da0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58080",
+      "virtual_address": "0x3c188080",
+      "text": "current_pose_number:%d,oppo_wire_len:%f,wire_len:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1da4",
+          "virtual_address": "0x42001da4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x580b8",
+      "virtual_address": "0x3c1880b8",
+      "text": "distance before off:%f, error time:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1da8",
+          "virtual_address": "0x42001da8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x580e0",
+      "virtual_address": "0x3c1880e0",
+      "text": "current_to_landing_dis:%f,landing_to_target_dis:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1db0",
+          "virtual_address": "0x42001db0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58114",
+      "virtual_address": "0x3c188114",
+      "text": "start oppo wire follow",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1db4",
+          "virtual_address": "0x42001db4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5812c",
+      "virtual_address": "0x3c18812c",
+      "text": "on_pile soft reset!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1dbc",
+          "virtual_address": "0x42001dbc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58144",
+      "virtual_address": "0x3c188144",
+      "text": "stc collision count:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1dc0",
+          "virtual_address": "0x42001dc0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5815c",
+      "virtual_address": "0x3c18815c",
+      "text": "collision in away charger",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1dc4",
+          "virtual_address": "0x42001dc4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58178",
+      "virtual_address": "0x3c188178",
+      "text": "collision more than six time away charger",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1dc8",
+          "virtual_address": "0x42001dc8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x581a4",
+      "virtual_address": "0x3c1881a4",
+      "text": "relocate success in back to dock!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1dcc",
+          "virtual_address": "0x42001dcc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x581c8",
+      "virtual_address": "0x3c1881c8",
+      "text": "oppo return! start wire pose:%d, end wire pose:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1dd4",
+          "virtual_address": "0x42001dd4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x581fc",
+      "virtual_address": "0x3c1881fc",
+      "text": "on pile time too long!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1dd8",
+          "virtual_address": "0x42001dd8"
+        },
+        {
+          "file_offset": "0xe0b9c",
+          "virtual_address": "0x42040b9c"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58214",
+      "virtual_address": "0x3c188214",
+      "text": "follow wire turn around! no winding status!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1ddc",
+          "virtual_address": "0x42001ddc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58244",
+      "virtual_address": "0x3c188244",
+      "text": "follow wire turn around! no map on wire!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa1de0",
+          "virtual_address": "0x42001de0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58270",
+      "virtual_address": "0x3c188270",
+      "text": "STC_INIT",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953c0",
+          "virtual_address": "0x3fc9bdcc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x5827c",
+      "virtual_address": "0x3c18827c",
+      "text": "STC_LEAVE_CHARGER",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953c4",
+          "virtual_address": "0x3fc9bdd0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58290",
+      "virtual_address": "0x3c188290",
+      "text": "STC_AROUND_CHARGER",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953c8",
+          "virtual_address": "0x3fc9bdd4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x582a4",
+      "virtual_address": "0x3c1882a4",
+      "text": "STC_FOLLOW_WIRE_TO_CHARGER",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953cc",
+          "virtual_address": "0x3fc9bdd8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x582c0",
+      "virtual_address": "0x3c1882c0",
+      "text": "STC_TURN_AROUND_FOLLOW_WIRE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953d0",
+          "virtual_address": "0x3fc9bddc"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x582dc",
+      "virtual_address": "0x3c1882dc",
+      "text": "STC_NO_MAP_NO_WIRE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953d4",
+          "virtual_address": "0x3fc9bde0"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x582f0",
+      "virtual_address": "0x3c1882f0",
+      "text": "STC_OFF_WIRE_TO_TARGET",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953d8",
+          "virtual_address": "0x3fc9bde4"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58308",
+      "virtual_address": "0x3c188308",
+      "text": "STC_ERROR",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953dc",
+          "virtual_address": "0x3fc9bde8"
+        }
+      ]
+    },
+    {
+      "region": "startup_mapping",
+      "file_offset": "0x58314",
+      "virtual_address": "0x3c188314",
+      "text": "STC_END",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x953e0",
+          "virtual_address": "0x3fc9bdec"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60abc",
+      "virtual_address": "0x3c190abc",
+      "text": "./main/tasks/task_mow/motion/motion_wire_follow_turn_around/motion_wire_follow_turn_around.cpp",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa34e8",
+          "virtual_address": "0x420034e8"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60b1c",
+      "virtual_address": "0x3c190b1c",
+      "text": "target_dir:%ld, turn around dir:%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa34ec",
+          "virtual_address": "0x420034ec"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60b44",
+      "virtual_address": "0x3c190b44",
+      "text": "bow init -> back_in_circle",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa34f4",
+          "virtual_address": "0x420034f4"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60b60",
+      "virtual_address": "0x3c190b60",
+      "text": "bow init -> turn_around",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa34f8",
+          "virtual_address": "0x420034f8"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60b7c",
+      "virtual_address": "0x3c190b7c",
+      "text": "bow back in circle -> turn around",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa34fc",
+          "virtual_address": "0x420034fc"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60ba0",
+      "virtual_address": "0x3c190ba0",
+      "text": "bow back in circle more than 1min",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3500",
+          "virtual_address": "0x42003500"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60bc4",
+      "virtual_address": "0x3c190bc4",
+      "text": "bow back in circle,bl=%d,Distance=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3508",
+          "virtual_address": "0x42003508"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60bec",
+      "virtual_address": "0x3c190bec",
+      "text": "back_in_circle -> turn_around",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa350c",
+          "virtual_address": "0x4200350c"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60c0c",
+      "virtual_address": "0x3c190c0c",
+      "text": "bow turn_around-->backward",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3510",
+          "virtual_address": "0x42003510"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60c28",
+      "virtual_address": "0x3c190c28",
+      "text": "backward more than 1m",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3514",
+          "virtual_address": "0x42003514"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60c40",
+      "virtual_address": "0x3c190c40",
+      "text": "need_rotate_dir=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3520",
+          "virtual_address": "0x42003520"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60c54",
+      "virtual_address": "0x3c190c54",
+      "text": "trapped when turnaround",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3524",
+          "virtual_address": "0x42003524"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60c70",
+      "virtual_address": "0x3c190c70",
+      "text": "backward_on_wire",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95504",
+          "virtual_address": "0x3fc9bf10"
+        }
+      ]
+    },
+    {
+      "region": "wire_turnaround",
+      "file_offset": "0x60c84",
+      "virtual_address": "0x3c190c84",
+      "text": "turn_around",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95508",
+          "virtual_address": "0x3fc9bf14"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61010",
+      "virtual_address": "0x3c191010",
+      "text": "Matching length:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa36a4",
+          "virtual_address": "0x420036a4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61024",
+      "virtual_address": "0x3c191024",
+      "text": "map,%d,x,%.3f,y,%.3f,conA,%.3f,len_f,%ld,len_r,%ld,yaw,%.3f,odo,%.3f,std,%.3f,pitch,%.3f,roll,%.3f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa36c4",
+          "virtual_address": "0x420036c4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61088",
+      "virtual_address": "0x3c191088",
+      "text": "isolated_island[%d]:x=%.3f,y=%.3f,yaw=%.3f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa36cc",
+          "virtual_address": "0x420036cc"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x610b4",
+      "virtual_address": "0x3c1910b4",
+      "text": "size: %ld, front: %f, back: %f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa36d4",
+          "virtual_address": "0x420036d4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x610d4",
+      "virtual_address": "0x3c1910d4",
+      "text": "InitPosePercent find wire_len_begin idx = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3700",
+          "virtual_address": "0x42003700"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61104",
+      "virtual_address": "0x3c191104",
+      "text": "InitPosePercent find wire_len_end idx = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa370c",
+          "virtual_address": "0x4200370c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61130",
+      "virtual_address": "0x3c191130",
+      "text": "InitPosePercent idx = %d, AB_AVG = %f, WIRE_LEN = %f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3714",
+          "virtual_address": "0x42003714"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61168",
+      "virtual_address": "0x3c191168",
+      "text": "InitPosePercent boundary_wire_len = %f, total_wire_len = %f, ab_avg_all = %f, ab_avg_m = %f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3718",
+          "virtual_address": "0x42003718"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x611c8",
+      "virtual_address": "0x3c1911c8",
+      "text": "InitPosePercent idx = %d, f_pct = %f, b_pct = %f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa371c",
+          "virtual_address": "0x4200371c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x611fc",
+      "virtual_address": "0x3c1911fc",
+      "text": "InitPosePercent rebuild_tolerance = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3728",
+          "virtual_address": "0x42003728"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61224",
+      "virtual_address": "0x3c191224",
+      "text": "map_size_ is invalid, map_size_: %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3730",
+          "virtual_address": "0x42003730"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6124c",
+      "virtual_address": "0x3c19124c",
+      "text": "here 1 find",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3734",
+          "virtual_address": "0x42003734"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6125c",
+      "virtual_address": "0x3c19125c",
+      "text": "here 2 find",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3738",
+          "virtual_address": "0x42003738"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6126c",
+      "virtual_address": "0x3c19126c",
+      "text": "find_last=%d,now_init_on_num = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa373c",
+          "virtual_address": "0x4200373c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61290",
+      "virtual_address": "0x3c191290",
+      "text": "seg_pos[%d]:num_init=%d,cnt=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3740",
+          "virtual_address": "0x42003740"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x612b0",
+      "virtual_address": "0x3c1912b0",
+      "text": "narrow_channel_buffer[%d]:beg=%d,end=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3744",
+          "virtual_address": "0x42003744"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x612dc",
+      "virtual_address": "0x3c1912dc",
+      "text": "total_wire_len=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3764",
+          "virtual_address": "0x42003764"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x612f4",
+      "virtual_address": "0x3c1912f4",
+      "text": "query_pct:%f,isolated_size=%d,num_before=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3770",
+          "virtual_address": "0x42003770"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61324",
+      "virtual_address": "0x3c191324",
+      "text": "Break point query wire length:%f, begin length:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3774",
+          "virtual_address": "0x42003774"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61358",
+      "virtual_address": "0x3c191358",
+      "text": "break point map_cnt=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3778",
+          "virtual_address": "0x42003778"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61370",
+      "virtual_address": "0x3c191370",
+      "text": "map_size_=%d,num=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa378c",
+          "virtual_address": "0x4200378c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61388",
+      "virtual_address": "0x3c191388",
+      "text": "wire pose data error!!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3794",
+          "virtual_address": "0x42003794"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x613a4",
+      "virtual_address": "0x3c1913a4",
+      "text": "wire pose data:1m=%.2fns,std:f=%.2f,b=%.2f,conA:f=%.2f,b=%.2f,,count:f=%d,b=%d,ab_avg:f=%.2f,b=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3798",
+          "virtual_address": "0x42003798"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6140c",
+      "virtual_address": "0x3c19140c",
+      "text": "wire pose data error, set mow dir to MOW_DIR_CRISSCROSS!!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa37a0",
+          "virtual_address": "0x420037a0"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61448",
+      "virtual_address": "0x3c191448",
+      "text": "CalculateMapArea array out of bounds in the current calculation",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa37d8",
+          "virtual_address": "0x420037d8"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6148c",
+      "virtual_address": "0x3c19148c",
+      "text": "seg_num=%d,cnt%d,cover_cali_num=%d!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa37dc",
+          "virtual_address": "0x420037dc"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x614b4",
+      "virtual_address": "0x3c1914b4",
+      "text": "part_area=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa37ec",
+          "virtual_address": "0x420037ec"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x614c4",
+      "virtual_address": "0x3c1914c4",
+      "text": "Map area calculation completed map_area = %.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa37f0",
+          "virtual_address": "0x420037f0"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x614f4",
+      "virtual_address": "0x3c1914f4",
+      "text": "MapMarkSharpCorner no.%d,beg_idx:%d,end_idx:%d,x=%.2f,y=%.2f,slope=%.2f,cali_yaw=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3838",
+          "virtual_address": "0x42003838"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6154c",
+      "virtual_address": "0x3c19154c",
+      "text": "boundary_points_num:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3848",
+          "virtual_address": "0x42003848"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61564",
+      "virtual_address": "0x3c191564",
+      "text": "boundary_points_num=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa384c",
+          "virtual_address": "0x4200384c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6157c",
+      "virtual_address": "0x3c19157c",
+      "text": "skid_times:%d, no_skid_times:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3850",
+          "virtual_address": "0x42003850"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x615a0",
+      "virtual_address": "0x3c1915a0",
+      "text": "Too Much Similar Data!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3888",
+          "virtual_address": "0x42003888"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x615b8",
+      "virtual_address": "0x3c1915b8",
+      "text": "./main/tasks/task_mow/mower_alg/map_manager/map_manager.cpp",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9b6a0",
+          "virtual_address": "0x403748b4"
+        },
+        {
+          "file_offset": "0xa388c",
+          "virtual_address": "0x4200388c"
+        },
+        {
+          "file_offset": "0xa3a88",
+          "virtual_address": "0x42003a88"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x615f4",
+      "virtual_address": "0x3c1915f4",
+      "text": "confidence:front=%.2f,rear=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9b69c",
+          "virtual_address": "0x403748b0"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61618",
+      "virtual_address": "0x3c191618",
+      "text": "pose:01,x=%.2f,y=%.2f,Yaw=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9b6ac",
+          "virtual_address": "0x403748c0"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61638",
+      "virtual_address": "0x3c191638",
+      "text": "Can't Find Similar Data! Mid_data:%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3894",
+          "virtual_address": "0x42003894"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61660",
+      "virtual_address": "0x3c191660",
+      "text": "top_left:[%f,%f], bottom_right:[%f,%f]",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38bc",
+          "virtual_address": "0x420038bc"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61688",
+      "virtual_address": "0x3c191688",
+      "text": "Wire Is Too Short!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38c4",
+          "virtual_address": "0x420038c4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6169c",
+      "virtual_address": "0x3c19169c",
+      "text": "end_wire_pos:%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38c8",
+          "virtual_address": "0x420038c8"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x616b0",
+      "virtual_address": "0x3c1916b0",
+      "text": "wire_pos_slope:%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38d0",
+          "virtual_address": "0x420038d0"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x616c4",
+      "virtual_address": "0x3c1916c4",
+      "text": "map centre_pose:x=%.2f,y=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38d4",
+          "virtual_address": "0x420038d4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x616e4",
+      "virtual_address": "0x3c1916e4",
+      "text": "map centre pose to wire far!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38dc",
+          "virtual_address": "0x420038dc"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61704",
+      "virtual_address": "0x3c191704",
+      "text": "Invalid Map Address!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38e4",
+          "virtual_address": "0x420038e4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6171c",
+      "virtual_address": "0x3c19171c",
+      "text": "Caculate Map Succeed!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38ec",
+          "virtual_address": "0x420038ec"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61734",
+      "virtual_address": "0x3c191734",
+      "text": "compress_map address invalid!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38f0",
+          "virtual_address": "0x420038f0"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61754",
+      "virtual_address": "0x3c191754",
+      "text": "my function is running!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa38f4",
+          "virtual_address": "0x420038f4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61770",
+      "virtual_address": "0x3c191770",
+      "text": "Copy Coil Data Succeed!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3900",
+          "virtual_address": "0x42003900"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6178c",
+      "virtual_address": "0x3c19178c",
+      "text": "start_num=%d,cur_b=%f,start=%f,end=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3918",
+          "virtual_address": "0x42003918"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x617b4",
+      "virtual_address": "0x3c1917b4",
+      "text": "tar pose:x=%f,y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3924",
+          "virtual_address": "0x42003924"
+        },
+        {
+          "file_offset": "0xe0b2c",
+          "virtual_address": "0x42040b2c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x617c8",
+      "virtual_address": "0x3c1917c8",
+      "text": "num=%d,x=%.3f,y=%.3f,x+1=%.3f,y+1=%.3f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa393c",
+          "virtual_address": "0x4200393c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x617f0",
+      "virtual_address": "0x3c1917f0",
+      "text": "x=%.3f,x+1=%.3f,cur_b=%.3f,map_count=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3940",
+          "virtual_address": "0x42003940"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x6181c",
+      "virtual_address": "0x3c19181c",
+      "text": "true[%d]:x=%.3f,y=%.3f,count_num=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3944",
+          "virtual_address": "0x42003944"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61844",
+      "virtual_address": "0x3c191844",
+      "text": "err:x=%.3f,y=%.3f,count_num=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3948",
+          "virtual_address": "0x42003948"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61864",
+      "virtual_address": "0x3c191864",
+      "text": "-----error-----, line with more than %d points",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa394c",
+          "virtual_address": "0x4200394c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61894",
+      "virtual_address": "0x3c191894",
+      "text": "tar_pose_yaw=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3958",
+          "virtual_address": "0x42003958"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x618a8",
+      "virtual_address": "0x3c1918a8",
+      "text": "dis num=%d,pose:x=%.2f,y=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa395c",
+          "virtual_address": "0x4200395c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x618c8",
+      "virtual_address": "0x3c1918c8",
+      "text": "dis near num=%d,pose:x=%.2f,y=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3964",
+          "virtual_address": "0x42003964"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x618ec",
+      "virtual_address": "0x3c1918ec",
+      "text": "dis point_nim num=%d,pose:x=%.2f,y=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa396c",
+          "virtual_address": "0x4200396c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61918",
+      "virtual_address": "0x3c191918",
+      "text": "cur[%d]_y=%f,last_y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3974",
+          "virtual_address": "0x42003974"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61934",
+      "virtual_address": "0x3c191934",
+      "text": "cur_y[%d]=%f,last_y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3978",
+          "virtual_address": "0x42003978"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61950",
+      "virtual_address": "0x3c191950",
+      "text": "no find point,point_count=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa397c",
+          "virtual_address": "0x4200397c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61970",
+      "virtual_address": "0x3c191970",
+      "text": "point_count=%d,tar_num=%d,x=%f,y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3980",
+          "virtual_address": "0x42003980"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61998",
+      "virtual_address": "0x3c191998",
+      "text": "point is 1/2 zigzag_spacing",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3988",
+          "virtual_address": "0x42003988"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x619b8",
+      "virtual_address": "0x3c1919b8",
+      "text": "point is start",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa398c",
+          "virtual_address": "0x4200398c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x619c8",
+      "virtual_address": "0x3c1919c8",
+      "text": "new:num=%d,pose.x=%f,y=%f,tar:num=%d,pose.x=%f,y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3990",
+          "virtual_address": "0x42003990"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61a00",
+      "virtual_address": "0x3c191a00",
+      "text": "no find!!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3994",
+          "virtual_address": "0x42003994"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61a0c",
+      "virtual_address": "0x3c191a0c",
+      "text": "now_i=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3998",
+          "virtual_address": "0x42003998"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61a18",
+      "virtual_address": "0x3c191a18",
+      "text": "cur_num:0=%d,1=%d,2=%d,last=%d,l=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa39b4",
+          "virtual_address": "0x420039b4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61a40",
+      "virtual_address": "0x3c191a40",
+      "text": "narrow_channel[%d]:beg=%d,end=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa39c4",
+          "virtual_address": "0x420039c4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61a64",
+      "virtual_address": "0x3c191a64",
+      "text": "no break point!proportion=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa39cc",
+          "virtual_address": "0x420039cc"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61a84",
+      "virtual_address": "0x3c191a84",
+      "text": "no map",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa39d4",
+          "virtual_address": "0x420039d4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61a8c",
+      "virtual_address": "0x3c191a8c",
+      "text": "QueryPoseByPercent, map_cnt = %d, iso_pct = %f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa39dc",
+          "virtual_address": "0x420039dc"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61abc",
+      "virtual_address": "0x3c191abc",
+      "text": "pos_by_proportion:[%f,%f]",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa39e4",
+          "virtual_address": "0x420039e4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61ad8",
+      "virtual_address": "0x3c191ad8",
+      "text": "no map, max_length:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa39f4",
+          "virtual_address": "0x420039f4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61af0",
+      "virtual_address": "0x3c191af0",
+      "text": "get_target_length_by_length:%f, max length:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa39fc",
+          "virtual_address": "0x420039fc"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61b20",
+      "virtual_address": "0x3c191b20",
+      "text": "pos_by_length:[%f,%f], map_cnt = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3a04",
+          "virtual_address": "0x42003a04"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61b48",
+      "virtual_address": "0x3c191b48",
+      "text": "target line:x1:%f, y1:%f, x2:%f, y2:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3a18",
+          "virtual_address": "0x42003a18"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61b70",
+      "virtual_address": "0x3c191b70",
+      "text": "intersect line:x1:%f, y1:%f, x2:%f, y2:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3a20",
+          "virtual_address": "0x42003a20"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61b9c",
+      "virtual_address": "0x3c191b9c",
+      "text": "ab_avg_f=%f,ab_avg_b=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3a50",
+          "virtual_address": "0x42003a50"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61bb8",
+      "virtual_address": "0x3c191bb8",
+      "text": "start pose number:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3a80",
+          "virtual_address": "0x42003a80"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61bd0",
+      "virtual_address": "0x3c191bd0",
+      "text": "no match best landing, search time:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3a8c",
+          "virtual_address": "0x42003a8c"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61bf8",
+      "virtual_address": "0x3c191bf8",
+      "text": "target distance on wire:%f, current distance on wire:%f, direct distance:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3a94",
+          "virtual_address": "0x42003a94"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61c48",
+      "virtual_address": "0x3c191c48",
+      "text": "virtual_target_number before judge:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3aa4",
+          "virtual_address": "0x42003aa4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61c70",
+      "virtual_address": "0x3c191c70",
+      "text": "virtual_pose_x:%f, virtual_pose_y:%f, virtual_pose_number:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3aac",
+          "virtual_address": "0x42003aac"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61cb0",
+      "virtual_address": "0x3c191cb0",
+      "text": "landing_pose_x:%f, landing_pose_y:%f, landing_pose_number:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3ab4",
+          "virtual_address": "0x42003ab4"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61cf0",
+      "virtual_address": "0x3c191cf0",
+      "text": "Valid_target_number change to:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3abc",
+          "virtual_address": "0x42003abc"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61d14",
+      "virtual_address": "0x3c191d14",
+      "text": "max off wire mowing time is %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3ad0",
+          "virtual_address": "0x42003ad0"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61d34",
+      "virtual_address": "0x3c191d34",
+      "text": "CalculateCoverageRate sharp_corner_area = %.4f, map_area = %.4f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3b00",
+          "virtual_address": "0x42003b00"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61d78",
+      "virtual_address": "0x3c191d78",
+      "text": "CalculateCoverageRate real_cover_rate = %.4f, coverage_area = %.4f, map_area = %.4f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3b04",
+          "virtual_address": "0x42003b04"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61dd0",
+      "virtual_address": "0x3c191dd0",
+      "text": "reset Cover!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xa3b24",
+          "virtual_address": "0x42003b24"
+        }
+      ]
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61de3",
+      "virtual_address": "0x3c191de3",
+      "text": "?.V,?",
+      "aligned_pointer_candidates": []
+    },
+    {
+      "region": "map_manager",
+      "file_offset": "0x61dfe",
+      "virtual_address": "0x3c191dfe",
+      "text": "g?%;n?",
+      "aligned_pointer_candidates": []
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62370",
+      "virtual_address": "0x3c192370",
+      "text": "./main/tasks/task_mow/mow_status/ms_mow_global/ms_mow_global.cpp",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe05e4",
+          "virtual_address": "0x420405e4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x623b4",
+      "virtual_address": "0x3c1923b4",
+      "text": "skid_time_check cur_status:%s, clear skid_cnt_!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe05f4",
+          "virtual_address": "0x420405f4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x623e8",
+      "virtual_address": "0x3c1923e8",
+      "text": "cutter control change! speed:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0600",
+          "virtual_address": "0x42040600"
+        },
+        {
+          "file_offset": "0xe12dc",
+          "virtual_address": "0x420412dc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6240c",
+      "virtual_address": "0x3c19240c",
+      "text": "cutter control change! height:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe060c",
+          "virtual_address": "0x4204060c"
+        },
+        {
+          "file_offset": "0xe12ec",
+          "virtual_address": "0x420412ec"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62430",
+      "virtual_address": "0x3c192430",
+      "text": "cutter off! speed:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0610",
+          "virtual_address": "0x42040610"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62448",
+      "virtual_address": "0x3c192448",
+      "text": "nav_mow_srt",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe066c",
+          "virtual_address": "0x4204066c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62454",
+      "virtual_address": "0x3c192454",
+      "text": "app dir=%d,first dir=%d,cur=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe06e8",
+          "virtual_address": "0x420406e8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62474",
+      "virtual_address": "0x3c192474",
+      "text": "last get base gnd time=%ds,vs=0x%x,sensor=%d,build_map=%d,reset=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe06fc",
+          "virtual_address": "0x420406fc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x624b8",
+      "virtual_address": "0x3c1924b8",
+      "text": "send:ER609,time=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0714",
+          "virtual_address": "0x42040714"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x624cc",
+      "virtual_address": "0x3c1924cc",
+      "text": "nav_is_res",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe071c",
+          "virtual_address": "0x4204071c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x624d8",
+      "virtual_address": "0x3c1924d8",
+      "text": "nav_no_gnd",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0720",
+          "virtual_address": "0x42040720"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x624e4",
+      "virtual_address": "0x3c1924e4",
+      "text": "nav_onpile",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0724",
+          "virtual_address": "0x42040724"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x624f0",
+      "virtual_address": "0x3c1924f0",
+      "text": "mow_task_time=%llds",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0758",
+          "virtual_address": "0x42040758"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62508",
+      "virtual_address": "0x3c192508",
+      "text": "mow_task_time=%llds,standby=%.2f,charge=%.2f,run_tim=%.2f,MG=%.2f,BM=%.2f,RTMP=%.2f,BTD=%.2f,pos=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe075c",
+          "virtual_address": "0x4204075c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62570",
+      "virtual_address": "0x3c192570",
+      "text": "wf_dis=%.1fm,wf/all=%.2f,mow_global_time=%llds,zpf=%.2f,zwf=%.2f,zwaf=%.2f,zaw=%.2f,za=%.2f,awf=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0764",
+          "virtual_address": "0x42040764"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x625d8",
+      "virtual_address": "0x3c1925d8",
+      "text": "is_open_mow_around=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0770",
+          "virtual_address": "0x42040770"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x625f0",
+      "virtual_address": "0x3c1925f0",
+      "text": "Set is_random_global_mow: %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0774",
+          "virtual_address": "0x42040774"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62610",
+      "virtual_address": "0x3c192610",
+      "text": "random_global_mow_time_limit_s: [%lld s = %lld min]. map_width: [%.2f], map_height: [%.2f]",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe07a8",
+          "virtual_address": "0x420407a8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6266c",
+      "virtual_address": "0x3c19266c",
+      "text": "bat tatal=%.2f,rate_init=%.2f,rate=%.2f,bat_init=%d,bat=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe07e0",
+          "virtual_address": "0x420407e0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x626a8",
+      "virtual_address": "0x3c1926a8",
+      "text": "slope:max=%.2f,min=%.2f,yaw:max=%.2f,min=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0824",
+          "virtual_address": "0x42040824"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x626d8",
+      "virtual_address": "0x3c1926d8",
+      "text": "Random Done! Mow time: %lld s; Set mow time: %lld s",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0868",
+          "virtual_address": "0x42040868"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62710",
+      "virtual_address": "0x3c192710",
+      "text": "mow_global_status:%s---->%s,fl=%d,fr=%d,bl=%d,run time:now=%lld,all=%lld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe086c",
+          "virtual_address": "0x4204086c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6275c",
+      "virtual_address": "0x3c19275c",
+      "text": "dir change!!! ",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0870",
+          "virtual_address": "0x42040870"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6276c",
+      "virtual_address": "0x3c19276c",
+      "text": "zigzag done!!! ",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0874",
+          "virtual_address": "0x42040874"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62780",
+      "virtual_address": "0x3c192780",
+      "text": "need b2d before total wire follow",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0880",
+          "virtual_address": "0x42040880"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x627a4",
+      "virtual_address": "0x3c1927a4",
+      "text": "is_open_mow_around=%d ",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0884",
+          "virtual_address": "0x42040884"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x627bc",
+      "virtual_address": "0x3c1927bc",
+      "text": "mow_global_status:%s---->%sn",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe088c",
+          "virtual_address": "0x4204088c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x627dc",
+      "virtual_address": "0x3c1927dc",
+      "text": "mow global cycle time=%lld,run time=%lld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe089c",
+          "virtual_address": "0x4204089c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62808",
+      "virtual_address": "0x3c192808",
+      "text": "mow_global_status:%s,mode=%d,speed,ctl:v=%d,w=%d,tar:v=%d,w=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08b0",
+          "virtual_address": "0x420408b0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62848",
+      "virtual_address": "0x3c192848",
+      "text": "The mowing direction has changed and the machine is on wire!!! mow_global_status:%s---->%s",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08b4",
+          "virtual_address": "0x420408b4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x628a4",
+      "virtual_address": "0x3c1928a4",
+      "text": "EV_STOP,mow robot  passively pushes onto the charging pile!!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08c0",
+          "virtual_address": "0x420408c0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x628e4",
+      "virtual_address": "0x3c1928e4",
+      "text": "mow_global_status:%s---->%s,fl=%d,fr=%d,run time:now=%lld,all=%lld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08cc",
+          "virtual_address": "0x420408cc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62928",
+      "virtual_address": "0x3c192928",
+      "text": "zigzag done and dir change !!! after rebuilding the map",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08d0",
+          "virtual_address": "0x420408d0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62964",
+      "virtual_address": "0x3c192964",
+      "text": "mow_global_status:%s---->%s,fl=%d,fr=%d,run time:now=%lld,all=%lld,start_addr=%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08e0",
+          "virtual_address": "0x420408e0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x629b8",
+      "virtual_address": "0x3c1929b8",
+      "text": "now point_pose:x=%f,y=%f,yaw=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08e8",
+          "virtual_address": "0x420408e8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x629dc",
+      "virtual_address": "0x3c1929dc",
+      "text": "starting global wirefollow!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08ec",
+          "virtual_address": "0x420408ec"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x629fc",
+      "virtual_address": "0x3c1929fc",
+      "text": "mow_global_status:%s",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe08fc",
+          "virtual_address": "0x420408fc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62a14",
+      "virtual_address": "0x3c192a14",
+      "text": "getpose:x=%f,y=%f,yaw=%f,fl=%d,fr=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0900",
+          "virtual_address": "0x42040900"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62a3c",
+      "virtual_address": "0x3c192a3c",
+      "text": "need_rebuild_map_time=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0908",
+          "virtual_address": "0x42040908"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62a58",
+      "virtual_address": "0x3c192a58",
+      "text": "MOWER_INIT",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9556c",
+          "virtual_address": "0x3fc9bf78"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62a64",
+      "virtual_address": "0x3c192a64",
+      "text": "MOWER_BACK_CHARGE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95570",
+          "virtual_address": "0x3fc9bf7c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62a78",
+      "virtual_address": "0x3c192a78",
+      "text": "MOWER_TOTAL_WIREFOLLOW",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95574",
+          "virtual_address": "0x3fc9bf80"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62a90",
+      "virtual_address": "0x3c192a90",
+      "text": "MOWER_TOTAL_WALLFOLLOW",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95578",
+          "virtual_address": "0x3fc9bf84"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62aa8",
+      "virtual_address": "0x3c192aa8",
+      "text": "MOWER_TOTAL_WALLCHARGE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9557c",
+          "virtual_address": "0x3fc9bf88"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62ac0",
+      "virtual_address": "0x3c192ac0",
+      "text": "MOWER_AREA_ZONING",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95580",
+          "virtual_address": "0x3fc9bf8c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62ad4",
+      "virtual_address": "0x3c192ad4",
+      "text": "MOWER_AREA_PATHFOLLOW",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95584",
+          "virtual_address": "0x3fc9bf90"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62aec",
+      "virtual_address": "0x3c192aec",
+      "text": "MOWER_AREA_WIREFOLLOW",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95588",
+          "virtual_address": "0x3fc9bf94"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62b04",
+      "virtual_address": "0x3c192b04",
+      "text": "MOWER_AREA_WALLFOLLOW",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9558c",
+          "virtual_address": "0x3fc9bf98"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62b1c",
+      "virtual_address": "0x3c192b1c",
+      "text": "MOWER_ZIGZAG_ALIGN",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95590",
+          "virtual_address": "0x3fc9bf9c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62b30",
+      "virtual_address": "0x3c192b30",
+      "text": "MOWER_ZIGZAG_PATHPLAN",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95594",
+          "virtual_address": "0x3fc9bfa0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62b48",
+      "virtual_address": "0x3c192b48",
+      "text": "MOWER_ZIGZAG_PATHFOLLOW",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x95598",
+          "virtual_address": "0x3fc9bfa4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62b60",
+      "virtual_address": "0x3c192b60",
+      "text": "MOWER_ZIGZAG_TURNBACK",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x9559c",
+          "virtual_address": "0x3fc9bfa8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62b78",
+      "virtual_address": "0x3c192b78",
+      "text": "MOWER_ZIGZAG_ALIGNWIRE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955a0",
+          "virtual_address": "0x3fc9bfac"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62b90",
+      "virtual_address": "0x3c192b90",
+      "text": "MOWER_ZIGZAG_WIREFOLLOW",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955a4",
+          "virtual_address": "0x3fc9bfb0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62ba8",
+      "virtual_address": "0x3c192ba8",
+      "text": "MOWER_ZIGZAG_WALLFOLLOW",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955a8",
+          "virtual_address": "0x3fc9bfb4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62bc0",
+      "virtual_address": "0x3c192bc0",
+      "text": "MOWER_ZIGZAG_DONE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955ac",
+          "virtual_address": "0x3fc9bfb8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62bd4",
+      "virtual_address": "0x3c192bd4",
+      "text": "MOWER_DONE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955b0",
+          "virtual_address": "0x3fc9bfbc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62be0",
+      "virtual_address": "0x3c192be0",
+      "text": "MOWER_SKID_TO_FREE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955b4",
+          "virtual_address": "0x3fc9bfc0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62bf4",
+      "virtual_address": "0x3c192bf4",
+      "text": "MOWER_RANDOM_MOTION",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955b8",
+          "virtual_address": "0x3fc9bfc4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62c08",
+      "virtual_address": "0x3c192c08",
+      "text": "MOWER_RANDOM_TRUN",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955bc",
+          "virtual_address": "0x3fc9bfc8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62c1c",
+      "virtual_address": "0x3c192c1c",
+      "text": "MOWER_RANDOM_BACK",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955c0",
+          "virtual_address": "0x3fc9bfcc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62c30",
+      "virtual_address": "0x3c192c30",
+      "text": "MOWER_TOTAL_DONE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955c4",
+          "virtual_address": "0x3fc9bfd0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62c44",
+      "virtual_address": "0x3c192c44",
+      "text": "MOWER_RANDOM_DONE",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0x955c8",
+          "virtual_address": "0x3fc9bfd4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62d17",
+      "virtual_address": "0x3c192d17",
+      "text": "BChange is_random_mow_:  %d",
+      "aligned_pointer_candidates": []
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62d34",
+      "virtual_address": "0x3c192d34",
+      "text": "./main/tasks/task_mow/mow_status/ms_mow_global/mow_global_status.cpp",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe093c",
+          "virtual_address": "0x4204093c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62d7c",
+      "virtual_address": "0x3c192d7c",
+      "text": "SetRandomMotionDisLimit: %f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0944",
+          "virtual_address": "0x42040944"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62d9c",
+      "virtual_address": "0x3c192d9c",
+      "text": "last_num=%d,cur_num=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0948",
+          "virtual_address": "0x42040948"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62db4",
+      "virtual_address": "0x3c192db4",
+      "text": "last pose:x=%f,y=%f,cur pose:x=%f,y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe094c",
+          "virtual_address": "0x4204094c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62ddc",
+      "virtual_address": "0x3c192ddc",
+      "text": "x=%f,y=%f,yaw_rad=%f,fl=%d,fr=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0968",
+          "virtual_address": "0x42040968"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62e00",
+      "virtual_address": "0x3c192e00",
+      "text": "cur_num=%ld,StartAddr=%.2f,MapSize=%ld",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a0c",
+          "virtual_address": "0x42040a0c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62e28",
+      "virtual_address": "0x3c192e28",
+      "text": "GetCoverageRate=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a10",
+          "virtual_address": "0x42040a10"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62e40",
+      "virtual_address": "0x3c192e40",
+      "text": "min_zigzag_b=%f,max_zigzag_b=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a28",
+          "virtual_address": "0x42040a28"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62e64",
+      "virtual_address": "0x3c192e64",
+      "text": ",acc_yaw=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a2c",
+          "virtual_address": "0x42040a2c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62e74",
+      "virtual_address": "0x3c192e74",
+      "text": "wire follow status:last->%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a38",
+          "virtual_address": "0x42040a38"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62e94",
+      "virtual_address": "0x3c192e94",
+      "text": "wire follow status:0->%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a40",
+          "virtual_address": "0x42040a40"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62eb0",
+      "virtual_address": "0x3c192eb0",
+      "text": "wire follow status:1->%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a4c",
+          "virtual_address": "0x42040a4c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62ecc",
+      "virtual_address": "0x3c192ecc",
+      "text": "wire follow status=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a54",
+          "virtual_address": "0x42040a54"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62ee4",
+      "virtual_address": "0x3c192ee4",
+      "text": "wire follow status:2->%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a58",
+          "virtual_address": "0x42040a58"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62f00",
+      "virtual_address": "0x3c192f00",
+      "text": "wire follow status:3->%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a64",
+          "virtual_address": "0x42040a64"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62f1c",
+      "virtual_address": "0x3c192f1c",
+      "text": "wire follow status:4->%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a70",
+          "virtual_address": "0x42040a70"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62f38",
+      "virtual_address": "0x3c192f38",
+      "text": "wire follow status:5->%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a74",
+          "virtual_address": "0x42040a74"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62f54",
+      "virtual_address": "0x3c192f54",
+      "text": "wire follow status:6->%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0a80",
+          "virtual_address": "0x42040a80"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62f7c",
+      "virtual_address": "0x3c192f7c",
+      "text": "E315, leave charger error",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0ab8",
+          "virtual_address": "0x42040ab8"
+        },
+        {
+          "file_offset": "0xe1104",
+          "virtual_address": "0x42041104"
+        },
+        {
+          "file_offset": "0xe1354",
+          "virtual_address": "0x42041354"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62f98",
+      "virtual_address": "0x3c192f98",
+      "text": "Covered_pose[%d]:x=%.3f,y=%.3f,num=%d,is_on_down=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0ae8",
+          "virtual_address": "0x42040ae8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62fd0",
+      "virtual_address": "0x3c192fd0",
+      "text": "covered num=%d, no_down=%d,no_up=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0aec",
+          "virtual_address": "0x42040aec"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x62ff8",
+      "virtual_address": "0x3c192ff8",
+      "text": "tar_num=%d,cur_num=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0af0",
+          "virtual_address": "0x42040af0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63010",
+      "virtual_address": "0x3c193010",
+      "text": "tar pose:x=%f,y=%f,cur pose:x=%f,y=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0af4",
+          "virtual_address": "0x42040af4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63038",
+      "virtual_address": "0x3c193038",
+      "text": "zigzag too narrow for early transition",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0afc",
+          "virtual_address": "0x42040afc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63060",
+      "virtual_address": "0x3c193060",
+      "text": "zigzag deviation!!need to replan",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b00",
+          "virtual_address": "0x42040b00"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63084",
+      "virtual_address": "0x3c193084",
+      "text": "ToPoint Error,need to mow",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b08",
+          "virtual_address": "0x42040b08"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x630a0",
+      "virtual_address": "0x3c1930a0",
+      "text": "zigzag_num:old=%d,new=%d,num_dir=%d, zigzag_b=%f,gongzi_dir_=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b1c",
+          "virtual_address": "0x42040b1c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x630e4",
+      "virtual_address": "0x3c1930e4",
+      "text": "start check map!!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b20",
+          "virtual_address": "0x42040b20"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x630f8",
+      "virtual_address": "0x3c1930f8",
+      "text": "Check Map Done!!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b24",
+          "virtual_address": "0x42040b24"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6310c",
+      "virtual_address": "0x3c19310c",
+      "text": "end check map!!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b28",
+          "virtual_address": "0x42040b28"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63120",
+      "virtual_address": "0x3c193120",
+      "text": "physical_trapped",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b80",
+          "virtual_address": "0x42040b80"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63134",
+      "virtual_address": "0x3c193134",
+      "text": "status=%d,x=%.2f,y=%.2f,yaw_rad=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b84",
+          "virtual_address": "0x42040b84"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6315c",
+      "virtual_address": "0x3c19315c",
+      "text": "status-2-1=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b88",
+          "virtual_address": "0x42040b88"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6316c",
+      "virtual_address": "0x3c19316c",
+      "text": "status-2-2=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b8c",
+          "virtual_address": "0x42040b8c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6317c",
+      "virtual_address": "0x3c19317c",
+      "text": "wire_dir=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b90",
+          "virtual_address": "0x42040b90"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6318c",
+      "virtual_address": "0x3c19318c",
+      "text": "status-2-3=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0b94",
+          "virtual_address": "0x42040b94"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6319c",
+      "virtual_address": "0x3c19319c",
+      "text": "start Mark Covered!!! mode=%d,wire_follow=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bb8",
+          "virtual_address": "0x42040bb8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x631cc",
+      "virtual_address": "0x3c1931cc",
+      "text": "mode=%d,last pose:num=%d,x=%.3f,y=%.3f,cur pose:num=%d,x=%.3f,y=%.3f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bc0",
+          "virtual_address": "0x42040bc0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63214",
+      "virtual_address": "0x3c193214",
+      "text": "Change in case 0!zigzag_b:%f, fl:%d,fr:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bd4",
+          "virtual_address": "0x42040bd4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63240",
+      "virtual_address": "0x3c193240",
+      "text": "Change in case 0, fl:%d, fr:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bd8",
+          "virtual_address": "0x42040bd8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63260",
+      "virtual_address": "0x3c193260",
+      "text": "last_turn_dir=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bdc",
+          "virtual_address": "0x42040bdc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63274",
+      "virtual_address": "0x3c193274",
+      "text": "align status=0->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0be0",
+          "virtual_address": "0x42040be0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6329c",
+      "virtual_address": "0x3c19329c",
+      "text": "Change in case 1, fl:%d, fr:%d, out_w:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bec",
+          "virtual_address": "0x42040bec"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x632c8",
+      "virtual_address": "0x3c1932c8",
+      "text": "align status=1->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bf0",
+          "virtual_address": "0x42040bf0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x632f0",
+      "virtual_address": "0x3c1932f0",
+      "text": "align status=2->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bf4",
+          "virtual_address": "0x42040bf4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63318",
+      "virtual_address": "0x3c193318",
+      "text": "path follow end,is skid",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0bf8",
+          "virtual_address": "0x42040bf8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63334",
+      "virtual_address": "0x3c193334",
+      "text": "zigzag_b=%f,pf_num=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c00",
+          "virtual_address": "0x42040c00"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6334c",
+      "virtual_address": "0x3c19334c",
+      "text": "path_follow status=0->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c28",
+          "virtual_address": "0x42040c28"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63378",
+      "virtual_address": "0x3c193378",
+      "text": "path_follow status=1->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c30",
+          "virtual_address": "0x42040c30"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x633a4",
+      "virtual_address": "0x3c1933a4",
+      "text": "path_follow status=2->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c3c",
+          "virtual_address": "0x42040c3c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x633d0",
+      "virtual_address": "0x3c1933d0",
+      "text": "path follow end,is charger naer",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c48",
+          "virtual_address": "0x42040c48"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x633f4",
+      "virtual_address": "0x3c1933f4",
+      "text": "path_follow status=3->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c50",
+          "virtual_address": "0x42040c50"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63420",
+      "virtual_address": "0x3c193420",
+      "text": "path_follow status=4->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c64",
+          "virtual_address": "0x42040c64"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6344c",
+      "virtual_address": "0x3c19344c",
+      "text": "path_follow status=5->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c70",
+          "virtual_address": "0x42040c70"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63478",
+      "virtual_address": "0x3c193478",
+      "text": "last turn dir=%d,need turn dir=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c7c",
+          "virtual_address": "0x42040c7c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6349c",
+      "virtual_address": "0x3c19349c",
+      "text": "path_follow status=6->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c8c",
+          "virtual_address": "0x42040c8c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x634c8",
+      "virtual_address": "0x3c1934c8",
+      "text": "path_follow status=7->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c94",
+          "virtual_address": "0x42040c94"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x634f4",
+      "virtual_address": "0x3c1934f4",
+      "text": "path_follow status=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0c9c",
+          "virtual_address": "0x42040c9c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6350c",
+      "virtual_address": "0x3c19350c",
+      "text": "path follow end,is collision",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0ca8",
+          "virtual_address": "0x42040ca8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6352c",
+      "virtual_address": "0x3c19352c",
+      "text": "is skid,in_last_status=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0cb4",
+          "virtual_address": "0x42040cb4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63548",
+      "virtual_address": "0x3c193548",
+      "text": "start Mark Covered!!!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0cbc",
+          "virtual_address": "0x42040cbc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63560",
+      "virtual_address": "0x3c193560",
+      "text": "dis_zig_tar=%.2f,dis_zig_cur=%.2f,slope=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0cc8",
+          "virtual_address": "0x42040cc8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63590",
+      "virtual_address": "0x3c193590",
+      "text": "real_dis=%.2f,theory_dis=%.2f,on_wire_dis=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0cdc",
+          "virtual_address": "0x42040cdc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x635c0",
+      "virtual_address": "0x3c1935c0",
+      "text": "tar_turn_yaw=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0cf4",
+          "virtual_address": "0x42040cf4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x635d4",
+      "virtual_address": "0x3c1935d4",
+      "text": "align_wire status=0->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d0c",
+          "virtual_address": "0x42040d0c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63600",
+      "virtual_address": "0x3c193600",
+      "text": "max_wire_angle=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d1c",
+          "virtual_address": "0x42040d1c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63618",
+      "virtual_address": "0x3c193618",
+      "text": "align_wire status=1->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d28",
+          "virtual_address": "0x42040d28"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63644",
+      "virtual_address": "0x3c193644",
+      "text": "is_isolated_island=%d,ab_avg=%.3f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d30",
+          "virtual_address": "0x42040d30"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63668",
+      "virtual_address": "0x3c193668",
+      "text": "charge pose,last:x=%.2f,y=%.2f,now:x=%.2f,y=%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d38",
+          "virtual_address": "0x42040d38"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6369c",
+      "virtual_address": "0x3c19369c",
+      "text": "align_wire status=2->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d40",
+          "virtual_address": "0x42040d40"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x636c8",
+      "virtual_address": "0x3c1936c8",
+      "text": "align_wire status=3->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d48",
+          "virtual_address": "0x42040d48"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x636f4",
+      "virtual_address": "0x3c1936f4",
+      "text": "align_wire status=4->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d50",
+          "virtual_address": "0x42040d50"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63720",
+      "virtual_address": "0x3c193720",
+      "text": "align_wire status=5->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d58",
+          "virtual_address": "0x42040d58"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6374c",
+      "virtual_address": "0x3c19374c",
+      "text": "align_wire status=6->%d,fl=%d,fr=%d,bl=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d64",
+          "virtual_address": "0x42040d64"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63778",
+      "virtual_address": "0x3c193778",
+      "text": "diff_b_init_odo =%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d80",
+          "virtual_address": "0x42040d80"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63790",
+      "virtual_address": "0x3c193790",
+      "text": "diff_b_init =%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d8c",
+          "virtual_address": "0x42040d8c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x637a4",
+      "virtual_address": "0x3c1937a4",
+      "text": "zigzag_num=%d,wire_dir=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0d9c",
+          "virtual_address": "0x42040d9c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x637c0",
+      "virtual_address": "0x3c1937c0",
+      "text": "diff_b=%f,diff_b_init=%f,diff_b_min=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0db4",
+          "virtual_address": "0x42040db4"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x637e8",
+      "virtual_address": "0x3c1937e8",
+      "text": "zigzag_b=%f,max_zigzag_b=%f,area_num = %d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0dbc",
+          "virtual_address": "0x42040dbc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63814",
+      "virtual_address": "0x3c193814",
+      "text": "zigzag_num=%d,zigzag_b=%f,zigzag_b_last=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0dcc",
+          "virtual_address": "0x42040dcc"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63840",
+      "virtual_address": "0x3c193840",
+      "text": "1:num_err=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0dd8",
+          "virtual_address": "0x42040dd8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63850",
+      "virtual_address": "0x3c193850",
+      "text": "2:num_err=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0de0",
+          "virtual_address": "0x42040de0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63860",
+      "virtual_address": "0x3c193860",
+      "text": "zigzag_num=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0de8",
+          "virtual_address": "0x42040de8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63870",
+      "virtual_address": "0x3c193870",
+      "text": "diff_b init 4:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0df0",
+          "virtual_address": "0x42040df0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63884",
+      "virtual_address": "0x3c193884",
+      "text": "around_pile_flag end!,l=%d,r=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e04",
+          "virtual_address": "0x42040e04"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x638a8",
+      "virtual_address": "0x3c1938a8",
+      "text": "around_pile_flag end!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e0c",
+          "virtual_address": "0x42040e0c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x638c0",
+      "virtual_address": "0x3c1938c0",
+      "text": "is_near_charger_flag = false!",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e14",
+          "virtual_address": "0x42040e14"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x638e0",
+      "virtual_address": "0x3c1938e0",
+      "text": "is end,zigzag_b=%.3f,pose.x=%.3f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e34",
+          "virtual_address": "0x42040e34"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63904",
+      "virtual_address": "0x3c193904",
+      "text": "is odo error,zigzag_b=%.3f,pose.x=%.3f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e3c",
+          "virtual_address": "0x42040e3c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6392c",
+      "virtual_address": "0x3c19392c",
+      "text": "diff_b end:%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e48",
+          "virtual_address": "0x42040e48"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x6393c",
+      "virtual_address": "0x3c19393c",
+      "text": "old_zigzag_b=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e50",
+          "virtual_address": "0x42040e50"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63950",
+      "virtual_address": "0x3c193950",
+      "text": "now_zigzag_b1=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e58",
+          "virtual_address": "0x42040e58"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63964",
+      "virtual_address": "0x3c193964",
+      "text": "now_zigzag_b2=%f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e60",
+          "virtual_address": "0x42040e60"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63978",
+      "virtual_address": "0x3c193978",
+      "text": "E302, The angle changes little for 2 minute in a row",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0e9c",
+          "virtual_address": "0x42040e9c"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x639b0",
+      "virtual_address": "0x3c1939b0",
+      "text": "1:num_err=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0eb0",
+          "virtual_address": "0x42040eb0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x639c0",
+      "virtual_address": "0x3c1939c0",
+      "text": "2:num_err=%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0eb8",
+          "virtual_address": "0x42040eb8"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x639d0",
+      "virtual_address": "0x3c1939d0",
+      "text": "back_to_wire_status change from %d to %d, line:%d",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0ee0",
+          "virtual_address": "0x42040ee0"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63a04",
+      "virtual_address": "0x3c193a04",
+      "text": "bow back in wire more than 1min",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0eec",
+          "virtual_address": "0x42040eec"
+        }
+      ]
+    },
+    {
+      "region": "global_mowing",
+      "file_offset": "0x63a28",
+      "virtual_address": "0x3c193a28",
+      "text": "random motion dis:%f, exceed limit:%.2f",
+      "aligned_pointer_candidates": [
+        {
+          "file_offset": "0xe0f04",
+          "virtual_address": "0x42040f04"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "A string/pointer inventory alone does not prove behavior. See separate conditional lane-selection and startup evidence."
+  ]
+}

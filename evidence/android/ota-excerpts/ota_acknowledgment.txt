@@ -1,0 +1,26 @@
+845831: case 14:
+845832:                             r0 = global;
+845833:                             r2 = r0.Promise;
+845834:                             r0 = r2.prototype;
+845835:                             r1 = Object.create(r0, {constructor: {value: r2}});
+845836:                             r3 = function(a0, a1) { // Environment: r0
+845837:                                 r0 = a0;
+845838:                                 var _closure4_slot0 = r0;
+845839:                                 r0 = a1;
+845840:                                 var _closure4_slot1 = r0;
+845841:                                 r2 = _closure1_slot11;
+845842:                                 r5 = r2.default;
+845843:                                 r4 = r5.addMessageListener;
+845844:                                 r3 = _closure2_slot3;
+845845:                                 r0 = function(a0) { // Environment: r1
+845846:                                     _fun24013: for(var _fun24013_ip = 0; ; ) switch(_fun24013_ip) {
+845847: case 0:
+845848:                                         r0 = a0;
+845849:                                         r1 = r0.mode;
+845850:                                         r0 = 'ota';
+845851:                                         if(!(r1 === r0)) { _fun24013_ip = 59; continue _fun24013 }
+845852: case 16:
+845853:                                         r2 = _closure4_slot2;
+845854:                                         r1 = r2.remove;
+845855:                                         r1 = r1.bind(r2)();
+845856:                                         r1 = global;

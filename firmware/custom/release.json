@@ -1,0 +1,9 @@
+{
+  "version": "0.3.6.0",
+  "status": "planned_not_built",
+  "binary_available": false,
+  "implementation": "src/planner",
+  "hardware_adapter_available": false,
+  "original_firmware_modified": false,
+  "physical_validation": "not_performed"
+}

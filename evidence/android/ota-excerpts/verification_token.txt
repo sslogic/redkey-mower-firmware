@@ -1,0 +1,24 @@
+232497:         r1 = function(a0) { // Original name: genToken, environment: r3
+232498:             r0 = global;
+232499:             r2 = r0.Math;
+232500:             r1 = r2.round;
+232501:             r3 = r0.Date;
+232502:             r0 = r3.now;
+232503:             r3 = r0.bind(r3)();
+232504:             r0 = 1000;
+232505:             r0 = r3 / r0;
+232506:             r1 = r1.bind(r2)(r0);
+232507:             r0 = a0;
+232508:             r3 = r0 + r1;
+232509:             r4 = _closure1_slot0;
+232510:             r2 = _closure1_slot1;
+232511:             r0 = 3;
+232512:             r0 = r2[r0];
+232513:             r2 = undefined;
+232514:             r0 = r4.bind(r2)(r0);
+232515:             r0 = r0.md5;
+232516:             r0 = r0.bind(r2)(r3);
+232517:             r0 = r0 + r1;
+232518:             return r0;
+232519:         };
+232520:         var _closure1_slot4 = r1;

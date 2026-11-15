@@ -1,0 +1,31 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "state_name_table": "0x3fc9bf78",
+  "state_handler_table": "0x3c192c58",
+  "states": [
+    {
+      "state": 5,
+      "label": "MOWER_AREA_ZONING",
+      "handler": "0x42047c1c"
+    },
+    {
+      "state": 6,
+      "label": "MOWER_AREA_PATHFOLLOW",
+      "handler": null
+    },
+    {
+      "state": 7,
+      "label": "MOWER_AREA_WIREFOLLOW",
+      "handler": "0x42049af8"
+    },
+    {
+      "state": 8,
+      "label": "MOWER_AREA_WALLFOLLOW",
+      "handler": null
+    }
+  ],
+  "verified_behavior": "Area-zoning handler0x42047c1c assigns state5 on entry and state9 on its subsequent branch, with pose/status-dependent direction selection. This does not prove region scheduling.",
+  "limitations": [
+    "State bindings alone do not prove complete region scheduling."
+  ]
+}

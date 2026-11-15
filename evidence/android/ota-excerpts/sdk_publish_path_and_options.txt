@@ -1,0 +1,58 @@
+666373:                             r6 = {};
+666374:                             r6 = r13.bind(r4)(r6, r12, r11);
+666375:                             r12 = r2.bp;
+666376:                             r11 = '/topics/{topic}';
+666377:                             r11 = r12.bind(r2)(r11);
+666378:                             r15 = r2.p;
+666379:                             r19 = 'topic';
+666380:                             r18 = function() { // Environment: r10
+666381:                                 r0 = _closure4_slot0;
+666382:                                 r0 = r0.topic;
+666383:                                 return r0;
+666384:                             };
+666385:                             r17 = '{topic}';
+666386:                             r16 = false;
+666387:                             r20 = r2;
+666388:                             r11 = r20[r15](r19, r18, r17, r16, r15);
+666389:                             r5 = r8[r5];
+666390:                             r5 = r7.bind(r4)(r5);
+666391:                             r5 = r5.map;
+666392:                             r11 = _closure1_slot53;
+666393:                             r8 = new Array(2);
+666394:                             r7 = function() { // Environment: r10
+666395:                                 r0 = _closure4_slot0;
+666396:                                 r1 = r0.qos;
+666397:                                 r0 = undefined;
+666398:                                 r0 = r1 !== r0;
+666399:                                 return r0;
+666400:                             };
+666401:                             r8[0] = r7;
+666402:                             r7 = function() { // Environment: r10
+666403:                                 r1 = _closure4_slot0;
+666404:                                 r0 = _closure1_slot53;
+666405:                                 r1 = r1[r0];
+666406:                                 r0 = r1.toString;
+666407:                                 r0 = r0.bind(r1)();
+666408:                                 return r0;
+666409:                             };
+666410:                             r8[1] = r7;
+666411:                             r7 = {};
+666412:                             r11 = r9.bind(r4)(r7, r11, r8);
+666413:                             r8 = _closure1_slot54;
+666414:                             r7 = new Array(2);
+666415:                             r12 = function() { // Environment: r10
+666416:                                 r0 = _closure4_slot0;
+666417:                                 r1 = r0.retain;
+666418:                                 r0 = undefined;
+666419:                                 r0 = r1 !== r0;
+666420:                                 return r0;
+666421:                             };
+666422:                             r7[0] = r12;
+666423:                             r12 = function() { // Environment: r10
+666424:                                 r1 = _closure4_slot0;
+666425:                                 r0 = _closure1_slot54;
+666426:                                 r1 = r1[r0];
+666427:                                 r0 = r1.toString;
+666428:                                 r0 = r0.bind(r1)();
+666429:                                 return r0;
+666430:                             };

@@ -1,0 +1,36 @@
+730086: => [Function #18717 "handleMowDirectionButtonPress" of 103 bytes]: 1 params, frame size=14, strict=0, exc handler=0, debug info=0  @ offset 0x0037277d
+730087: 
+730088: Bytecode listing:
+730089: 
+730090: ==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+730091: ==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 9>
+730092: ==> 00000007: <LoadConstString>: <Reg8: 1, string_id: 6009>  # String: 'shutdown' (String)
+730093: ==> 0000000b: <JStrictEqual>: <Addr8: 61, Reg8: 2, Reg8: 1>  # Address: 00000048
+730094: ==> 0000000f: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 20>
+730095: ==> 00000013: <LoadConstUInt8>: <Reg8: 1, UInt8: 1>
+730096: ==> 00000016: <JStrictNotEqual>: <Addr8: 19, Reg8: 2, Reg8: 1>  # Address: 00000029
+730097: ==> 0000001a: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 32>
+730098: ==> 0000001e: <LoadConstUndefined>: <Reg8: 1>
+730099: ==> 00000020: <LoadConstTrue>: <Reg8: 2>
+730100: ==> 00000022: <Call2>: <Reg8: 2, Reg8: 3, Reg8: 1, Reg8: 2>
+730101: ==> 00000027: <Ret>: <Reg8: 1>
+730102: ==> 00000029: <LoadFromEnvironment>: <Reg8: 4, Reg8: 0, UInt8: 4>
+730103: ==> 0000002d: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 1, string_id: 166>  # String: 'info' (Identifier)
+730104: ==> 00000032: <LoadFromEnvironment>: <Reg8: 5, Reg8: 0, UInt8: 1>
+730105: ==> 00000036: <LoadConstUndefined>: <Reg8: 1>
+730106: ==> 00000038: <LoadConstString>: <Reg8: 2, string_id: 20455>  # String: 'strTheDevOffline' (Identifier)
+730107: ==> 0000003c: <Call2>: <Reg8: 2, Reg8: 5, Reg8: 1, Reg8: 2>
+730108: ==> 00000041: <Call2>: <Reg8: 2, Reg8: 3, Reg8: 4, Reg8: 2>
+730109: ==> 00000046: <Ret>: <Reg8: 1>
+730110: ==> 00000048: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 4>
+730111: ==> 0000004c: <GetByIdShort>: <Reg8: 2, Reg8: 3, UInt8: 1, string_id: 166>  # String: 'info' (Identifier)
+730112: ==> 00000051: <LoadFromEnvironment>: <Reg8: 4, Reg8: 0, UInt8: 1>
+730113: ==> 00000055: <LoadConstUndefined>: <Reg8: 0>
+730114: ==> 00000057: <LoadConstString>: <Reg8: 1, string_id: 19366>  # String: 'strDevShutdownTips' (Identifier)
+730115: ==> 0000005b: <Call2>: <Reg8: 1, Reg8: 4, Reg8: 0, Reg8: 1>
+730116: ==> 00000060: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 3, Reg8: 1>
+730117: ==> 00000065: <Ret>: <Reg8: 0>
+730118: 
+730119: 
+730120: ===============
+730121: 

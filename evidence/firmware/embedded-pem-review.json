@@ -1,0 +1,151 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "bytes": 1972000,
+  "pem_markers": [
+    {
+      "offset": "0x120",
+      "boundary": "BEGIN",
+      "label": "CERTIFICATE",
+      "nul_terminated_length": 1206,
+      "delimiter_only_c_string": false
+    },
+    {
+      "offset": "0x5bd",
+      "boundary": "END",
+      "label": "CERTIFICATE",
+      "nul_terminated_length": 25,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x5db",
+      "boundary": "BEGIN",
+      "label": "CERTIFICATE",
+      "nul_terminated_length": 1240,
+      "delimiter_only_c_string": false
+    },
+    {
+      "offset": "0xa98",
+      "boundary": "END",
+      "label": "CERTIFICATE",
+      "nul_terminated_length": 27,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0xab8",
+      "boundary": "BEGIN",
+      "label": "RSA PRIVATE KEY",
+      "nul_terminated_length": 1706,
+      "delimiter_only_c_string": false
+    },
+    {
+      "offset": "0x1143",
+      "boundary": "END",
+      "label": "RSA PRIVATE KEY",
+      "nul_terminated_length": 31,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x86f38",
+      "boundary": "END",
+      "label": "RSA PRIVATE KEY",
+      "nul_terminated_length": 29,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x86f58",
+      "boundary": "BEGIN",
+      "label": "RSA PRIVATE KEY",
+      "nul_terminated_length": 31,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x86f78",
+      "boundary": "END",
+      "label": "EC PRIVATE KEY",
+      "nul_terminated_length": 28,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x86f98",
+      "boundary": "BEGIN",
+      "label": "EC PRIVATE KEY",
+      "nul_terminated_length": 30,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x86fb8",
+      "boundary": "END",
+      "label": "PRIVATE KEY",
+      "nul_terminated_length": 25,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x86fd4",
+      "boundary": "BEGIN",
+      "label": "PRIVATE KEY",
+      "nul_terminated_length": 27,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x86ff0",
+      "boundary": "END",
+      "label": "ENCRYPTED PRIVATE KEY",
+      "nul_terminated_length": 35,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x87014",
+      "boundary": "BEGIN",
+      "label": "ENCRYPTED PRIVATE KEY",
+      "nul_terminated_length": 37,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x892b8",
+      "boundary": "BEGIN",
+      "label": "CERTIFICATE",
+      "nul_terminated_length": 27,
+      "delimiter_only_c_string": true
+    },
+    {
+      "offset": "0x892d4",
+      "boundary": "END",
+      "label": "CERTIFICATE",
+      "nul_terminated_length": 25,
+      "delimiter_only_c_string": true
+    }
+  ],
+  "private_key_marker_count": 10,
+  "all_private_key_markers_are_delimiter_only_c_strings": false,
+  "complete_pem_block_count": 3,
+  "pem_blocks": [
+    {
+      "offset": "0x120",
+      "label": "CERTIFICATE",
+      "bytes": 1206,
+      "classification": "certificate"
+    },
+    {
+      "offset": "0x5db",
+      "label": "CERTIFICATE",
+      "bytes": 1238,
+      "classification": "certificate"
+    },
+    {
+      "offset": "0xab8",
+      "label": "RSA PRIVATE KEY",
+      "bytes": 1704,
+      "classification": "private_key"
+    }
+  ],
+  "complete_private_pem_blocks": 1,
+  "der_sequence_candidates_checked": 7532,
+  "der_private_keys": [],
+  "classification": "Review detected key candidates before publication.",
+  "limits": [
+    "PEM classification is based on complete null-terminated strings plus cryptography parsing.",
+    "DER scan checks definite-length SEQUENCE objects of 48..65536 bytes within the file; it cannot prove absence of encrypted, compressed, split or arbitrary custom secret formats.",
+    "No key bytes, certificate identity fields or secret values were written to this report.",
+    "No universal credential-free claim is made; combine with known-user-identifier and provenance review."
+  ]
+}

@@ -1,0 +1,48 @@
+=> [Function #24012 "" of 172 bytes]: 3 params, frame size=18, strict=0, exc handler=0, debug info=0  @ offset 0x003f1ef7
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 1>
+==> 00000002: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 00000005: <StoreToEnvironment>: <Reg8: 1, UInt8: 0, Reg8: 0>
+==> 00000009: <LoadParam>: <Reg8: 0, UInt8: 2>
+==> 0000000c: <StoreToEnvironment>: <Reg8: 1, UInt8: 1, Reg8: 0>
+==> 00000010: <GetEnvironment>: <Reg8: 0, UInt8: 2>
+==> 00000013: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 11>
+==> 00000017: <GetByIdShort>: <Reg8: 5, Reg8: 2, UInt8: 1, string_id: 111>  # String: 'default' (Identifier)
+==> 0000001c: <GetById>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 24863>  # String: 'addMessageListener' (Identifier)
+==> 00000022: <GetEnvironment>: <Reg8: 7, UInt8: 1>
+==> 00000025: <LoadFromEnvironment>: <Reg8: 3, Reg8: 7, UInt8: 3>
+==> 00000029: <CreateClosure>: <Reg8: 0, Reg8: 1, function_id: 24013>  # Function: [#24013  of 63 bytes]: 2 params @ offset 0x003f1fa3
+==> 0000002e: <Call3>: <Reg8: 0, Reg8: 4, Reg8: 5, Reg8: 3, Reg8: 0>
+==> 00000034: <StoreToEnvironment>: <Reg8: 1, UInt8: 2, Reg8: 0>
+==> 00000038: <GetGlobalObject>: <Reg8: 0>
+==> 0000003a: <TryGetById>: <Reg8: 5, Reg8: 0, UInt8: 3, string_id: 225>  # String: 'setTimeout' (Identifier)
+==> 00000040: <LoadConstUndefined>: <Reg8: 0>
+==> 00000042: <CreateClosure>: <Reg8: 4, Reg8: 1, function_id: 24014>  # Function: [#24014  of 73 bytes]: 1 params @ offset 0x003f1fe2
+==> 00000047: <LoadConstInt>: <Reg8: 3, Imm32: 30000>
+==> 0000004d: <Call3>: <Reg8: 3, Reg8: 5, Reg8: 0, Reg8: 4, Reg8: 3>
+==> 00000053: <StoreToEnvironment>: <Reg8: 1, UInt8: 3, Reg8: 3>
+==> 00000057: <GetByIdShort>: <Reg8: 5, Reg8: 2, UInt8: 1, string_id: 111>  # String: 'default' (Identifier)
+==> 0000005c: <GetById>: <Reg8: 4, Reg8: 5, UInt8: 4, string_id: 13735>  # String: 'publishDeviceCommand' (Identifier)
+==> 00000062: <LoadFromEnvironment>: <Reg8: 3, Reg8: 7, UInt8: 3>
+==> 00000066: <NewObject>: <Reg8: 2>
+==> 00000068: <LoadConstString>: <Reg8: 6, string_id: 6606>  # String: 'ota_start' (String)
+==> 0000006c: <PutNewOwnById>: <Reg8: 2, Reg8: 6, string_id: 19442>  # String: 'cmd' (Identifier)
+==> 00000071: <NewObject>: <Reg8: 6>
+==> 00000073: <LoadFromEnvironment>: <Reg8: 8, Reg8: 7, UInt8: 7>
+==> 00000077: <GetById>: <Reg8: 8, Reg8: 8, UInt8: 5, string_id: 15329>  # String: 'version' (Identifier)
+==> 0000007d: <PutNewOwnById>: <Reg8: 6, Reg8: 8, string_id: 15329>  # String: 'version' (Identifier)
+==> 00000082: <LoadFromEnvironment>: <Reg8: 7, Reg8: 7, UInt8: 7>
+==> 00000086: <GetById>: <Reg8: 7, Reg8: 7, UInt8: 6, string_id: 23461>  # String: 'fw_url' (Identifier)
+==> 0000008c: <PutNewOwnByIdShort>: <Reg8: 6, Reg8: 7, string_id: 229>  # String: 'url' (Identifier)
+==> 00000090: <PutNewOwnByIdShort>: <Reg8: 2, Reg8: 6, string_id: 2>  # String: 'data' (Identifier)
+==> 00000094: <Call3>: <Reg8: 3, Reg8: 4, Reg8: 5, Reg8: 3, Reg8: 2>
+==> 0000009a: <GetById>: <Reg8: 2, Reg8: 3, UInt8: 7, string_id: 19929>  # String: 'catch' (Identifier)
+==> 000000a0: <CreateClosure>: <Reg8: 1, Reg8: 1, function_id: 24015>  # Function: [#24015  of 88 bytes]: 2 params @ offset 0x003f202b
+==> 000000a5: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 3, Reg8: 1>
+==> 000000aa: <Ret>: <Reg8: 0>
+
+
+===============
+

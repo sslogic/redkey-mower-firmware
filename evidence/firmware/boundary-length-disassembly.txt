@@ -1,0 +1,34 @@
+
+firmware-analysis.elf: file format elf32-xtensa-le
+
+
+Disassembly of section .flash.text:
+
+420368ff <.flash.text+0x368df>:
+420368ff:	337621        	l32r	a2, 0x420036d8 (0x3fca6a08)
+42036902:	004203        	ssi	f0, a2, 0
+42036905:	000206        	j	0x42036911
+42036908:	337421        	l32r	a2, 0x420036d8 (0x3fca6a08)
+4203690b:	0c0723        	lsi	f2, a7, 48
+4203690e:	004223        	ssi	f2, a2, 0
+
+
+firmware-analysis.elf: file format elf32-xtensa-le
+
+
+Disassembly of section .flash.text:
+
+4203705e <.flash.text+0x3703e>:
+4203705e:	319e21        	l32r	a2, 0x420036d8 (0x3fca6a08)
+42037061:	02a8      	l32i.n	a10, a2, 0
+42037063:	313d81        	l32r	a8, 0x42003558 (0x400022a4)
+42037066:	0008e0        	callx8	a8
+42037069:	0aed      	mov.n	a14, a10
+4203706b:	0bfd      	mov.n	a15, a11
+4203706d:	31bdd1        	l32r	a13, 0x42003764 (0x3c1912dc)
+42037070:	e5a4c2        	movi	a12, 0x4e5
+42037073:	3173b1        	l32r	a11, 0x42003640 (0x3c190e6c)
+42037076:	3a0c      	movi.n	a10, 3
+42037078:	2306e5        	call8	0x4205a0e8
+4203707b:	000203        	lsi	f0, a2, 0
+4203707e:	094703        	ssi	f0, a7, 36

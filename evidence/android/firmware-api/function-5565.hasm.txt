@@ -1,0 +1,120 @@
+=> [Function #5565 "" of 481 bytes]: 8 params, frame size=23, strict=0, exc handler=0, debug info=0  @ offset 0x0020693b
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 1>
+==> 00000002: <LoadParam>: <Reg8: 9, UInt8: 2>
+==> 00000005: <LoadParam>: <Reg8: 2, UInt8: 6>
+==> 00000008: <LoadParam>: <Reg8: 10, UInt8: 7>
+==> 0000000b: <CreateClosure>: <Reg8: 0, Reg8: 1, function_id: 5566>  # Function: [#5566 _interopRequireWildcard of 108 bytes]: 3 params @ offset 0x00206b1c
+==> 00000010: <StoreToEnvironment>: <Reg8: 1, UInt8: 10, Reg8: 0>
+==> 00000014: <CreateClosure>: <Reg8: 0, Reg8: 1, function_id: 5568>  # Function: [#5568 _callSuper of 115 bytes]: 4 params @ offset 0x00206b88
+==> 00000019: <StoreToEnvironment>: <Reg8: 1, UInt8: 11, Reg8: 0>
+==> 0000001d: <CreateClosure>: <Reg8: 0, Reg8: 1, function_id: 5569>  # Function: [#5569 _isNativeReflectConstruct of 94 bytes]: 1 params @ offset 0x00206bfb
+==> 00000022: <StoreToEnvironment>: <Reg8: 1, UInt8: 12, Reg8: 0>
+==> 00000026: <CreateClosure>: <Reg8: 0, Reg8: 1, function_id: 5572>  # Function: [#5572 isAuthorizationOptional of 49 bytes]: 2 params @ offset 0x00206c59
+==> 0000002b: <StoreToEnvironment>: <Reg8: 1, UInt8: 13, Reg8: 0>
+==> 0000002f: <CreateClosure>: <Reg8: 0, Reg8: 1, function_id: 5573>  # Function: [#5573 removeOptionalAuthorizationHeader of 35 bytes]: 2 params @ offset 0x00206c8a
+==> 00000034: <StoreToEnvironment>: <Reg8: 1, UInt8: 14, Reg8: 0>
+==> 00000038: <CreateClosure>: <Reg8: 4, Reg8: 1, function_id: 5574>  # Function: [#5574 formatAuthorizationToken of 27 bytes]: 2 params @ offset 0x00206cad
+==> 0000003d: <StoreToEnvironment>: <Reg8: 1, UInt8: 15, Reg8: 4>
+==> 00000041: <LoadConstZero>: <Reg8: 0>
+==> 00000043: <GetByVal>: <Reg8: 3, Reg8: 10, Reg8: 0>
+==> 00000047: <LoadConstUndefined>: <Reg8: 0>
+==> 00000049: <Call2>: <Reg8: 6, Reg8: 9, Reg8: 0, Reg8: 3>
+==> 0000004e: <GetGlobalObject>: <Reg8: 3>
+==> 00000050: <TryGetById>: <Reg8: 11, Reg8: 3, UInt8: 1, string_id: 27>  # String: 'Object' (Identifier)
+==> 00000056: <GetByIdShort>: <Reg8: 8, Reg8: 11, UInt8: 2, string_id: 113>  # String: 'defineProperty' (Identifier)
+==> 0000005b: <NewObject>: <Reg8: 7>
+==> 0000005d: <LoadConstTrue>: <Reg8: 12>
+==> 0000005f: <PutNewOwnByIdShort>: <Reg8: 7, Reg8: 12, string_id: 249>  # String: 'value' (Identifier)
+==> 00000063: <LoadConstString>: <Reg8: 5, string_id: 51>  # String: '__esModule' (Identifier)
+==> 00000067: <Call4>: <Reg8: 5, Reg8: 8, Reg8: 11, Reg8: 2, Reg8: 5, Reg8: 7>
+==> 0000006e: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 1, string_id: 17668>  # String: 'AuthError' (Identifier)
+==> 00000074: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 2, string_id: 22899>  # String: 'OptionalAuthorizationConfig' (Identifier)
+==> 0000007a: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 3, string_id: 111>  # String: 'default' (Identifier)
+==> 00000080: <PutById>: <Reg8: 2, Reg8: 4, UInt8: 4, string_id: 16054>  # String: 'formatAuthorizationToken' (Identifier)
+==> 00000086: <LoadConstUInt8>: <Reg8: 4, UInt8: 1>
+==> 00000089: <GetByVal>: <Reg8: 4, Reg8: 10, Reg8: 4>
+==> 0000008d: <Call2>: <Reg8: 4, Reg8: 9, Reg8: 0, Reg8: 4>
+==> 00000092: <Call2>: <Reg8: 4, Reg8: 6, Reg8: 0, Reg8: 4>
+==> 00000097: <StoreToEnvironment>: <Reg8: 1, UInt8: 0, Reg8: 4>
+==> 0000009b: <LoadConstUInt8>: <Reg8: 4, UInt8: 2>
+==> 0000009e: <GetByVal>: <Reg8: 4, Reg8: 10, Reg8: 4>
+==> 000000a2: <Call2>: <Reg8: 4, Reg8: 9, Reg8: 0, Reg8: 4>
+==> 000000a7: <Call2>: <Reg8: 4, Reg8: 6, Reg8: 0, Reg8: 4>
+==> 000000ac: <StoreToEnvironment>: <Reg8: 1, UInt8: 1, Reg8: 4>
+==> 000000b0: <LoadConstUInt8>: <Reg8: 4, UInt8: 3>
+==> 000000b3: <GetByVal>: <Reg8: 4, Reg8: 10, Reg8: 4>
+==> 000000b7: <Call2>: <Reg8: 4, Reg8: 9, Reg8: 0, Reg8: 4>
+==> 000000bc: <Call2>: <Reg8: 4, Reg8: 6, Reg8: 0, Reg8: 4>
+==> 000000c1: <StoreToEnvironment>: <Reg8: 1, UInt8: 2, Reg8: 4>
+==> 000000c5: <LoadConstUInt8>: <Reg8: 4, UInt8: 4>
+==> 000000c8: <GetByVal>: <Reg8: 4, Reg8: 10, Reg8: 4>
+==> 000000cc: <Call2>: <Reg8: 4, Reg8: 9, Reg8: 0, Reg8: 4>
+==> 000000d1: <Call2>: <Reg8: 4, Reg8: 6, Reg8: 0, Reg8: 4>
+==> 000000d6: <StoreToEnvironment>: <Reg8: 1, UInt8: 3, Reg8: 4>
+==> 000000da: <LoadConstUInt8>: <Reg8: 4, UInt8: 5>
+==> 000000dd: <GetByVal>: <Reg8: 4, Reg8: 10, Reg8: 4>
+==> 000000e1: <Call2>: <Reg8: 4, Reg8: 9, Reg8: 0, Reg8: 4>
+==> 000000e6: <Call2>: <Reg8: 4, Reg8: 6, Reg8: 0, Reg8: 4>
+==> 000000eb: <StoreToEnvironment>: <Reg8: 1, UInt8: 4, Reg8: 4>
+==> 000000ef: <LoadConstUInt8>: <Reg8: 4, UInt8: 6>
+==> 000000f2: <GetByVal>: <Reg8: 4, Reg8: 10, Reg8: 4>
+==> 000000f6: <Call2>: <Reg8: 4, Reg8: 9, Reg8: 0, Reg8: 4>
+==> 000000fb: <Call2>: <Reg8: 4, Reg8: 6, Reg8: 0, Reg8: 4>
+==> 00000100: <StoreToEnvironment>: <Reg8: 1, UInt8: 5, Reg8: 4>
+==> 00000104: <LoadConstUInt8>: <Reg8: 4, UInt8: 7>
+==> 00000107: <GetByVal>: <Reg8: 4, Reg8: 10, Reg8: 4>
+==> 0000010b: <Call2>: <Reg8: 4, Reg8: 9, Reg8: 0, Reg8: 4>
+==> 00000110: <Call2>: <Reg8: 4, Reg8: 6, Reg8: 0, Reg8: 4>
+==> 00000115: <LoadConstUInt8>: <Reg8: 5, UInt8: 8>
+==> 00000118: <GetByVal>: <Reg8: 5, Reg8: 10, Reg8: 5>
+==> 0000011c: <Call2>: <Reg8: 5, Reg8: 9, Reg8: 0, Reg8: 5>
+==> 00000121: <Call2>: <Reg8: 7, Reg8: 6, Reg8: 0, Reg8: 5>
+==> 00000126: <LoadFromEnvironment>: <Reg8: 6, Reg8: 1, UInt8: 10>
+==> 0000012a: <LoadConstUInt8>: <Reg8: 5, UInt8: 9>
+==> 0000012d: <GetByVal>: <Reg8: 5, Reg8: 10, Reg8: 5>
+==> 00000131: <Call2>: <Reg8: 5, Reg8: 9, Reg8: 0, Reg8: 5>
+==> 00000136: <Call2>: <Reg8: 5, Reg8: 6, Reg8: 0, Reg8: 5>
+==> 0000013b: <StoreToEnvironment>: <Reg8: 1, UInt8: 6, Reg8: 5>
+==> 0000013f: <LoadConstString>: <Reg8: 11, string_id: 10726>  # String: 'optional_auth' (String)
+==> 00000143: <StoreToEnvironment>: <Reg8: 1, UInt8: 7, Reg8: 11>
+==> 00000147: <NewObject>: <Reg8: 6>
+==> 00000149: <GetByIdShort>: <Reg8: 8, Reg8: 7, UInt8: 3, string_id: 111>  # String: 'default' (Identifier)
+==> 0000014e: <NewObject>: <Reg8: 7>
+==> 00000150: <Call4>: <Reg8: 7, Reg8: 8, Reg8: 0, Reg8: 7, Reg8: 11, Reg8: 12>
+==> 00000157: <PutNewOwnByIdShort>: <Reg8: 6, Reg8: 7, string_id: 154>  # String: 'headers' (Identifier)
+==> 0000015b: <PutById>: <Reg8: 2, Reg8: 6, UInt8: 2, string_id: 22899>  # String: 'OptionalAuthorizationConfig' (Identifier)
+==> 00000161: <GetByIdShort>: <Reg8: 7, Reg8: 5, UInt8: 3, string_id: 111>  # String: 'default' (Identifier)
+==> 00000166: <GetByIdShort>: <Reg8: 6, Reg8: 7, UInt8: 4, string_id: 107>  # String: 'create' (Identifier)
+==> 0000016b: <NewObject>: <Reg8: 5>
+==> 0000016d: <LoadConstUInt8>: <Reg8: 8, UInt8: 10>
+==> 00000170: <GetByVal>: <Reg8: 8, Reg8: 10, Reg8: 8>
+==> 00000174: <Call2>: <Reg8: 8, Reg8: 9, Reg8: 0, Reg8: 8>
+==> 00000179: <GetById>: <Reg8: 8, Reg8: 8, UInt8: 5, string_id: 20610>  # String: 'SERVER_URL' (Identifier)
+==> 0000017f: <PutNewOwnById>: <Reg8: 5, Reg8: 8, string_id: 19006>  # String: 'baseURL' (Identifier)
+==> 00000184: <LoadConstInt>: <Reg8: 8, Imm32: 15000>
+==> 0000018a: <PutNewOwnById>: <Reg8: 5, Reg8: 8, string_id: 15289>  # String: 'timeout' (Identifier)
+==> 0000018f: <Call2>: <Reg8: 5, Reg8: 6, Reg8: 7, Reg8: 5>
+==> 00000194: <StoreToEnvironment>: <Reg8: 1, UInt8: 8, Reg8: 5>
+==> 00000198: <GetByIdShort>: <Reg8: 4, Reg8: 4, UInt8: 3, string_id: 111>  # String: 'default' (Identifier)
+==> 0000019d: <TryGetById>: <Reg8: 3, Reg8: 3, UInt8: 6, string_id: 18>  # String: 'Error' (Identifier)
+==> 000001a3: <Call2>: <Reg8: 4, Reg8: 4, Reg8: 0, Reg8: 3>
+==> 000001a8: <CreateClosure>: <Reg8: 3, Reg8: 1, function_id: 5575>  # Function: [#5575  of 50 bytes]: 2 params @ offset 0x00206cc8
+==> 000001ad: <Call2>: <Reg8: 3, Reg8: 3, Reg8: 0, Reg8: 4>
+==> 000001b2: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 1, string_id: 17668>  # String: 'AuthError' (Identifier)
+==> 000001b8: <StoreToEnvironment>: <Reg8: 1, UInt8: 9, Reg8: 3>
+==> 000001bc: <CreateClosure>: <Reg8: 1, Reg8: 1, function_id: 5577>  # Function: [#5577  of 106 bytes]: 1 params @ offset 0x00206d3e
+==> 000001c1: <Call1>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 000001c5: <GetByIdShort>: <Reg8: 3, Reg8: 1, UInt8: 7, string_id: 162>  # String: 'prototype' (Identifier)
+==> 000001ca: <CreateThis>: <Reg8: 3, Reg8: 3, Reg8: 1>
+==> 000001ce: <Mov>: <Reg8: 16, Reg8: 3>
+==> 000001d1: <Construct>: <Reg8: 1, Reg8: 1, UInt8: 1>
+==> 000001d5: <SelectObject>: <Reg8: 1, Reg8: 3, Reg8: 1>
+==> 000001d9: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 3, string_id: 111>  # String: 'default' (Identifier)
+==> 000001df: <Ret>: <Reg8: 0>
+
+
+===============
+

@@ -1,0 +1,25 @@
+=> [Function #24013 "" of 63 bytes]: 2 params, frame size=12, strict=0, exc handler=0, debug info=0  @ offset 0x003f1fa3
+
+Bytecode listing:
+
+==> 00000000: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 00000003: <GetByIdShort>: <Reg8: 1, Reg8: 0, UInt8: 1, string_id: 189>  # String: 'mode' (Identifier)
+==> 00000008: <LoadConstString>: <Reg8: 0, string_id: 4393>  # String: 'ota' (String)
+==> 0000000c: <JStrictNotEqual>: <Addr8: 47, Reg8: 1, Reg8: 0>  # Address: 0000003b
+==> 00000010: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 00000013: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 2>
+==> 00000017: <GetByIdShort>: <Reg8: 1, Reg8: 2, UInt8: 2, string_id: 170>  # String: 'remove' (Identifier)
+==> 0000001c: <Call1>: <Reg8: 1, Reg8: 1, Reg8: 2>
+==> 00000020: <GetGlobalObject>: <Reg8: 1>
+==> 00000022: <TryGetById>: <Reg8: 3, Reg8: 1, UInt8: 3, string_id: 90>  # String: 'clearTimeout' (Identifier)
+==> 00000028: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 3>
+==> 0000002c: <LoadConstUndefined>: <Reg8: 1>
+==> 0000002e: <Call2>: <Reg8: 2, Reg8: 3, Reg8: 1, Reg8: 2>
+==> 00000033: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 0>
+==> 00000037: <Call1>: <Reg8: 0, Reg8: 0, Reg8: 1>
+==> 0000003b: <LoadConstUndefined>: <Reg8: 0>
+==> 0000003d: <Ret>: <Reg8: 0>
+
+
+===============
+

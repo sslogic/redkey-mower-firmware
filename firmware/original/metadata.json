@@ -1,0 +1,100 @@
+{
+  "sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "bytes": 1972000,
+  "segments": [
+    {
+      "index": 0,
+      "load_address": "0x3c130020",
+      "file_offset": 32,
+      "bytes": 608972
+    },
+    {
+      "index": 1,
+      "load_address": "0x3fc9b500",
+      "file_offset": 609012,
+      "bytes": 25328
+    },
+    {
+      "index": 2,
+      "load_address": "0x40374000",
+      "file_offset": 634348,
+      "bytes": 21036
+    },
+    {
+      "index": 3,
+      "load_address": "0x42000020",
+      "file_offset": 655392,
+      "bytes": 1242252
+    },
+    {
+      "index": 4,
+      "load_address": "0x4037922c",
+      "file_offset": 1897652,
+      "bytes": 74288
+    },
+    {
+      "index": 5,
+      "load_address": "0x600fe010",
+      "file_offset": 1971948,
+      "bytes": 4
+    }
+  ],
+  "checksum_valid": true,
+  "appended_sha256_valid": true,
+  "rea_metadata": {
+    "appended_sha256": {
+      "computed": "ffc49ebca3ea35801020d8946d46934cb9e723f5f98fde7d1fb70d5b3056d376",
+      "offset": 1971968,
+      "status": "valid",
+      "stored": "ffc49ebca3ea35801020d8946d46934cb9e723f5f98fde7d1fb70d5b3056d376"
+    },
+    "checksum": {
+      "computed": 226,
+      "offset": 1971967,
+      "status": "valid",
+      "stored": 226
+    },
+    "chip": {
+      "isa": "xtensa",
+      "source": "ESP-IDF v6.1",
+      "target": "esp32s3"
+    },
+    "descriptor": {
+      "app_elf_sha256": "3686fa8c2eee2c9bb8f323665853d48626240e09345f11df68718c7e506220ad",
+      "date": "Sep 26 2025",
+      "idf_ver": "v5.0.5-dirty",
+      "kind": "app",
+      "max_efuse_blk_rev_full": 0,
+      "min_efuse_blk_rev_full": 0,
+      "mmu_page_size": 0,
+      "observed_length": 256,
+      "offset": 32,
+      "project_name": "mgc01_esp32_ui_board",
+      "secure_version": 0,
+      "spi_flash_mode": 0,
+      "time": "10:45:49",
+      "version": "v0.3.5.6"
+    },
+    "flash_dump": null,
+    "header": {
+      "chip_id": 9,
+      "entry_addr": 1077369072,
+      "hash_appended": true,
+      "max_chip_rev_full": 99,
+      "min_chip_rev": 0,
+      "min_chip_rev_full": 0,
+      "reserved": "00000000",
+      "segment_count": 6,
+      "spi_mode": 2,
+      "spi_pin_drv": "000000",
+      "spi_size": 3,
+      "spi_speed": 15,
+      "wp_pin": 238
+    },
+    "image_end": 1972000,
+    "kind": "esp-image",
+    "signature_sector_offset": null,
+    "undescribed_trailing": []
+  },
+  "limits": "Strings identify investigation leads, not proven runtime cause or recovered source."
+}

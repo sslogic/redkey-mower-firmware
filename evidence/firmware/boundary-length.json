@@ -1,0 +1,14 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "total_wire_len_storage": "0x3fca6a08 float32",
+  "store_sites": [
+    "0x42036902",
+    "0x4203690e"
+  ],
+  "log_site": "0x4203706d, format total_wire_len=%.2f at0x3c1912dc",
+  "meaning": "Firmware has a runtime boundary-wire length quantity; it is not one fixed lap distance for every lawn.",
+  "separate_exit_checks": "Previously traced startup routine compares accumulated yaw to2*pi and4*pi; those are angles, not distances.",
+  "limitations": [
+    "Physical units and full calculation remain unresolved; no runtime length is included."
+  ]
+}

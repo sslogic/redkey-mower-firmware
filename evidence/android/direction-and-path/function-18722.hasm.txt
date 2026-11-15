@@ -1,0 +1,23 @@
+730308: => [Function #18722 "" of 58 bytes]: 1 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x00372a12
+730309: 
+730310: Bytecode listing:
+730311: 
+730312: ==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 4>
+730313: ==> 00000003: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 0>
+730314: ==> 00000007: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 1>
+730315: ==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 38>
+730316: ==> 0000000e: <GetByVal>: <Reg8: 0, Reg8: 2, Reg8: 0>
+730317: ==> 00000012: <LoadConstUndefined>: <Reg8: 4>
+730318: ==> 00000014: <Call2>: <Reg8: 0, Reg8: 1, Reg8: 4, Reg8: 0>
+730319: ==> 00000019: <GetById>: <Reg8: 3, Reg8: 0, UInt8: 1, string_id: 13735>  # String: 'publishDeviceCommand' (Identifier)
+730320: ==> 0000001f: <GetEnvironment>: <Reg8: 0, UInt8: 3>
+730321: ==> 00000022: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 7>
+730322: ==> 00000026: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+730323: ==> 00000029: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 0>
+730324: ==> 0000002d: <LoadConstString>: <Reg8: 0, string_id: 25492>  # String: 'mow_direction' (Identifier)
+730325: ==> 00000031: <Call4>: <Reg8: 0, Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 0, Reg8: 1>
+730326: ==> 00000038: <Ret>: <Reg8: 0>
+730327: 
+730328: 
+730329: ===============
+730330: 

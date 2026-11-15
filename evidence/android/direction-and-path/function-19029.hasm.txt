@@ -1,0 +1,17 @@
+740224: => [Function #19029 "supportNearChargerMow" of 30 bytes]: 2 params, frame size=13, strict=0, exc handler=0, debug info=0  @ offset 0x00379a73
+740225: 
+740226: Bytecode listing:
+740227: 
+740228: ==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+740229: ==> 00000003: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 0>
+740230: ==> 00000007: <LoadConstUndefined>: <Reg8: 2>
+740231: ==> 00000009: <LoadParam>: <Reg8: 1, UInt8: 1>
+740232: ==> 0000000c: <LoadConstString>: <Reg8: 0, string_id: 3058>  # String: '0.3.5' (String)
+740233: ==> 00000010: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 2, Reg8: 1, Reg8: 0>
+740234: ==> 00000016: <LoadConstZero>: <Reg8: 0>
+740235: ==> 00000018: <GreaterEq>: <Reg8: 0, Reg8: 1, Reg8: 0>
+740236: ==> 0000001c: <Ret>: <Reg8: 0>
+740237: 
+740238: 
+740239: ===============
+740240: 

@@ -1,0 +1,71 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "certificate_name_classification": [
+    {
+      "offset": "0x120",
+      "subject": {
+        "contains_aws_or_amazon_label": true,
+        "contains_vendor_brand_label": false,
+        "contains_known_private_marker": false,
+        "contains_email_attribute": false,
+        "attribute_oids": [
+          "2.5.4.6",
+          "2.5.4.10",
+          "2.5.4.3"
+        ]
+      },
+      "issuer": {
+        "contains_aws_or_amazon_label": true,
+        "contains_vendor_brand_label": false,
+        "contains_known_private_marker": false,
+        "contains_email_attribute": false,
+        "attribute_oids": [
+          "2.5.4.6",
+          "2.5.4.10",
+          "2.5.4.3"
+        ]
+      },
+      "self_issued_name": true,
+      "known_private_marker_in_certificate_pem": false
+    },
+    {
+      "offset": "0x5db",
+      "subject": {
+        "contains_aws_or_amazon_label": true,
+        "contains_vendor_brand_label": false,
+        "contains_known_private_marker": false,
+        "contains_email_attribute": false,
+        "attribute_oids": [
+          "2.5.4.3"
+        ]
+      },
+      "issuer": {
+        "contains_aws_or_amazon_label": true,
+        "contains_vendor_brand_label": false,
+        "contains_known_private_marker": false,
+        "contains_email_attribute": false,
+        "attribute_oids": [
+          "2.5.4.11"
+        ]
+      },
+      "self_issued_name": false,
+      "known_private_marker_in_certificate_pem": false
+    }
+  ],
+  "public_vendor_comparison": {
+    "source_url": "https://ldrobotota.s3.amazonaws.com/0.3.5.6.release.bin",
+    "authentication_sent": false,
+    "key_used": false,
+    "bytes_saved": false,
+    "http_status": 200,
+    "bytes": 1972000,
+    "sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+    "matches_local_original": true
+  },
+  "interpretation": "A matching unauthenticated public download establishes that these bytes are publicly served without account selection. It does not establish credential ownership, privileges, authorization to redistribute secrets, or revocation status.",
+  "limits": [
+    "Known owner-specific values were checked separately against every published file; no claim is made about all possible secret representations.",
+    "No private key, certificate DN value, serial or fingerprint was emitted.",
+    "The private key was not used for authentication or any remote connection."
+  ]
+}

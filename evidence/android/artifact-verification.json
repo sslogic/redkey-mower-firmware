@@ -1,0 +1,32 @@
+{
+  "artifact_hashes": {
+    "downloads\\rhome-1.8.9-26-apkpure.xapk": "b281b38a53a7a4b4ea8b878596c9bb17c2f298426093a567319ce3c8fad147f5",
+    "analysis\\split-apks\\com.ldrobot.aws.rhome.apk": "04f73e6ec0fc33ffa7fc54a9dd7a1dbcf4df7d9d729bab965dc521c16267a6d2",
+    "analysis\\hermes-decoded\\index.android.bundle": "7b8efe72681b083fb0cab66a475e94cb009bf19754499546701b8d9bb5447762"
+  },
+  "bundle_matches_apk": true,
+  "focused_functions": [
+    18663,
+    18698,
+    18700,
+    18717,
+    18721,
+    18722,
+    19029,
+    19030,
+    19032,
+    19034,
+    19036,
+    19089,
+    23336,
+    24250,
+    24282
+  ],
+  "jadx_java_files": 3966,
+  "runtime_validation": false,
+  "mower_changed": false,
+  "notes": [
+    "JADX has warnings; successful exit does not guarantee every reconstructed method.",
+    "Key direction mapping and command calls were cross-checked against Hermes disassembly."
+  ]
+}

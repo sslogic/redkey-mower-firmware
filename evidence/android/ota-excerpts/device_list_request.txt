@@ -1,0 +1,30 @@
+654326:             r0 = undefined;
+654327:             r2 = _closure1_slot0;
+654328:             r3 = r2.default;
+654329:             r2 = function* () { // Environment: r2
+654330:                 r0 = function* () { // Original name: ?anon_0_, environment: r0
+654331:                     _fun18747: for(var _fun18747_ip = 0; ; ) switch(_fun18747_ip) {
+654332: case 0:
+654333:                         StartGenerator();
+654334:                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+654335:                         if(r1) { _fun18747_ip = 52; continue _fun18747 }
+654336: case 7:
+654337:                         r1 = _closure1_slot1;
+654338:                         r4 = r1.default;
+654339:                         r3 = r4.get;
+654340:                         r2 = '/device/bind/list';
+654341:                         r1 = {};
+654342:                         r1 = r3.bind(r4)(r2, r1);
+654343:                         SaveGenerator(address=40);
+654344: case 38:
+654345:                         return r1;
+654346: case 40:
+654347:                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+654348:                         if(r2) { _fun18747_ip = 49; continue _fun18747 }
+654349: case 46:
+654350:                         return r1;
+654351: case 49:
+654352:                         return r1;
+654353: case 52:
+654354:                         return r0;
+654355:                     }

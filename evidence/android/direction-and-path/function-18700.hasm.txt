@@ -1,0 +1,21 @@
+729244: => [Function #18700 "handleRequestHisPath" of 50 bytes]: 1 params, frame size=13, strict=0, exc handler=0, debug info=0  @ offset 0x00371cea
+729245: 
+729246: Bytecode listing:
+729247: 
+729248: ==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+729249: ==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+729250: ==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+729251: ==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 38>
+729252: ==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+729253: ==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+729254: ==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+729255: ==> 00000019: <GetById>: <Reg8: 3, Reg8: 1, UInt8: 1, string_id: 13735>  # String: 'publishDeviceCommand' (Identifier)
+729256: ==> 0000001f: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+729257: ==> 00000022: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 7>
+729258: ==> 00000026: <LoadConstString>: <Reg8: 1, string_id: 12268>  # String: 'req_all_path' (String)
+729259: ==> 0000002a: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 0, Reg8: 2, Reg8: 1>
+729260: ==> 00000030: <Ret>: <Reg8: 0>
+729261: 
+729262: 
+729263: ===============
+729264: 

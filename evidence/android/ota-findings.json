@@ -1,0 +1,242 @@
+{
+  "evidence_type": "static_app_pseudocode_with_selected_bytecode_corroboration",
+  "network_requests_sent": false,
+  "device_commands_sent": false,
+  "source_sha256": {
+    "pseudocode.js": "46efc50a9a60bba7d1fd263d5c6246a31882b4129fe43bc9f9a676f83812d787",
+    "disassembly.hasm": "9c5341559f120212baf6561b13c0e9d9ad855319af2c6a9b084ece5c4bbcbbcc"
+  },
+  "ota_command": {
+    "cmd": "ota_start",
+    "data": {
+      "version": "server firmware version",
+      "url": "server fw_url or caller-selected reachable firmware URL"
+    }
+  },
+  "cloud_publish": {
+    "aws_operation": "Publish",
+    "signing_service": "iotdata",
+    "topic": "$aws/things/<sn>/shadow/name/service/update",
+    "payload": "{\"state\":{\"desired\":<ota_command>}}",
+    "qos": "not supplied by app",
+    "retain": "not supplied by app",
+    "http_path": "/topics/{topic}; topic encoded as one path parameter"
+  },
+  "credentials": {
+    "method": "POST",
+    "path": "/device/v2/iot/sts/arn",
+    "body_fields": [
+      "sn",
+      "verification_token"
+    ],
+    "token_algorithm": "t = Math.round(Date.now()/1000); lowercaseHexMD5(sn + decimal(t)) + decimal(t)",
+    "response_fields": [
+      "access_key_id",
+      "secret_access_key",
+      "session_token",
+      "expiration",
+      "endpoint",
+      "region_name"
+    ]
+  },
+  "device_list": {
+    "method": "GET",
+    "path": "/device/bind/list",
+    "data_shape": "array of device objects; item.sn and item.alias used by app",
+    "runtime_response_observed": false
+  },
+  "status": {
+    "aws_operation": "GetThingShadow",
+    "thingName": "<sn>",
+    "shadowName": "property",
+    "body": "state.reported",
+    "metadata": "metadata.reported",
+    "fields": [
+      "online",
+      "elec",
+      "mode",
+      "fw_version.ui_board",
+      "ota_status"
+    ],
+    "online_value": 1,
+    "unknown_online_default": 4294967295,
+    "ota_fields": [
+      "ota_state",
+      "ota_progress",
+      "ota_time_estimate",
+      "ota_start_time",
+      "ota_data_len"
+    ],
+    "ota_time_estimate_units": "milliseconds"
+  },
+  "app_gate": {
+    "online": true,
+    "allowed_modes": [
+      "charge",
+      "pause",
+      "idle",
+      "sleep"
+    ],
+    "minimum_elec": 20
+  },
+  "acknowledgment": {
+    "mode": "ota",
+    "timeout_ms": 30000
+  },
+  "success": {
+    "event_code": 24,
+    "ota_state": "success",
+    "requires_fresh_evidence_in_new_uploader": true
+  },
+  "events": {
+    "89": "upgrade conditions not met",
+    "73": "resets app OTA status/progress"
+  },
+  "unknowns": [
+    "Live account authorization to publish has not been tested.",
+    "Local URL reachability/acceptance and image version/signature acceptance are not demonstrated by app static analysis.",
+    "Publishing a command is not proof of installation; cached success must not complete a new job.",
+    "Device-list array shape is statically inferred from API wrapper and consumers, not a captured live response."
+  ],
+  "excerpts": {
+    "credential_request": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 232240,
+      "end_line": 232289,
+      "file": "credential_request.txt"
+    },
+    "verification_token": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 232497,
+      "end_line": 232520,
+      "file": "verification_token.txt"
+    },
+    "device_list_request": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 654326,
+      "end_line": 654355,
+      "file": "device_list_request.txt"
+    },
+    "device_array_storage": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 635881,
+      "end_line": 635929,
+      "file": "device_array_storage.txt"
+    },
+    "device_list_consumer": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 817024,
+      "end_line": 817042,
+      "file": "device_list_consumer.txt"
+    },
+    "shadow_defaults": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 655707,
+      "end_line": 655723,
+      "file": "shadow_defaults.txt"
+    },
+    "cloud_client": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 663810,
+      "end_line": 663850,
+      "file": "cloud_client.txt"
+    },
+    "cloud_publish_wrapper": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 663896,
+      "end_line": 663940,
+      "file": "cloud_publish_wrapper.txt"
+    },
+    "cloud_property_shadow": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 664066,
+      "end_line": 664149,
+      "file": "cloud_property_shadow.txt"
+    },
+    "named_shadow_constants": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 664199,
+      "end_line": 664208,
+      "file": "named_shadow_constants.txt"
+    },
+    "sdk_publish_path_and_options": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 666373,
+      "end_line": 666430,
+      "file": "sdk_publish_path_and_options.txt"
+    },
+    "ota_version_selection": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 812009,
+      "end_line": 812029,
+      "file": "ota_version_selection.txt"
+    },
+    "ota_eligibility": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 845680,
+      "end_line": 845716,
+      "file": "ota_eligibility.txt"
+    },
+    "ota_command": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 845884,
+      "end_line": 845912,
+      "file": "ota_command.txt"
+    },
+    "ota_acknowledgment": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 845831,
+      "end_line": 845856,
+      "file": "ota_acknowledgment.txt"
+    },
+    "ota_progress": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 845474,
+      "end_line": 845532,
+      "file": "ota_progress.txt"
+    },
+    "ota_events": {
+      "source": "analysis/hermes-decoded/pseudocode.js",
+      "start_line": 845586,
+      "end_line": 845651,
+      "file": "ota_events.txt"
+    }
+  },
+  "bytecode_functions": {
+    "6086": {
+      "source": "analysis/hermes-decoded/disassembly.hasm",
+      "start_line": 253383,
+      "file": "function-6086.hasm.txt"
+    },
+    "6098": {
+      "source": "analysis/hermes-decoded/disassembly.hasm",
+      "start_line": 253736,
+      "file": "function-6098.hasm.txt"
+    },
+    "19085": {
+      "source": "analysis/hermes-decoded/disassembly.hasm",
+      "start_line": 741882,
+      "file": "function-19085.hasm.txt"
+    },
+    "19089": {
+      "source": "analysis/hermes-decoded/disassembly.hasm",
+      "start_line": 741996,
+      "file": "function-19089.hasm.txt"
+    },
+    "19097": {
+      "source": "analysis/hermes-decoded/disassembly.hasm",
+      "start_line": 742211,
+      "file": "function-19097.hasm.txt"
+    },
+    "24012": {
+      "source": "analysis/hermes-decoded/disassembly.hasm",
+      "start_line": 933804,
+      "file": "function-24012.hasm.txt"
+    },
+    "24013": {
+      "source": "analysis/hermes-decoded/disassembly.hasm",
+      "start_line": 933852,
+      "file": "function-24013.hasm.txt"
+    }
+  }
+}

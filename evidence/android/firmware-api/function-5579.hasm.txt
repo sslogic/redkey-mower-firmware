@@ -1,0 +1,49 @@
+=> [Function #5579 "" of 174 bytes]: 2 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00206e80
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 4>
+==> 00000002: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 00000005: <StoreToEnvironment>: <Reg8: 4, UInt8: 0, Reg8: 0>
+==> 00000009: <GetByIdShort>: <Reg8: 5, Reg8: 0, UInt8: 1, string_id: 154>  # String: 'headers' (Identifier)
+==> 0000000e: <GetByIdShort>: <Reg8: 3, Reg8: 5, UInt8: 2, string_id: 54>  # String: 'set' (Identifier)
+==> 00000013: <LoadConstString>: <Reg8: 2, string_id: 15329>  # String: 'version' (Identifier)
+==> 00000017: <LoadConstString>: <Reg8: 1, string_id: 21263>  # String: 'v1' (Identifier)
+==> 0000001b: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 5, Reg8: 2, Reg8: 1>
+==> 00000021: <GetById>: <Reg8: 1, Reg8: 0, UInt8: 3, string_id: 14688>  # String: 'method' (Identifier)
+==> 00000027: <GetEnvironment>: <Reg8: 1, UInt8: 2>
+==> 0000002a: <LoadFromEnvironment>: <Reg8: 3, Reg8: 1, UInt8: 13>
+==> 0000002e: <LoadConstUndefined>: <Reg8: 2>
+==> 00000030: <Call2>: <Reg8: 3, Reg8: 3, Reg8: 2, Reg8: 0>
+==> 00000035: <JmpTrue>: <Addr8: 110, Reg8: 3>  # Address: 000000a3
+==> 00000038: <GetEnvironment>: <Reg8: 3, UInt8: 0>
+==> 0000003b: <LoadFromEnvironment>: <Reg8: 5, Reg8: 3, UInt8: 0>
+==> 0000003f: <GetById>: <Reg8: 3, Reg8: 5, UInt8: 4, string_id: 25780>  # String: 'getToken' (Identifier)
+==> 00000045: <Call1>: <Reg8: 3, Reg8: 3, Reg8: 5>
+==> 00000049: <JmpTrue>: <Addr8: 57, Reg8: 3>  # Address: 00000082
+==> 0000004c: <GetById>: <Reg8: 5, Reg8: 0, UInt8: 3, string_id: 14688>  # String: 'method' (Identifier)
+==> 00000052: <LoadFromEnvironment>: <Reg8: 5, Reg8: 1, UInt8: 6>
+==> 00000056: <GetByIdShort>: <Reg8: 5, Reg8: 5, UInt8: 5, string_id: 111>  # String: 'default' (Identifier)
+==> 0000005b: <GetById>: <Reg8: 6, Reg8: 5, UInt8: 6, string_id: 15891>  # String: 'CancelToken' (Identifier)
+==> 00000061: <GetByIdShort>: <Reg8: 5, Reg8: 6, UInt8: 7, string_id: 162>  # String: 'prototype' (Identifier)
+==> 00000066: <CreateThis>: <Reg8: 5, Reg8: 5, Reg8: 6>
+==> 0000006a: <CreateClosure>: <Reg8: 8, Reg8: 4, function_id: 5580>  # Function: [#5580 executor of 29 bytes]: 2 params @ offset 0x00206f2e
+==> 0000006f: <Mov>: <Reg8: 9, Reg8: 5>
+==> 00000072: <Construct>: <Reg8: 4, Reg8: 6, UInt8: 2>
+==> 00000076: <SelectObject>: <Reg8: 4, Reg8: 5, Reg8: 4>
+==> 0000007a: <PutById>: <Reg8: 0, Reg8: 4, UInt8: 1, string_id: 25216>  # String: 'cancelToken' (Identifier)
+==> 00000080: <Jmp>: <Addr8: 33>  # Address: 000000a1
+==> 00000082: <GetByIdShort>: <Reg8: 5, Reg8: 0, UInt8: 1, string_id: 154>  # String: 'headers' (Identifier)
+==> 00000087: <GetById>: <Reg8: 4, Reg8: 5, UInt8: 8, string_id: 23667>  # String: 'setAuthorization' (Identifier)
+==> 0000008d: <LoadFromEnvironment>: <Reg8: 6, Reg8: 1, UInt8: 15>
+==> 00000091: <GetById>: <Reg8: 3, Reg8: 3, UInt8: 9, string_id: 20383>  # String: 'accessToken' (Identifier)
+==> 00000097: <Call2>: <Reg8: 3, Reg8: 6, Reg8: 2, Reg8: 3>
+==> 0000009c: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 5, Reg8: 3>
+==> 000000a1: <Ret>: <Reg8: 0>
+==> 000000a3: <LoadFromEnvironment>: <Reg8: 1, Reg8: 1, UInt8: 14>
+==> 000000a7: <Call2>: <Reg8: 1, Reg8: 1, Reg8: 2, Reg8: 0>
+==> 000000ac: <Ret>: <Reg8: 0>
+
+
+===============
+

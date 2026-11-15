@@ -1,0 +1,48 @@
+=> [Function #23239 "?anon_0_" of 119 bytes]: 1 params, frame size=16, strict=0, exc handler=1, debug info=0  @ offset 0x003d61da
+  [Exception handlers: [start=0x7, end=0x52, target=0x57] ]
+
+Bytecode listing:
+
+==> 00000000: <StartGenerator>: <>
+==> 00000001: <ResumeGenerator>: <Reg8: 0, Reg8: 1>
+==> 00000004: <JmpTrue>: <Addr8: 112, Reg8: 1>  # Address: 00000074
+==> 00000007: <GetEnvironment>: <Reg8: 1, UInt8: 4>
+==> 0000000a: <LoadFromEnvironment>: <Reg8: 1, Reg8: 1, UInt8: 5>
+==> 0000000e: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 111>  # String: 'default' (Identifier)
+==> 00000013: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 145>  # String: 'get' (Identifier)
+==> 00000018: <NewObject>: <Reg8: 3>
+==> 0000001a: <NewObject>: <Reg8: 1>
+==> 0000001c: <GetEnvironment>: <Reg8: 2, UInt8: 3>
+==> 0000001f: <LoadFromEnvironment>: <Reg8: 6, Reg8: 2, UInt8: 0>
+==> 00000023: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 6, string_id: 227>  # String: 'sn' (Identifier)
+==> 00000027: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 202>  # String: 'params' (Identifier)
+==> 0000002b: <LoadConstString>: <Reg8: 1, string_id: 1027>  # String: '/device/latest/firmware' (String)
+==> 0000002f: <Call3>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 1, Reg8: 3>
+==> 00000035: <SaveGenerator>: <Addr8: 4>  # Address: 00000039
+==> 00000037: <Ret>: <Reg8: 1>
+==> 00000039: <ResumeGenerator>: <Reg8: 1, Reg8: 3>
+==> 0000003c: <JmpTrue>: <Addr8: 24, Reg8: 3>  # Address: 00000054
+==> 0000003f: <GetEnvironment>: <Reg8: 3, UInt8: 2>
+==> 00000042: <LoadFromEnvironment>: <Reg8: 4, Reg8: 3, UInt8: 0>
+==> 00000046: <LoadFromEnvironment>: <Reg8: 3, Reg8: 2, UInt8: 0>
+==> 0000004a: <LoadConstUndefined>: <Reg8: 2>
+==> 0000004c: <Call3>: <Reg8: 2, Reg8: 4, Reg8: 2, Reg8: 3, Reg8: 1>
+==> 00000052: <Jmp>: <Addr8: 29>  # Address: 0000006f
+==> 00000054: <CompleteGenerator>: <>
+==> 00000055: <Ret>: <Reg8: 1>
+==> 00000057: <Catch>: <Reg8: 1>
+==> 00000059: <GetEnvironment>: <Reg8: 1, UInt8: 2>
+==> 0000005c: <LoadFromEnvironment>: <Reg8: 3, Reg8: 1, UInt8: 0>
+==> 00000060: <GetEnvironment>: <Reg8: 1, UInt8: 3>
+==> 00000063: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 0>
+==> 00000067: <LoadConstUndefined>: <Reg8: 1>
+==> 00000069: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 1, Reg8: 2, Reg8: 1>
+==> 0000006f: <LoadConstUndefined>: <Reg8: 1>
+==> 00000071: <CompleteGenerator>: <>
+==> 00000072: <Ret>: <Reg8: 1>
+==> 00000074: <CompleteGenerator>: <>
+==> 00000075: <Ret>: <Reg8: 0>
+
+
+===============
+

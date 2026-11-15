@@ -1,0 +1,19 @@
+817024:                         r1 = _closure2_slot3;
+817025:                         r1 = r1.bind(r4)(r2);
+817026: case 83: // try_start_0 // try_start_1
+817027:                         r1 = _closure1_slot3;
+817028:                         r2 = r1.default;
+817029:                         r1 = r2.list;
+817030:                         r1 = r1.bind(r2)();
+817031:                         SaveGenerator(address=109);
+817032: case 107:
+817033:                         return r1;
+817034: case 109:
+817035:                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+817036:                         if(r2) { _fun23408_ip = 137; continue _fun23408 }
+817037: case 115:
+817038:                         r3 = _closure2_slot2;
+817039:                         r3 = r3.bind(r4)();
+817040:                         r2 = _closure2_slot0;
+817041:                         r2 = r2.bind(r4)(r1);
+817042: case 135: // try_end0

@@ -1,0 +1,66 @@
+845586:                                 r1 = 89;
+845587:                                 if(!(r2 === r1)) { _fun24005_ip = 48; continue _fun24005 }
+845588: case 16:
+845589:                                 r3 = _closure2_slot2;
+845590:                                 r2 = r3.info;
+845591:                                 r5 = _closure2_slot0;
+845592:                                 r4 = undefined;
+845593:                                 r1 = 'strEnsureUpgradeConditions';
+845594:                                 r1 = r5.bind(r4)(r1);
+845595:                                 r1 = r2.bind(r3)(r1);
+845596: case 48:
+845597:                                 r2 = r0.event_code;
+845598:                                 r1 = 73;
+845599:                                 if(!(r2 === r1)) { _fun24005_ip = 140; continue _fun24005 }
+845600: case 61:
+845601:                                 r6 = _closure1_slot16;
+845602:                                 r5 = r6.default;
+845603:                                 r4 = r5.setShadow;
+845604:                                 r3 = _closure2_slot3;
+845605:                                 r2 = {};
+845606:                                 r6 = r6.defaultOtaStatus;
+845607:                                 r2['ota_status'] = r6;
+845608:                                 r2 = r4.bind(r5)(r3, r2);
+845609:                                 r2 = _closure2_slot10;
+845610:                                 r3 = false;
+845611:                                 r2['current'] = r3;
+845612:                                 r4 = _closure2_slot11;
+845613:                                 r2 = 0;
+845614:                                 r4['current'] = r2;
+845615:                                 r2 = _closure2_slot9;
+845616:                                 r1 = undefined;
+845617:                                 r1 = r2.bind(r1)(r3);
+845618: case 140:
+845619:                                 r2 = r0.event_code;
+845620:                                 r1 = 24;
+845621:                                 if(!(r2 === r1)) { _fun24005_ip = 199; continue _fun24005 }
+845622: case 153:
+845623:                                 r3 = _closure2_slot9;
+845624:                                 r4 = undefined;
+845625:                                 r2 = true;
+845626:                                 r3 = r3.bind(r4)(r2);
+845627:                                 r3 = _closure2_slot10;
+845628:                                 r3 = r3.current;
+845629:                                 if(r3) { _fun24005_ip = 199; continue _fun24005 }
+845630: case 181:
+845631:                                 r3 = _closure2_slot13;
+845632:                                 r3 = r3.bind(r4)();
+845633:                                 r1 = _closure2_slot10;
+845634:                                 r1['current'] = r2;
+845635: case 199:
+845636:                                 r1 = r0.ota_status;
+845637:                                 r0 = null;
+845638:                                 r3 = r1 == r0;
+845639:                                 r0 = undefined;
+845640:                                 r2 = undefined;
+845641:                                 if(r3) { _fun24005_ip = 224; continue _fun24005 }
+845642: case 218:
+845643:                                 r2 = r1.ota_state;
+845644: case 224:
+845645:                                 r1 = 'success';
+845646:                                 if(!(r2 === r1)) { _fun24005_ip = 276; continue _fun24005 }
+845647: case 232:
+845648:                                 r3 = _closure2_slot9;
+845649:                                 r2 = true;
+845650:                                 r3 = r3.bind(r0)(r2);
+845651:                                 r3 = _closure2_slot10;

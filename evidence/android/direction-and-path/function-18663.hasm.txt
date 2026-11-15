@@ -1,0 +1,21 @@
+727473: => [Function #18663 "getHisPath" of 51 bytes]: 3 params, frame size=12, strict=0, exc handler=0, debug info=0  @ offset 0x003705bd
+727474: 
+727475: Bytecode listing:
+727476: 
+727477: ==> 00000000: <LoadParam>: <Reg8: 1, UInt8: 1>
+727478: ==> 00000003: <LoadConstString>: <Reg8: 0, string_id: 3320>  # String: '/path_' (String)
+727479: ==> 00000007: <Add>: <Reg8: 1, Reg8: 1, Reg8: 0>
+727480: ==> 0000000b: <LoadParam>: <Reg8: 0, UInt8: 2>
+727481: ==> 0000000e: <Add>: <Reg8: 3, Reg8: 1, Reg8: 0>
+727482: ==> 00000012: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+727483: ==> 00000015: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 7>
+727484: ==> 00000019: <GetByIdShort>: <Reg8: 2, Reg8: 0, UInt8: 1, string_id: 111>  # String: 'default' (Identifier)
+727485: ==> 0000001e: <GetById>: <Reg8: 1, Reg8: 2, UInt8: 2, string_id: 25706>  # String: 'getPresignedUrl' (Identifier)
+727486: ==> 00000024: <LoadConstString>: <Reg8: 0, string_id: 658>  # String: '.json' (String)
+727487: ==> 00000028: <Add>: <Reg8: 0, Reg8: 3, Reg8: 0>
+727488: ==> 0000002c: <Call2>: <Reg8: 0, Reg8: 1, Reg8: 2, Reg8: 0>
+727489: ==> 00000031: <Ret>: <Reg8: 0>
+727490: 
+727491: 
+727492: ===============
+727493: 

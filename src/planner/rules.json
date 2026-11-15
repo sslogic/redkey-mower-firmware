@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deployment": "offline_reference_only",
+  "mapping_circuits_per_job": 1,
+  "mapping_blade_policy": "retain_oem_policy",
+  "phase_order": ["horizontal", "vertical"],
+  "start": "upper_right_in_each_phase_frame",
+  "outbound": "parallel",
+  "return": "diagonal_to_next_adjacent_row",
+  "cutting_width_m": 0.2,
+  "nominal_overlap_m": 0.0254,
+  "finish_section_before_transfer": true,
+  "boundary_follow_between_rows": false,
+  "section_transfer": "shortest_visible_route_in_clearance_space",
+  "blade_on_during_cutting_returns_and_transfers": true,
+  "protective_stops": ["lift", "tilt", "emergency_stop", "fault", "operator_stop", "safety_status_unknown"],
+  "physical_validation": "not_performed"
+}

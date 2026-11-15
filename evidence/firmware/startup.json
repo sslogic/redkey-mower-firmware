@@ -1,0 +1,117 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "method": "Xtensa objdump on exact mapped ELF; selected branch targets decoded afresh; original bytes verified",
+  "state_table_va": "0x3fc9bd94",
+  "states": [
+    {
+      "value": 0,
+      "address": "0x3c187d78",
+      "name": "FWBMS_INIT"
+    },
+    {
+      "value": 1,
+      "address": "0x3c187d84",
+      "name": "FWBMS_START_TO_CHARGER"
+    },
+    {
+      "value": 2,
+      "address": "0x3c187d9c",
+      "name": "FWBMS_RECORD_CHARGER_DATA"
+    },
+    {
+      "value": 3,
+      "address": "0x3c187db8",
+      "name": "FWBMS_LEAVE_CHARGER"
+    },
+    {
+      "value": 4,
+      "address": "0x3c187dcc",
+      "name": "FWBMS_LEAVE_CHARGER_TURN_AROUND"
+    },
+    {
+      "value": 5,
+      "address": "0x3c187dec",
+      "name": "FWBMS_AROUND_CHARGER"
+    },
+    {
+      "value": 6,
+      "address": "0x3c187e04",
+      "name": "FWBMS_FOLLOW_WIRE"
+    },
+    {
+      "value": 7,
+      "address": "0x3c187e18",
+      "name": "FWBMS_TO_CHARGER"
+    },
+    {
+      "value": 8,
+      "address": "0x3c187e2c",
+      "name": "FWBMS_BUILD_MAP"
+    },
+    {
+      "value": 9,
+      "address": "0x3c187e3c",
+      "name": "FWBMS_AROUND_OBS"
+    },
+    {
+      "value": 10,
+      "address": "0x3c187e50",
+      "name": "FWBMS_DISTURB_CONFIG"
+    },
+    {
+      "value": 11,
+      "address": "0x3c187e68",
+      "name": "FWBMS_TURN_AROUND_TO_CHARGER"
+    },
+    {
+      "value": 12,
+      "address": "0x3c187e88",
+      "name": "FWBMS_END"
+    },
+    {
+      "value": 13,
+      "address": "0x3c187e94",
+      "name": "FWBMS_ERROR"
+    }
+  ],
+  "yaw_constants": {
+    "two_pi": 6.283185307179586,
+    "four_pi": 12.566370614359172
+  },
+  "findings": [
+    {
+      "confidence": "high",
+      "code": "0x4201c650..0x4201c68c",
+      "observation": "u16 count returned via stack offset56 is compared with119. Count<=119 sets object bytes+0xce2 and+0xce3 to1, and logs need rebuild,map_count. Count>119 enters further tests. This is a map-data validity condition, not a lap count."
+    },
+    {
+      "confidence": "high",
+      "code": "0x4201cdc4..0x4201d044",
+      "observation": "After startup flags, yaw deltas from current pose are processed by0x40378adc and accumulated in float object+0xd3c. Absolute accumulated yaw is compared with exact4*pi. The corresponding logged branch sets byte+0xd44=1 and calls state-transition routine0x4201c174 with12=FWBMS_END. A second2*pi branch requires0x4201b778 return0 and geometric helper0x40378bcc result<0.5, then takes the same END transition."
+    },
+    {
+      "confidence": "high",
+      "code": "0x4201c174..0x4201c1a8",
+      "observation": "Transition routine logs old/new state names through table0x3fc9bd94, saves old state object+0xb3c to+0xb40, and stores new state at+0xb3c. Table proves12 is END."
+    },
+    {
+      "confidence": "high",
+      "code": "0x4201edb0..0x4201ee63",
+      "observation": "Map-completion branch reads signed accumulated-yaw-like field+0xbe4. Values<-3141 log Error side to build the map. Otherwise success continuation requires value>6020 AND u16 map size atobject+20>59. Failing first requirement logs Didnt go around; passing yaw but size<60 logs Finish Building Map Too Soon. These failure cases set error flags and invoke a common callback."
+    },
+    {
+      "confidence": "medium",
+      "code": "0x4201b778..0x4201b7b4",
+      "observation": "Secondary2*pi exit requires a helper false. Helper fetches message14 into stack and returns1 exactly when signed16 fields+8,+10 are both>100 and at least one>150. Field meanings and units are not established."
+    }
+  ],
+  "limitations": [
+    "The4*pi condition exits a startup state; it is not evidence that every mowing job commands exactly two border circuits.",
+    "Map completion thresholds6020/-3141 suggest scaled radians but units require tracing producer; no degree or meter interpretation asserted.",
+    "Geometric helper computes squared XY differences then calls0x4210c100; square-root semantics not independently verified here.",
+    "ROM comparison/helper names are inferred from surrounding numeric conversions and log branches, not recovered symbols.",
+    "No live mower command, firmware edit, OTA upload, or physical validation occurred.",
+    "No tested patch or exposed user setting has been identified by this subtask.",
+    "Image naming ui_board does not prove division of motion duties among boards; actual navigation code is present in this image."
+  ]
+}

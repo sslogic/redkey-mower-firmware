@@ -1,0 +1,10 @@
+664199:         r1['value'] = r0;
+664200:         r0 = '__esModule';
+664201:         r0 = r3.bind(r4)(r2, r0, r1);
+664202:         r0 = undefined;
+664203:         r2['default'] = r0;
+664204:         r1 = {'propertyShadowName': 'property', 'serviceShadowName': 'service'};
+664205:         r2['default'] = r1;
+664206:         return r0;
+664207:     };
+664208:     r6 = 1529;

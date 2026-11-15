@@ -1,0 +1,7 @@
+{
+  "custom_firmware_version": "0.3.6.0",
+  "custom_firmware_status": "planned_not_built",
+  "uploader_version": "0.1.0",
+  "project": "mgc01_esp32_ui_board",
+  "chip": "ESP32-S3"
+}

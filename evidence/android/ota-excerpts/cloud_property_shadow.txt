@@ -1,0 +1,84 @@
+664066:                     r0 = function* (a0, a1) { // Original name: ?anon_0_, environment: r0
+664067:                         _fun19097: for(var _fun19097_ip = 0; ; ) switch(_fun19097_ip) {
+664068: case 0:
+664069:                             StartGenerator();
+664070:                             r1 = a0;
+664071:                             r7 = this;
+664072:                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=5);
+664073:                             if(r5) { _fun19097_ip = 299; continue _fun19097 }
+664074: case 15:
+664075:                             r4 = r1;
+664076:                             r9 = undefined;
+664077:                             r2 = undefined;
+664078:                             r3 = undefined;
+664079:                             r8 = {};
+664080:                             r8['thingName'] = r1;
+664081:                             r1 = _closure1_slot5;
+664082:                             r1 = r1.default;
+664083:                             r1 = r1.propertyShadowName;
+664084:                             r8['shadowName'] = r1;
+664085:                             r6 = _closure1_slot0;
+664086:                             r10 = _closure1_slot1;
+664087:                             r1 = 7;
+664088:                             r1 = r10[r1];
+664089:                             r1 = r6.bind(r9)(r1);
+664090:                             r1 = r1.GetThingShadowCommand;
+664091:                             r6 = r1.prototype;
+664092:                             r6 = Object.create(r6, {constructor: {value: r1}});
+664093:                             r16 = r6;
+664094:                             r15 = r8;
+664095:                             r1 = new r16[r1](r15, r14);
+664096:                             r2 = r1 instanceof Object ? r1 : r6;
+664097: case 103: // try_start_0
+664098:                             r6 = r7.client;
+664099:                             r1 = r4;
+664100:                             r1 = r6.bind(r7)(r1);
+664101:                             SaveGenerator(address=121);
+664102: case 119:
+664103:                             return r1;
+664104: case 121:
+664105:                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
+664106:                             if(r6) { _fun19097_ip = 292; continue _fun19097 }
+664107: case 130:
+664108:                             r6 = r1.send;
+664109:                             r2 = r6.bind(r1)(r2);
+664110:                             SaveGenerator(address=145);
+664111: case 143:
+664112:                             return r2;
+664113: case 145:
+664114:                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
+664115:                             if(r6) { _fun19097_ip = 289; continue _fun19097 }
+664116: case 154:
+664117:                             r3 = r2;
+664118:                             r6 = r2.payload;
+664119:                             if(r6) { _fun19097_ip = 199; continue _fun19097 }
+664120: case 165: // try_end0
+664121:                             r6 = global;
+664122:                             r8 = r6.Error;
+664123:                             r6 = r8.prototype;
+664124:                             r7 = Object.create(r6, {constructor: {value: r8}});
+664125:                             r15 = 'Failed to get device shadow.';
+664126:                             r16 = r7;
+664127:                             r6 = new r16[r8](r15, r14);
+664128:                             r6 = r6 instanceof Object ? r6 : r7;
+664129:                             throw r6;
+664130: case 199: // try_start_1
+664131:                             r6 = r3.payload;
+664132:                             r3 = r6.transformToString;
+664133:                             r7 = r3.bind(r6)();
+664134:                             r3 = global;
+664135:                             r6 = r3.JSON;
+664136:                             r3 = r6.parse;
+664137:                             r3 = r3.bind(r6)(r7);
+664138:                             r5 = _closure1_slot6;
+664139:                             r8 = r5.default;
+664140:                             r15 = r4;
+664141:                             r4 = r3.state;
+664142:                             r14 = r4.reported;
+664143:                             r13 = r3.version;
+664144:                             r12 = r3.timestamp;
+664145:                             r3 = r3.metadata;
+664146:                             r11 = r3.reported;
+664147:                             r16 = undefined;
+664148:                             r3 = r16[r8](r15, r14, r13, r12, r11, r10);
+664149: case 286: // try_end1

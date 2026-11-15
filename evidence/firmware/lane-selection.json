@@ -1,0 +1,132 @@
+{
+  "source_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "code_ranges": [
+    [
+      "0x4204971c",
+      "0x42049793"
+    ],
+    [
+      "0x42049794",
+      "0x420497bb"
+    ],
+    [
+      "0x420497bc",
+      "0x420497d0"
+    ],
+    [
+      "0x420497d0",
+      "0x4204989d"
+    ],
+    [
+      "0x4204989d",
+      "0x42049918"
+    ]
+  ],
+  "original_file_ranges": [
+    [
+      956188,
+      956307
+    ],
+    [
+      956308,
+      956347
+    ],
+    [
+      956348,
+      956368
+    ],
+    [
+      956368,
+      956573
+    ],
+    [
+      956573,
+      956696
+    ]
+  ],
+  "source_path_from_logging": "./main/tasks/task_mow/mow_status/ms_mow_global/mow_global_status.cpp",
+  "source_line_from_logging": 1936,
+  "debug_string": "zigzag_num:old=%d,new=%d,num_dir=%d, zigzag_b=%f,gongzi_dir_=%d\n",
+  "debug_string_address": "0x3c1930a0",
+  "inferred_variables": {
+    "zigzag_num": "0x3fcb628c signed16",
+    "num_dir": "0x3fcb628a signed8",
+    "zigzag_b": "0x3fcb62a0 float32",
+    "gating_flags": [
+      "0x3fcb6288",
+      "0x3fcb6289"
+    ]
+  },
+  "offset_step_numeric": 0.15,
+  "offset_update": "zigzag_b = float(double(zigzag_b) + 0.15 * (new_index-old_index))",
+  "positive_sequence_for_documented_branch": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    4,
+    5,
+    6,
+    11,
+    8,
+    9,
+    10,
+    15,
+    12,
+    13,
+    14,
+    19,
+    16,
+    17,
+    18,
+    23
+  ],
+  "negative_sequence_for_documented_branch": [
+    0,
+    -1,
+    -2,
+    -3,
+    -7,
+    -4,
+    -5,
+    -6,
+    -11,
+    -8,
+    -9,
+    -10,
+    -15,
+    -12,
+    -13,
+    -14,
+    -19,
+    -16,
+    -17,
+    -18,
+    -23
+  ],
+  "steady_transition_steps": [
+    5,
+    -3,
+    1,
+    1
+  ],
+  "rom_symbols": {
+    "__floatsidf": "0x40002334",
+    "__muldf3": "0x40002418",
+    "__extendsfdf2": "0x400022a4",
+    "__adddf3": "0x40002184",
+    "__truncdfsf2": "0x4000252c"
+  },
+  "rom_reference": "esp32s3.rom.libgcc.ld",
+  "change_candidate": "Investigate routing the flags-clear branch at 0x42049749 to existing +num_dir block 0x420497bc. No patch produced. Audit earlier gap checks, turn planner, coverage and boundary termination first.",
+  "limitations": [
+    "Local objdump evidence supplements REA image inspection; it is not REA-native decompilation.",
+    "Variable names inferred from matching logger argument flow; original source is unavailable.",
+    "The 0.15 value is exact binary64 encoding of the source decimal approximation; physical units remain unverified.",
+    "This models one conditional block, not the full planner or real motor motion.",
+    "State14 bypasses the update; either gating flag selects a separate sequential branch with additional boundary checks.",
+    "Firmware remains immutable. Reconstructed ELF is for analysis only, never flashing.",
+    "No runtime instruction trace is included; this is a conditional static model."
+  ]
+}

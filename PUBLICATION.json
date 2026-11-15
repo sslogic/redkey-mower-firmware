@@ -1,0 +1,16 @@
+{
+  "planner_tests_passed": 10,
+  "uploader_tests_passed": 10,
+  "firmware_segments_reconstructed_and_verified": 6,
+  "original_image_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "custom_version": "0.3.6.0",
+  "custom_binary_available": false,
+  "owner_specific_marker_scan": "passed in UTF-8 and UTF-16 encodings",
+  "public_vendor_image_match": "verified unauthenticated HTTP 200 and byte identity",
+  "embedded_vendor_credential": "Present in upstream image, which is omitted from the repository; never used.",
+  "physical_mower_installation_tested": false,
+  "private_runtime_data_published": false,
+  "test_transport": "SDK stubs and local HTTP servers; no mower OTA command in checks",
+  "original_image_included": false,
+  "original_image_delivery": "Vendor download link and SHA-256 only; local fetch is Git-ignored."
+}

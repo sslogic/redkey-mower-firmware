@@ -1,0 +1,27 @@
+729198: => [Function #18698 "handleGetHisPath" of 78 bytes]: 2 params, frame size=14, strict=0, exc handler=0, debug info=0  @ offset 0x00371c9c
+729199: 
+729200: Bytecode listing:
+729201: 
+729202: ==> 00000000: <CreateEnvironment>: <Reg8: 1>
+729203: ==> 00000002: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+729204: ==> 00000005: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 30>
+729205: ==> 00000009: <LoadParam>: <Reg8: 2, UInt8: 1>
+729206: ==> 0000000c: <GetByIdShort>: <Reg8: 2, Reg8: 2, UInt8: 1, string_id: 191>  # String: 'nativeEvent' (Identifier)
+729207: ==> 00000011: <GetById>: <Reg8: 2, Reg8: 2, UInt8: 2, string_id: 15763>  # String: 'pathIndex' (Identifier)
+729208: ==> 00000017: <PutById>: <Reg8: 3, Reg8: 2, UInt8: 1, string_id: 109>  # String: 'current' (Identifier)
+729209: ==> 0000001d: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 30>
+729210: ==> 00000021: <GetByIdShort>: <Reg8: 4, Reg8: 2, UInt8: 3, string_id: 109>  # String: 'current' (Identifier)
+729211: ==> 00000026: <StoreToEnvironment>: <Reg8: 1, UInt8: 0, Reg8: 4>
+729212: ==> 0000002a: <GetEnvironment>: <Reg8: 2, UInt8: 1>
+729213: ==> 0000002d: <LoadFromEnvironment>: <Reg8: 3, Reg8: 2, UInt8: 35>
+729214: ==> 00000031: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 7>
+729215: ==> 00000035: <LoadConstUndefined>: <Reg8: 0>
+729216: ==> 00000037: <Call3>: <Reg8: 3, Reg8: 3, Reg8: 0, Reg8: 2, Reg8: 4>
+729217: ==> 0000003d: <GetByIdShort>: <Reg8: 2, Reg8: 3, UInt8: 4, string_id: 239>  # String: 'then' (Identifier)
+729218: ==> 00000042: <CreateClosure>: <Reg8: 1, Reg8: 1, function_id: 18699>  # Function: [#18699  of 38 bytes]: 2 params @ offset 0x00371c76
+729219: ==> 00000047: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 3, Reg8: 1>
+729220: ==> 0000004c: <Ret>: <Reg8: 0>
+729221: 
+729222: 
+729223: ===============
+729224: 

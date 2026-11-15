@@ -1,0 +1,210 @@
+{
+  "rectangle": {
+    "horizontal": {
+      "sections": 1,
+      "completed_sections": [
+        0
+      ],
+      "parallel_passes": 45,
+      "diagonal_passes": 44,
+      "transfers": 0,
+      "center_space_area_m2": 71.25,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 74.68136548490546,
+      "uncovered_reachable_grass_m2": 0.22300104989240752,
+      "uncut_boundary_margin_m2": 5.318634515094573
+    },
+    "vertical": {
+      "sections": 1,
+      "completed_sections": [
+        0
+      ],
+      "parallel_passes": 57,
+      "diagonal_passes": 56,
+      "transfers": 1,
+      "center_space_area_m2": 71.25,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 74.68136548490546,
+      "uncovered_reachable_grass_m2": 0.2757676806052461,
+      "uncut_boundary_margin_m2": 5.318634515094573
+    }
+  },
+  "u_shape": {
+    "horizontal": {
+      "sections": 3,
+      "completed_sections": [
+        2,
+        1,
+        0
+      ],
+      "parallel_passes": 139,
+      "diagonal_passes": 136,
+      "transfers": 2,
+      "center_space_area_m2": 82.25,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 87.67704822735818,
+      "uncovered_reachable_grass_m2": 0.4429090148208643,
+      "uncut_boundary_margin_m2": 8.322951772641844
+    },
+    "vertical": {
+      "sections": 3,
+      "completed_sections": [
+        2,
+        1,
+        0
+      ],
+      "parallel_passes": 74,
+      "diagonal_passes": 71,
+      "transfers": 3,
+      "center_space_area_m2": 82.25,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 87.67704822735818,
+      "uncovered_reachable_grass_m2": 0.31417011898561387,
+      "uncut_boundary_margin_m2": 8.322951772641844
+    }
+  },
+  "two_squares_passage": {
+    "horizontal": {
+      "sections": 3,
+      "completed_sections": [
+        2,
+        1,
+        0
+      ],
+      "parallel_passes": 94,
+      "diagonal_passes": 91,
+      "transfers": 2,
+      "center_space_area_m2": 78.25,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 83.67273096981089,
+      "uncovered_reachable_grass_m2": 0.3128363008143951,
+      "uncut_boundary_margin_m2": 8.3272690301891
+    },
+    "vertical": {
+      "sections": 3,
+      "completed_sections": [
+        2,
+        1,
+        0
+      ],
+      "parallel_passes": 96,
+      "diagonal_passes": 93,
+      "transfers": 3,
+      "center_space_area_m2": 78.25,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 83.67273096981089,
+      "uncovered_reachable_grass_m2": 0.4395564505733577,
+      "uncut_boundary_margin_m2": 8.3272690301891
+    }
+  },
+  "obstacle": {
+    "horizontal": {
+      "sections": 4,
+      "completed_sections": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "parallel_passes": 127,
+      "diagonal_passes": 123,
+      "transfers": 3,
+      "center_space_area_m2": 65.0,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 69.39136548490545,
+      "uncovered_reachable_grass_m2": 0.2829518506040874,
+      "uncut_boundary_margin_m2": 6.608634515094574
+    },
+    "vertical": {
+      "sections": 4,
+      "completed_sections": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "parallel_passes": 78,
+      "diagonal_passes": 74,
+      "transfers": 4,
+      "center_space_area_m2": 65.0,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 69.39136548490545,
+      "uncovered_reachable_grass_m2": 0.31300430348889585,
+      "uncut_boundary_margin_m2": 6.608634515094574
+    }
+  },
+  "sloping_edges": {
+    "horizontal": {
+      "sections": 1,
+      "completed_sections": [
+        0
+      ],
+      "parallel_passes": 69,
+      "diagonal_passes": 68,
+      "transfers": 0,
+      "center_space_area_m2": 66.3734336268125,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 69.56228634867507,
+      "uncovered_reachable_grass_m2": 0.43280373779151304,
+      "uncut_boundary_margin_m2": 4.937713651324913
+    },
+    "vertical": {
+      "sections": 1,
+      "completed_sections": [
+        0
+      ],
+      "parallel_passes": 96,
+      "diagonal_passes": 95,
+      "transfers": 1,
+      "center_space_area_m2": 66.3734336268125,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 69.56228634867507,
+      "uncovered_reachable_grass_m2": 0.5663033177922818,
+      "uncut_boundary_margin_m2": 4.937713651324913
+    }
+  },
+  "l_shape": {
+    "horizontal": {
+      "sections": 2,
+      "completed_sections": [
+        0,
+        1
+      ],
+      "parallel_passes": 69,
+      "diagonal_passes": 67,
+      "transfers": 1,
+      "center_space_area_m2": 42.25,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 45.67920685613183,
+      "uncovered_reachable_grass_m2": 0.24238866143087773,
+      "uncut_boundary_margin_m2": 5.320793143868187
+    },
+    "vertical": {
+      "sections": 2,
+      "completed_sections": [
+        1,
+        0
+      ],
+      "parallel_passes": 54,
+      "diagonal_passes": 52,
+      "transfers": 2,
+      "center_space_area_m2": 42.25,
+      "uncovered_center_space_m2": 0.0,
+      "center_space_coverage_fraction": 1.0,
+      "reachable_grass_area_m2": 45.67920685613183,
+      "uncovered_reachable_grass_m2": 0.23595865474627845,
+      "uncut_boundary_margin_m2": 5.320793143868187
+    }
+  }
+}

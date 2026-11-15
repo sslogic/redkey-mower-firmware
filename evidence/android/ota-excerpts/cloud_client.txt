@@ -1,0 +1,41 @@
+663810:                             r5 = _closure1_slot0;
+663811:                             r2 = _closure1_slot1;
+663812:                             r10 = 6;
+663813:                             r2 = r2[r10];
+663814:                             r8 = undefined;
+663815:                             r2 = r5.bind(r8)(r2);
+663816:                             r2 = r2.getIotCredentials;
+663817:                             r2 = r2.bind(r8)(r6);
+663818:                             SaveGenerator(address=77);
+663819: case 75:
+663820:                             return r2;
+663821: case 77:
+663822:                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+663823:                             if(r5) { _fun19085_ip = 226; continue _fun19085 }
+663824: case 86:
+663825:                             r9 = _closure1_slot0;
+663826:                             r5 = _closure1_slot1;
+663827:                             r3 = 7;
+663828:                             r3 = r5[r3];
+663829:                             r3 = r9.bind(r8)(r3);
+663830:                             r7 = r3.IoTDataPlaneClient;
+663831:                             r3 = {};
+663832:                             r11 = r2.regionName;
+663833:                             r3['region'] = r11;
+663834:                             r13 = r2.endpoint;
+663835:                             r11 = global;
+663836:                             r11 = r11.HermesInternal;
+663837:                             r12 = r11.concat;
+663838:                             r11 = 'https://';
+663839:                             r11 = r12.bind(r11)(r13);
+663840:                             r3['endpoint'] = r11;
+663841:                             r5 = r5[r10];
+663842:                             r5 = r9.bind(r8)(r5);
+663843:                             r5 = r5.iotCredentialsProvider;
+663844:                             r5 = r5.bind(r8)(r6);
+663845:                             r3['credentials'] = r5;
+663846:                             r5 = r7.prototype;
+663847:                             r5 = Object.create(r5, {constructor: {value: r7}});
+663848:                             r16 = r5;
+663849:                             r15 = r3;
+663850:                             r3 = new r16[r7](r15, r14);

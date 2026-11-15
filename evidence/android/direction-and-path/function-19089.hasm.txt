@@ -1,0 +1,67 @@
+741996: => [Function #19089 "?anon_0_" of 210 bytes]: 3 params, frame size=23, strict=0, exc handler=0, debug info=0  @ offset 0x0037ae59
+741997: 
+741998: Bytecode listing:
+741999: 
+742000: ==> 00000000: <StartGenerator>: <>
+742001: ==> 00000001: <LoadParam>: <Reg8: 11, UInt8: 1>
+742002: ==> 00000004: <CreateEnvironment>: <Reg8: 1>
+742003: ==> 00000006: <ResumeGenerator>: <Reg8: 0, Reg8: 2>
+742004: ==> 00000009: <JmpTrueLong>: <Addr32: 198, Reg8: 2>  # Address: 000000cf
+742005: ==> 0000000f: <StoreToEnvironment>: <Reg8: 1, UInt8: 0, Reg8: 11>
+742006: ==> 00000013: <LoadConstUndefined>: <Reg8: 2>
+742007: ==> 00000015: <StoreNPToEnvironment>: <Reg8: 1, UInt8: 2, Reg8: 2>
+742008: ==> 00000019: <LoadThisNS>: <Reg8: 3>
+742009: ==> 0000001b: <StoreToEnvironment>: <Reg8: 1, UInt8: 1, Reg8: 3>
+742010: ==> 0000001f: <GetGlobalObject>: <Reg8: 6>
+742011: ==> 00000021: <TryGetById>: <Reg8: 5, Reg8: 6, UInt8: 1, string_id: 18880>  # String: 'JSON' (Identifier)
+742012: ==> 00000027: <GetById>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 14509>  # String: 'stringify' (Identifier)
+742013: ==> 0000002d: <NewObject>: <Reg8: 3>
+742014: ==> 0000002f: <NewObject>: <Reg8: 7>
+742015: ==> 00000031: <LoadParam>: <Reg8: 8, UInt8: 2>
+742016: ==> 00000034: <PutNewOwnById>: <Reg8: 7, Reg8: 8, string_id: 25491>  # String: 'desired' (Identifier)
+742017: ==> 00000039: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 7, string_id: 232>  # String: 'state' (Identifier)
+742018: ==> 0000003d: <Call2>: <Reg8: 4, Reg8: 4, Reg8: 5, Reg8: 3>
+742019: ==> 00000042: <NewObject>: <Reg8: 5>
+742020: ==> 00000044: <GetEnvironment>: <Reg8: 3, UInt8: 3>
+742021: ==> 00000047: <LoadFromEnvironment>: <Reg8: 7, Reg8: 3, UInt8: 5>
+742022: ==> 0000004b: <GetByIdShort>: <Reg8: 7, Reg8: 7, UInt8: 3, string_id: 111>  # String: 'default' (Identifier)
+742023: ==> 00000050: <GetById>: <Reg8: 13, Reg8: 7, UInt8: 4, string_id: 16655>  # String: 'serviceShadowName' (Identifier)
+742024: ==> 00000056: <TryGetById>: <Reg8: 6, Reg8: 6, UInt8: 5, string_id: 19>  # String: 'HermesInternal' (Identifier)
+742025: ==> 0000005c: <GetByIdShort>: <Reg8: 9, Reg8: 6, UInt8: 6, string_id: 95>  # String: 'concat' (Identifier)
+742026: ==> 00000061: <LoadConstString>: <Reg8: 16, string_id: 2273>  # String: '$aws/things/' (String)
+742027: ==> 00000065: <LoadConstString>: <Reg8: 14, string_id: 2276>  # String: '/shadow/name/' (String)
+742028: ==> 00000069: <LoadConstString>: <Reg8: 12, string_id: 2279>  # String: '/update' (String)
+742029: ==> 0000006d: <Mov>: <Reg8: 15, Reg8: 11>
+742030: ==> 00000070: <Call>: <Reg8: 6, Reg8: 9, UInt8: 5>
+742031: ==> 00000074: <PutNewOwnById>: <Reg8: 5, Reg8: 6, string_id: 15596>  # String: 'topic' (Identifier)
+742032: ==> 00000079: <PutNewOwnByIdShort>: <Reg8: 5, Reg8: 4, string_id: 205>  # String: 'payload' (Identifier)
+742033: ==> 0000007d: <LoadFromEnvironment>: <Reg8: 4, Reg8: 3, UInt8: 0>
+742034: ==> 00000081: <LoadFromEnvironment>: <Reg8: 6, Reg8: 3, UInt8: 1>
+742035: ==> 00000085: <LoadConstUInt8>: <Reg8: 3, UInt8: 7>
+742036: ==> 00000088: <GetByVal>: <Reg8: 3, Reg8: 6, Reg8: 3>
+742037: ==> 0000008c: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 3>
+742038: ==> 00000091: <GetById>: <Reg8: 3, Reg8: 3, UInt8: 7, string_id: 14855>  # String: 'PublishCommand' (Identifier)
+742039: ==> 00000097: <GetByIdShort>: <Reg8: 4, Reg8: 3, UInt8: 8, string_id: 162>  # String: 'prototype' (Identifier)
+742040: ==> 0000009c: <CreateThis>: <Reg8: 4, Reg8: 4, Reg8: 3>
+742041: ==> 000000a0: <Mov>: <Reg8: 16, Reg8: 4>
+742042: ==> 000000a3: <Mov>: <Reg8: 15, Reg8: 5>
+742043: ==> 000000a6: <Construct>: <Reg8: 3, Reg8: 3, UInt8: 2>
+742044: ==> 000000aa: <SelectObject>: <Reg8: 3, Reg8: 4, Reg8: 3>
+742045: ==> 000000ae: <StoreToEnvironment>: <Reg8: 1, UInt8: 2, Reg8: 3>
+742046: ==> 000000b2: <CreateClosure>: <Reg8: 1, Reg8: 1, function_id: 19090>  # Function: [#19090  of 37 bytes]: 1 params @ offset 0x0037af2b
+742047: ==> 000000b7: <Call1>: <Reg8: 1, Reg8: 1, Reg8: 2>
+742048: ==> 000000bb: <Call1>: <Reg8: 1, Reg8: 1, Reg8: 2>
+742049: ==> 000000bf: <SaveGenerator>: <Addr8: 4>  # Address: 000000c3
+742050: ==> 000000c1: <Ret>: <Reg8: 1>
+742051: ==> 000000c3: <ResumeGenerator>: <Reg8: 1, Reg8: 3>
+742052: ==> 000000c6: <JmpTrue>: <Addr8: 6, Reg8: 3>  # Address: 000000cc
+742053: ==> 000000c9: <CompleteGenerator>: <>
+742054: ==> 000000ca: <Ret>: <Reg8: 2>
+742055: ==> 000000cc: <CompleteGenerator>: <>
+742056: ==> 000000cd: <Ret>: <Reg8: 1>
+742057: ==> 000000cf: <CompleteGenerator>: <>
+742058: ==> 000000d0: <Ret>: <Reg8: 0>
+742059: 
+742060: 
+742061: ===============
+742062: 

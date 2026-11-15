@@ -1,0 +1,59 @@
+{
+  "original_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "elf_sha256": "46af5a383f97193399d629cfe1f006d42fb33cdd5a23b4070fc25a5c4ab7873f",
+  "segments": [
+    {
+      "index": 0,
+      "load_address": "0x3c130020",
+      "file_offset": 32,
+      "bytes": 608972,
+      "elf_offset": 256,
+      "section": ".rodata"
+    },
+    {
+      "index": 1,
+      "load_address": "0x3fc9b500",
+      "file_offset": 609012,
+      "bytes": 25328,
+      "elf_offset": 609232,
+      "section": ".data"
+    },
+    {
+      "index": 2,
+      "load_address": "0x40374000",
+      "file_offset": 634348,
+      "bytes": 21036,
+      "elf_offset": 634560,
+      "section": ".iram0"
+    },
+    {
+      "index": 3,
+      "load_address": "0x42000020",
+      "file_offset": 655392,
+      "bytes": 1242252,
+      "elf_offset": 655600,
+      "section": ".flash.text"
+    },
+    {
+      "index": 4,
+      "load_address": "0x4037922c",
+      "file_offset": 1897652,
+      "bytes": 74288,
+      "elf_offset": 1897856,
+      "section": ".iram1"
+    },
+    {
+      "index": 5,
+      "load_address": "0x600fe010",
+      "file_offset": 1971948,
+      "bytes": 4,
+      "elf_offset": 1972144,
+      "section": ".rtc"
+    }
+  ],
+  "version": "GNU objdump (crosstool-NG esp-14.2.0_20260121) 2.43.1",
+  "limitations": [
+    "Reconstructed ELF is an analysis container, never a flashable firmware replacement.",
+    "Linear disassembly can misdecode literal pools; function boundaries need corroboration."
+  ]
+}

@@ -1,0 +1,17 @@
+655707:         r1 = r1 instanceof Object ? r1 : r5;
+655708:         r3['default'] = r1;
+655709:         r5 = {'ota_state': '', 'ota_progress': 0, 'ota_time_estimate': 0, 'ota_start_time': 0, 'ota_data_len': 0};
+655710:         r3['defaultOtaStatus'] = r5;
+655711:         r1 = {'rssi': 0, 'bt_state': 0, 'elec': 0, 'mode': 'charge', 'maptime': 0, 'curpath': '', 'cutter_height': 50, 'sn': '', 'online': 4294967295, 'err_code': 0, 'event_code': 0, 'sta_ip_addr': '', 'update_his_path': 0, 'mow_direction': 3, 'cur_mow_times': 0, 'pin_code': '0000', 'rainer_ctl': 0, 'rainer_effect': 0, 'mowing_progress': 0, 'mowing_area': 0, 'pin_correct': 0, 'safety_trigger': 0, 'mow_delay_time': 0, 'factory_resume': 0, 'user_unbind': 0, 'local_time': 0};
+655712:         r6 = {'ui_board': '0.0.1', 'motor_board': '', 'charger_station': '', 'pos_board': ''};
+655713:         r1['fw_version'] = r6;
+655714:         r6 = {'timezone': 8, 'timezone_sec': 28800};
+655715:         r7 = new Array(0);
+655716:         r6['value'] = r7;
+655717:         r1['appointment'] = r6;
+655718:         r6 = {'state': 0, 'x': 0, 'y': 0, 'ratio': 0, 'precision': 0, 'radius': 0};
+655719:         r1['breakpoint'] = r6;
+655720:         r1['ota_status'] = r5;
+655721:         r1['has_task'] = r4;
+655722:         r3['defaultShadow'] = r1;
+655723:         var _closure1_slot7 = r1;

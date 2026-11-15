@@ -1,0 +1,26 @@
+945100: => [Function #24250 "directionTitleForValue" of 59 bytes]: 3 params, frame size=11, strict=0, exc handler=0, debug info=0  @ offset 0x003fa8cc
+945101: 
+945102: Bytecode listing:
+945103: 
+945104: ==> 00000000: <LoadParam>: <Reg8: 1, UInt8: 1>
+945105: ==> 00000003: <LoadParam>: <Reg8: 2, UInt8: 2>
+945106: ==> 00000006: <LoadConstUInt8>: <Reg8: 0, UInt8: 1>
+945107: ==> 00000009: <JStrictEqual>: <Addr8: 37, Reg8: 0, Reg8: 1>  # Address: 0000002e
+945108: ==> 0000000d: <LoadConstUInt8>: <Reg8: 0, UInt8: 2>
+945109: ==> 00000010: <JStrictEqual>: <Addr8: 17, Reg8: 0, Reg8: 1>  # Address: 00000021
+945110: ==> 00000014: <LoadConstUndefined>: <Reg8: 1>
+945111: ==> 00000016: <LoadConstString>: <Reg8: 0, string_id: 17240>  # String: 'strCross' (Identifier)
+945112: ==> 0000001a: <Call2>: <Reg8: 0, Reg8: 2, Reg8: 1, Reg8: 0>
+945113: ==> 0000001f: <Ret>: <Reg8: 0>
+945114: ==> 00000021: <LoadConstUndefined>: <Reg8: 1>
+945115: ==> 00000023: <LoadConstString>: <Reg8: 0, string_id: 17903>  # String: 'strParallel' (Identifier)
+945116: ==> 00000027: <Call2>: <Reg8: 0, Reg8: 2, Reg8: 1, Reg8: 0>
+945117: ==> 0000002c: <Ret>: <Reg8: 0>
+945118: ==> 0000002e: <LoadConstUndefined>: <Reg8: 1>
+945119: ==> 00000030: <LoadConstString>: <Reg8: 0, string_id: 19718>  # String: 'strPerpendicular' (Identifier)
+945120: ==> 00000034: <Call2>: <Reg8: 0, Reg8: 2, Reg8: 1, Reg8: 0>
+945121: ==> 00000039: <Ret>: <Reg8: 0>
+945122: 
+945123: 
+945124: ===============
+945125: 

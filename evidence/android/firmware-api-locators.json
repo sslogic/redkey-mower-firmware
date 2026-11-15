@@ -1,0 +1,80 @@
+{
+  "modules": {
+    "firmware_lookup": {
+      "first_line": 811954,
+      "registration": [
+        "    };",
+        "    r6 = 1860;",
+        "    r5 = [29, 351, 200, 180, 514, 1461, 1459, 1460, 571, 585, 1346, 1512];",
+        "    r5 = r8.bind(r2)(r7, r6, r5);"
+      ]
+    },
+    "http_client": {
+      "first_line": 215727,
+      "registration": [
+        "    };",
+        "    r6 = 514;",
+        "    r5 = [29, 351, 2, 6, 7, 9, 10, 12, 200, 515, 569];",
+        "    r5 = r8.bind(r2)(r7, r6, r5);"
+      ]
+    },
+    "server_url": {
+      "first_line": 230445,
+      "registration": [
+        "    };",
+        "    r6 = 569;",
+        "    r5 = new Array(0);",
+        "    r5 = r8.bind(r2)(r7, r6, r5);"
+      ]
+    },
+    "version_gate": {
+      "first_line": 662407,
+      "registration": [
+        "    };",
+        "    r6 = 1512;",
+        "    r5 = new Array(0);",
+        "    r5 = r8.bind(r2)(r7, r6, r5);"
+      ]
+    }
+  },
+  "assembly_functions": [
+    {
+      "function": 5565,
+      "markers": [
+        "String: 'SERVER_URL'"
+      ]
+    },
+    {
+      "function": 5579,
+      "markers": [
+        "String: 'setAuthorization'"
+      ]
+    },
+    {
+      "function": 5580,
+      "markers": [
+        "String: 'No valid login credentials'"
+      ]
+    },
+    {
+      "function": 6003,
+      "markers": [
+        "String: 'SERVER_URL'"
+      ]
+    },
+    {
+      "function": 19029,
+      "markers": [
+        "String: '0.3.5'"
+      ]
+    },
+    {
+      "function": 23239,
+      "markers": [
+        "String: '/device/latest/firmware'"
+      ]
+    }
+  ],
+  "network_requests_sent": false,
+  "device_commands_sent": false
+}

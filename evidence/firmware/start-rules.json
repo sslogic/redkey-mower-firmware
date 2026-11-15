@@ -1,0 +1,29 @@
+{
+  "firmware_sha256": "370b8e6d29a77764cf685498fc9e855f93ac992e5ebf5ae17292e666c6b67bae",
+  "scope": "General algorithm evidence only. No lawn-specific route or firmware changes.",
+  "normal_start_chain": "42046e5d checks current state0 or17; calls478e8(output,0,0) at46e9c, then48c74(targetPose,0) at46eae.",
+  "start_index": {
+    "code": "420479f1..42047a3d; identical formula420478fd..42047949",
+    "formula": "F=D+60+(N-D-60)*P. Store unsigned-truncated F in a u16; if N!=0 apply moduloN to that stored value.",
+    "D": "u16 global3fca6a0c returned by42036e2c; producer420365c3 logs InitPosePercent find wire_len_begin idx = %d. Exact semantic origin beyond that label unresolved.",
+    "N": "4203f828 result, logged MapSize",
+    "P": "420449cc returns (u32 global3fcb5ea8 %100)/100. Stored key string nav_mow_srt.",
+    "producer": "42044a08 increases saved value by20, applies modulo100; values>85 become0, otherwise floors to multiple20. Persists via4205cb84.42044a5c resets to0. Load normalization42044fe3..42045012.",
+    "bounds": "Explicit N!=0 guard before modulo; no N>D+60 guard observed in this initializer.60 is an index offset, not proven60meters.",
+    "alternate": "If GetCoverageRate42039950>0.49, initializer instead calls4203ecb0 with current-pose struct3fcb62d4 and outputindex/pose pointers."
+  },
+  "first_target": "After reset leaves cache count3fcb651a=0,42048c74 copies initialindex+62 to+60 and calls4203d100(map,slope,0.15,currentindex,&nextindex,&targetPose). First target is a map-selected candidate, not proven nearest dock or fixed corner.",
+  "axis": {
+    "getter": "42044990 returns global3fc9bf5c.",
+    "assignment": "42044cdc reads app direction through4200de4c: app2 gives first/current2; app0/1 gives1; app>=3 stores mode3 and first1.42051e2c predicate can switch current to opposite first axis in mode3.",
+    "initialization": "42047aaf..42047b79: axis1 gives anglepi/2 and slope100; other axis angle0 and slope0. Bounds select X or Y components of map extrema. These are internal map axes, not geographic cardinal directions.",
+    "lane_index": "Reset477ac clears3fcb628c but normal init47a81..86 sets it3 before first target selection.",
+    "side": "Selector3fcb62d0 becomes2/1 based on sign of pose/status byte114 foraxis1; other axis uses3 and sign628a=-1 ifbyte114==-1. Exact semantic field name unresolved."
+  },
+  "limitations": [
+    "Policy globals and map-derived candidates provide general rules; no hardcoded lawn coordinates proposed.",
+    "Function names inferred only where explicit debug logs support them; no original source symbols recovered.",
+    "No file edits other than new analysis artifacts; no mower commands or firmware patch.",
+    "Live device values are not part of this public static evidence."
+  ]
+}

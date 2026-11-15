@@ -1,0 +1,68 @@
+=> [Function #19085 "?anon_0_" of 235 bytes]: 2 params, frame size=23, strict=0, exc handler=0, debug info=0  @ offset 0x0037ad40
+
+Bytecode listing:
+
+==> 00000000: <StartGenerator>: <>
+==> 00000001: <LoadParam>: <Reg8: 6, UInt8: 1>
+==> 00000004: <LoadThisNS>: <Reg8: 4>
+==> 00000006: <ResumeGenerator>: <Reg8: 0, Reg8: 1>
+==> 00000009: <JmpTrueLong>: <Addr32: 223, Reg8: 1>  # Address: 000000e8
+==> 0000000f: <GetById>: <Reg8: 2, Reg8: 4, UInt8: 1, string_id: 19315>  # String: 'clients' (Identifier)
+==> 00000015: <GetByIdShort>: <Reg8: 1, Reg8: 2, UInt8: 2, string_id: 145>  # String: 'get' (Identifier)
+==> 0000001a: <Call2>: <Reg8: 1, Reg8: 1, Reg8: 2, Reg8: 6>
+==> 0000001f: <JmpTrueLong>: <Addr32: 198, Reg8: 1>  # Address: 000000e5
+==> 00000025: <GetEnvironment>: <Reg8: 3, UInt8: 3>
+==> 00000028: <LoadFromEnvironment>: <Reg8: 5, Reg8: 3, UInt8: 0>
+==> 0000002c: <LoadFromEnvironment>: <Reg8: 2, Reg8: 3, UInt8: 1>
+==> 00000030: <LoadConstUInt8>: <Reg8: 10, UInt8: 6>
+==> 00000033: <GetByVal>: <Reg8: 2, Reg8: 2, Reg8: 10>
+==> 00000037: <LoadConstUndefined>: <Reg8: 8>
+==> 00000039: <Call2>: <Reg8: 2, Reg8: 5, Reg8: 8, Reg8: 2>
+==> 0000003e: <GetById>: <Reg8: 2, Reg8: 2, UInt8: 3, string_id: 21042>  # String: 'getIotCredentials' (Identifier)
+==> 00000044: <Call2>: <Reg8: 2, Reg8: 2, Reg8: 8, Reg8: 6>
+==> 00000049: <SaveGenerator>: <Addr8: 4>  # Address: 0000004d
+==> 0000004b: <Ret>: <Reg8: 2>
+==> 0000004d: <ResumeGenerator>: <Reg8: 2, Reg8: 5>
+==> 00000050: <JmpTrueLong>: <Addr32: 146, Reg8: 5>  # Address: 000000e2
+==> 00000056: <LoadFromEnvironment>: <Reg8: 9, Reg8: 3, UInt8: 0>
+==> 0000005a: <LoadFromEnvironment>: <Reg8: 5, Reg8: 3, UInt8: 1>
+==> 0000005e: <LoadConstUInt8>: <Reg8: 3, UInt8: 7>
+==> 00000061: <GetByVal>: <Reg8: 3, Reg8: 5, Reg8: 3>
+==> 00000065: <Call2>: <Reg8: 3, Reg8: 9, Reg8: 8, Reg8: 3>
+==> 0000006a: <GetById>: <Reg8: 7, Reg8: 3, UInt8: 4, string_id: 14635>  # String: 'IoTDataPlaneClient' (Identifier)
+==> 00000070: <NewObject>: <Reg8: 3>
+==> 00000072: <GetById>: <Reg8: 11, Reg8: 2, UInt8: 5, string_id: 15929>  # String: 'regionName' (Identifier)
+==> 00000078: <PutNewOwnById>: <Reg8: 3, Reg8: 11, string_id: 15674>  # String: 'region' (Identifier)
+==> 0000007d: <GetById>: <Reg8: 13, Reg8: 2, UInt8: 6, string_id: 14538>  # String: 'endpoint' (Identifier)
+==> 00000083: <GetGlobalObject>: <Reg8: 11>
+==> 00000085: <TryGetById>: <Reg8: 11, Reg8: 11, UInt8: 7, string_id: 19>  # String: 'HermesInternal' (Identifier)
+==> 0000008b: <GetByIdShort>: <Reg8: 12, Reg8: 11, UInt8: 8, string_id: 95>  # String: 'concat' (Identifier)
+==> 00000090: <LoadConstString>: <Reg8: 11, string_id: 923>  # String: 'https://' (String)
+==> 00000094: <Call2>: <Reg8: 11, Reg8: 12, Reg8: 11, Reg8: 13>
+==> 00000099: <PutNewOwnById>: <Reg8: 3, Reg8: 11, string_id: 14538>  # String: 'endpoint' (Identifier)
+==> 0000009e: <GetByVal>: <Reg8: 5, Reg8: 5, Reg8: 10>
+==> 000000a2: <Call2>: <Reg8: 5, Reg8: 9, Reg8: 8, Reg8: 5>
+==> 000000a7: <GetById>: <Reg8: 5, Reg8: 5, UInt8: 9, string_id: 17869>  # String: 'iotCredentialsProvider' (Identifier)
+==> 000000ad: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 8, Reg8: 6>
+==> 000000b2: <PutNewOwnById>: <Reg8: 3, Reg8: 5, string_id: 15777>  # String: 'credentials' (Identifier)
+==> 000000b7: <GetByIdShort>: <Reg8: 5, Reg8: 7, UInt8: 10, string_id: 162>  # String: 'prototype' (Identifier)
+==> 000000bc: <CreateThis>: <Reg8: 5, Reg8: 5, Reg8: 7>
+==> 000000c0: <Mov>: <Reg8: 16, Reg8: 5>
+==> 000000c3: <Mov>: <Reg8: 15, Reg8: 3>
+==> 000000c6: <Construct>: <Reg8: 3, Reg8: 7, UInt8: 2>
+==> 000000ca: <SelectObject>: <Reg8: 3, Reg8: 5, Reg8: 3>
+==> 000000ce: <GetById>: <Reg8: 5, Reg8: 4, UInt8: 1, string_id: 19315>  # String: 'clients' (Identifier)
+==> 000000d4: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 11, string_id: 54>  # String: 'set' (Identifier)
+==> 000000d9: <Call3>: <Reg8: 4, Reg8: 4, Reg8: 5, Reg8: 6, Reg8: 3>
+==> 000000df: <CompleteGenerator>: <>
+==> 000000e0: <Ret>: <Reg8: 3>
+==> 000000e2: <CompleteGenerator>: <>
+==> 000000e3: <Ret>: <Reg8: 2>
+==> 000000e5: <CompleteGenerator>: <>
+==> 000000e6: <Ret>: <Reg8: 1>
+==> 000000e8: <CompleteGenerator>: <>
+==> 000000e9: <Ret>: <Reg8: 0>
+
+
+===============
+
